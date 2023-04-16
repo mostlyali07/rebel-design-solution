@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-logo {
+  width: 200px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header {
+  height: 90px;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f75515;
+  z-index: 9999999;
+  transition: all 0.3s ease-in-out;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav-link {
+  color: #fff !important;
 }
-
-.App-link {
-  color: #61dafb;
+.main-banner {
+  background-color: #f75515;
+  background-image: url(./Images/donut_3d_shape.png);
+  background-repeat: no-repeat;
+  background-position-x: -160px;
+  background-position-y: 240px;
+  background-size: 32%;
+  padding-top: 110px;
+  height: 100vh;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.banner-left h1 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 32px;
+}
+.main-banner p {
+  font-size: 16px;
+  color: #fff;
+}
+.btns-one {
+  color: #fff;
+  font-size: 15px;
+  background-color: #222222;
+  border: 1px solid #222222;
+  border-radius: 26px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.btns-one:hover {
+  transition: 0.6s;
+  background-color: #fff;
+  color: #222222;
+  border: 1px solid #222222;
 }
