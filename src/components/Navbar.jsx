@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import NavLogo from "../Images/Main-logo.jpg";
-import Custom from "../Custom";
+import Custom from "../Custom.js";
 
 const Navbar = () => {
 
 
-
     return (
         <>
+            <Custom />
             <header id="header">
                 <nav className="navbar navbar-expand-lg bg-body-tertiary">
                     <div className="container-fluid">
@@ -55,7 +55,7 @@ const Navbar = () => {
                     </div>
                 </nav>
             </header>
-            <Custom />
+
         </>
     );
 };
