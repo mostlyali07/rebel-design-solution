@@ -71,6 +71,24 @@ header {
   color: #222222;
   border: 1px solid #fff;
 }
+.btns-three {
+  color: #fff;
+  font-size: 15px;
+  background-color: #222222;
+  border: 1px solid #222222;
+  border-radius: 26px;
+  text-decoration: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+.btns-three:hover {
+  background-color: #0000;
+  transition: 0.3s;
+  color: #222222;
+  border-color: #222222;
+}
 .custom-shape-divider-bottom-1681685793 {
   position: absolute;
   bottom: 0;
@@ -121,4 +139,11 @@ header {
   cursor: pointer;
   font-size: 12px;
   margin-right: 4px;
+}
+.right-side h2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+.cus-width{
+  width: 520px;
 }

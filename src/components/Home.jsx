@@ -1,6 +1,8 @@
 import React from 'react'
 import WEB from "../Images/WEB.png";
 import VertForm from './Vert-Form';
+import ContentSec from './ContentSec';
+
 
 const Home = () => {
     return (
@@ -37,6 +39,11 @@ const Home = () => {
                     </svg>
                 </div>
             </div>
+            <ContentSec
+                src={"https://gforcewebdesign.co.uk/wp-content/uploads/2021/10/web-design-agency-1080x675.png"}
+                text={"Rethinking SEO – Let Our SEO Agency Take Your Business To New Heights"}
+                descrp="Are you tired of the same old approach to SEO? Look no further than Web and SEO Experts. Our SEO agency is on a mission to revolutionize the way businesses approach SEO. We believe that SEO is more than just a technical process - it's a creative endeavor that requires personalized attention. Our SEO consultants will help you rethink SEO and discover the true potential of this powerful tool."
+            />
         </>
     )
 }
