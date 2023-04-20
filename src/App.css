@@ -144,6 +144,59 @@ header {
   font-size: 28px;
   font-weight: 600;
 }
-.cus-width{
+.cus-width {
   width: 520px;
+}
+
+.four-divs {
+  background-color: #d2d2d2;
+  border-radius: 36px;
+  height: 330px;
+}
+
+.four-divs i {
+  font-size: 26px;
+  color: #f58b01;
+  background-color: #fff;
+  padding: 18px;
+  border-radius: 55px;
+  box-shadow: 3px 4px 26px -4px rgba(255, 184, 38, 0.34);
+  -webkit-box-shadow: 3px 4px 26px -4px rgba(255, 184, 38, 0.34);
+  -moz-box-shadow: 3px 4px 26px -4px rgba(255, 184, 38, 0.34);
+}
+
+.four-divs h5 {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.four-divs h6 {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 10px;
+  line-height: 26px;
+}
+
+.four-divs:hover {
+  cursor: pointer;
+  transition: 0.4s;
+  background-color: #023866;
+}
+
+.four-divs:hover i {
+  color: #fff;
+
+  background-color: #f58b01;
+}
+
+.four-divs:hover h5 {
+  transition: 0.2s;
+  color: #fff;
+}
+
+.four-divs:hover h6 {
+  transition: 0.2s;
+  color: #fff;
 }
