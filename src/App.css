@@ -154,12 +154,13 @@ header {
   height: 330px;
 }
 
-.four-divs i {
+.four-divs svg {
   font-size: 26px;
-  color: #f58b01;
+  color: #f75515;
   background-color: #fff;
   padding: 18px;
   border-radius: 55px;
+  margin-bottom: 20px;
   box-shadow: 3px 4px 26px -4px rgba(255, 184, 38, 0.34);
   -webkit-box-shadow: 3px 4px 26px -4px rgba(255, 184, 38, 0.34);
   -moz-box-shadow: 3px 4px 26px -4px rgba(255, 184, 38, 0.34);
@@ -167,7 +168,7 @@ header {
 
 .four-divs h5 {
   color: #000;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -182,13 +183,12 @@ header {
 .four-divs:hover {
   cursor: pointer;
   transition: 0.4s;
-  background-color: #023866;
+  background-color: #222222;
 }
 
-.four-divs:hover i {
+.four-divs:hover svg {
   color: #fff;
-
-  background-color: #f58b01;
+  background-color: #f75515;
 }
 
 .four-divs:hover h5 {

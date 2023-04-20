@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
-
+import { faGear, faGlobe, faChartSimple, faRocket } from '@fortawesome/free-solid-svg-icons';
 import WEB from "../Images/WEB.png";
 import VertForm from './Vert-Form';
 import ContentSec from './ContentSec';
@@ -50,8 +49,7 @@ const Home = () => {
                 <div className="row">
                     <div className="col-md-3 p-4">
                         <div className="text-center four-divs py-5 px-4">
-                            <FontAwesomeIcon icon={faCheckCircle} />
-                            {/* <i className="fa-solid fa-gear mb-4"></i> */}
+                            <FontAwesomeIcon icon={faGear} />
                             <h5>All Sizes Business</h5>
                             <h6>
                                 Our SEO services cater to businesses of all sizes, whether you're a small startup or a large
@@ -61,7 +59,7 @@ const Home = () => {
                     </div>
                     <div className="col-md-3 p-4">
                         <div className="text-center four-divs py-5 px-4">
-                            <i className="fa-solid fa-globe mb-4"></i>
+                            <FontAwesomeIcon icon={faGlobe} />
                             <h5>Customized SEO Strategies</h5>
                             <h6>
                                 We create customized SEO strategies tailored to your specific needs.
@@ -70,7 +68,7 @@ const Home = () => {
                     </div>
                     <div className="col-md-3 p-4">
                         <div className="text-center four-divs py-5 px-4">
-                            <i className="fa-solid fa-chart-simple mb-4"></i>
+                            <FontAwesomeIcon icon={faChartSimple} />
                             <h5>Keep You In The Loop</h5>
                             <h6>
                                 We'll keep you in the loop every step of the way so you can see the results for yourself.
@@ -79,7 +77,7 @@ const Home = () => {
                     </div>
                     <div className="col-md-3 p-4">
                         <div className="text-center four-divs py-5 px-4">
-                            <i className="fa-solid fa-rocket mb-4"></i>
+                            <FontAwesomeIcon icon={faRocket} />
                             <h5>Significant ROI</h5>
                             <h6>
                                 By targeting the right keywords and optimizing your website, we'll help you attract more
