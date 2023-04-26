@@ -200,3 +200,53 @@ header {
   transition: 0.2s;
   color: #fff;
 }
+
+.ctas {
+  color: #fff;
+  background-image: linear-gradient(90deg, #f75515, #222222);
+}
+.ctas h2 {
+  color: #fff;
+  font-size: 42px;
+}
+.ctas p {
+  color: #fff;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.btns-eight {
+  color: #fff;
+  font-size: 15px;
+  background-color: #0000;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+.btns-eight:hover {
+  transition: 0.6s;
+  color: #222222;
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+.btns-seven {
+  color: #fff;
+  font-size: 15px;
+  background-color: #f75515;
+  border: 1px solid #f75515;
+  border-radius: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+.btns-seven:hover {
+  transition: 0.6s;
+  color: #222222;
+  background-color: #fff;
+  border: 1px solid #fff;
+}

@@ -3,6 +3,7 @@ import { faGear, faGlobe, faChartSimple, faRocket } from '@fortawesome/free-soli
 import WEB from "../Images/WEB.png";
 import VertForm from './Vert-Form';
 import ContentSec from './ContentSec';
+import Cta from './Cta';
 
 
 const Home = () => {
@@ -45,7 +46,7 @@ const Home = () => {
                 text={"Rethinking SEO – Let Our SEO Agency Take Your Business To New Heights"}
                 descrp="Are you tired of the same old approach to SEO? Look no further than Web and SEO Experts. Our SEO agency is on a mission to revolutionize the way businesses approach SEO. We believe that SEO is more than just a technical process - it's a creative endeavor that requires personalized attention. Our SEO consultants will help you rethink SEO and discover the true potential of this powerful tool."
             />
-            <div className="container">
+            <div className="container mb-5">
                 <div className="row">
                     <div className="col-md-3 p-4">
                         <div className="text-center four-divs py-5 px-4">
@@ -87,6 +88,12 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <Cta />
+            <ContentSec
+                src={"https://webandseoexperts.com/Assets/images/forth-sec.png"}
+                text={"Unlock Your Business's Full Potential with Our Holistic SEO Strategy"}
+                descrp="To maximize your online visibility and reach your ideal customers, a holistic approach to SEO is crucial. Our SEO services cover all the bases, including optimizing your website, creating engaging content, and building a strong backlink profile. By taking a comprehensive approach to SEO, we ensure that your business is visible to potential customers at every stage of their online journey, leading to increased traffic, conversions, and revenue."
+            />
         </>
     )
 }

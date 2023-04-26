@@ -1,4 +1,5 @@
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFilePen, faCube } from '@fortawesome/free-solid-svg-icons';
 const Cta = () => {
     return (
         <>
@@ -7,14 +8,14 @@ const Cta = () => {
                     <div className="row">
                         <div className="col-md-6">
                             <h2 className="fw-bold">Let's Talk!</h2>
-                            <p>Share your project details and get a budget-friendly quote <br>
+                            <p>Share your project details and get a budget-friendly quote <br />
                                 right away!</p>
                         </div>
                         <div className="col-md-6 text-end d-flex align-items-end justify-content-around flex-column">
                             <div className="mobile-cta-btn">
-                                <button className="btns-seven" type="submit"><i className="fa-solid fa-cube"></i>&nbsp; SELECT
+                                <button className="btns-seven" type="submit"><FontAwesomeIcon icon={faCube} />&nbsp; SELECT
                                     PACKAGE</button>&nbsp;&nbsp;
-                                <button className="btns-eight" type="submit"><i className="fa-solid fa-file-signature"></i>&nbsp;
+                                <button className="btns-eight" type="submit"><FontAwesomeIcon icon={faFilePen} />&nbsp;
                                     REQUEST
                                     A QUOTE</button>
                             </div>
