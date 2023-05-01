@@ -161,9 +161,9 @@ header {
   padding: 18px;
   border-radius: 55px;
   margin-bottom: 20px;
-  box-shadow: 3px 4px 26px -4px rgba(255, 184, 38, 0.34);
-  -webkit-box-shadow: 3px 4px 26px -4px rgba(255, 184, 38, 0.34);
-  -moz-box-shadow: 3px 4px 26px -4px rgba(255, 184, 38, 0.34);
+  box-shadow: 3px 4px 26px -4px rgba(255, 110, 38, 0.34);
+  -webkit-box-shadow: 3px 4px 26px -4px rgba(255, 110, 38, 0.34);
+  -moz-box-shadow: 3px 4px 26px -4px rgba(255, 110, 38, 0.34);
 }
 
 .four-divs h5 {
