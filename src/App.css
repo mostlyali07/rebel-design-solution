@@ -250,3 +250,44 @@ a {
   background-color: #fff;
   border: 1px solid #fff;
 }
+.Main-Footer h6 {
+  color: #fff;
+}
+.Main-Footer {
+  /* background-image: url(./Images/S7Vq95D.png); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #f75515;
+}
+.Main-Footer li {
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+}
+.Main-Footer p {
+  color: #fff;
+}
+.Main-Footer h2 {
+  color: #fff;
+}
+.Main-Footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.btns-ten {
+  color: #fff;
+  font-size: 15px;
+  background-color: #222222;
+  border: 1px solid #222222;
+  border-radius: 26px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+.btns-ten:hover {
+  background-color: #0000;
+  border: 1px solid #fff;
+  color: #fff;
+}
