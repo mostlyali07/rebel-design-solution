@@ -49,14 +49,14 @@ const Footer = () => {
                             <h6 className="fw-bold mb-4">Contact Us</h6>
                             <li> <i className="fa-solid fa-location-dot"> &nbsp;</i> 17595 Harvard Ave Ste C-641
                                 Irvine, CA 92614 United States</li>
-                            <li><i className="fa-solid fa-envelope"></i> info@webandseoexperts.com</li>
-                            <li><i className="fa-solid fa-phone"></i> 1-844-716-8111</li>
+                            <li><i className="fa-solid fa-envelope"></i> info@rebeldesignsolution.com</li>
+                            <li><i className="fa-solid fa-phone"></i> 1-234-567-8911</li>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-md-12 text-center mt-5">
-                            <h6 className="lh-lg">Copyright © 2023 webandseoexperts.com | All rights reserved
-                                <Link to="/terms-and-conditions"> Terms And Conditions</Link>
+                            <h6 className="lh-lg">Copyright © 2023 rebeldesignsolution.com | All rights reserved |
+                                <Link to="/terms-and-conditions">Terms And Conditions</Link> |
                                 <Link to="/privacy-policy">Privacy Policy</Link>
                             </h6>
                         </div>
