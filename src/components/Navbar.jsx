@@ -1,15 +1,25 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import NavLogo from "../Images/Main-logo.jpg";
-import Custom from "../Custom.js";
 
 const Navbar = () => {
+    const [scrollPosition, setScrollPosition] = useState(0);
 
+    useEffect(() => {
+        function handleScroll() {
+            setScrollPosition(window.pageYOffset);
+        }
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
 
     return (
         <>
-            <Custom />
-            <header id="header">
+            <header id="header" style={{ transform: `translateY(${scrollPosition > 80 ? '-100%' : '0'})` }}>
                 <nav className="navbar navbar-expand-lg bg-body-tertiary">
                     <div className="container-fluid">
                         <Link className="navbar-brand" to="/">
@@ -55,7 +65,6 @@ const Navbar = () => {
                     </div>
                 </nav>
             </header>
-
         </>
     );
 };
