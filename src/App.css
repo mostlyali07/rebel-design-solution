@@ -322,30 +322,37 @@ a {
   left: 450px;
   top: 210px;
 }
-.hovered-div {
+.hovered {
   position: absolute;
-  top: 0;
+  top: -170px;
   left: 100%;
-  width: 100px;
-  height: 100px;
-  background-color: yellow;
+  width: 350px;
+  height: 200px;
+  background-image: url(./Images/review-back.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: none;
   z-index: 1;
+  transition: opacity 0.6s ease-in-out;
+}
+.hovered p {
+  font-size: 12px;
+  padding: 45px 45px 0px 45px;
+  margin: 0px 0px 6px 0px;
+}
+.hovered span {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  padding: 0px 0px 0px 70px;
+}
+.child1:hover .hovered {
+  display: block;
+  opacity: 1;
 }
 
-.hovered-div2 {
-  position: absolute;
-  top: 0;
-  left: 100%;
-  width: 100px;
-  height: 100px;
-  background-color: yellow;
-  display: none;
-}
-.child1:hover .hovered-div {
+.child2:hover .hovered {
   display: block;
-}
-
-.child2:hover .hovered-div2 {
-  display: block;
+  opacity: 1;
 }

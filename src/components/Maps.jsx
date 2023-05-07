@@ -34,14 +34,24 @@ const Maps = () => {
                     onMouseOver={handleMouseOver1}
                     onMouseOut={handleMouseOut1}
                 >
-                    {isHovered1 && <div className="hovered-div">Div 1 Hovered</div>}
+                    {isHovered1 && <div className="hovered">
+                        <p>
+                            We contracted with jump to 1, To increase our online exposure to our website. Daniel redesigned our website, and did a highly professional job.
+                        </p>
+                        <span>Mary Elizabeth Lim</span>
+                    </div>}
                 </div>
                 <div
                     className="child child2"
                     onMouseOver={handleMouseOver2}
                     onMouseOut={handleMouseOut2}
                 >
-                    {isHovered2 && <div className="hovered-div2">Div 2 Hovered</div>}
+                    {isHovered2 && <div className="hovered">
+                        <p>
+                            Jonas, Julian and Team have been great. They have been both helpful and diligent. As to creating a website, I'm very impressed with the effort and skill...
+                        </p>
+                        <span>Betty Robinson</span>
+                    </div>}
                 </div>
             </div>
         </>
