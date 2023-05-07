@@ -334,7 +334,8 @@ a {
   background-size: cover;
   display: none;
   z-index: 1;
-  transition: opacity 0.6s ease-in-out;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
 }
 .hovered p {
   font-size: 12px;
@@ -347,12 +348,8 @@ a {
   line-height: 16px;
   padding: 0px 0px 0px 70px;
 }
-.child1:hover .hovered {
-  display: block;
-  opacity: 1;
-}
-
+.child1:hover .hovered,
 .child2:hover .hovered {
-  display: block;
   opacity: 1;
+  display: block;
 }
