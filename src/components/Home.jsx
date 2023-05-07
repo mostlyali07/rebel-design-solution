@@ -4,6 +4,7 @@ import WEB from "../Images/WEB.png";
 import VertForm from './Vert-Form';
 import ContentSec from './ContentSec';
 import Cta from './Cta';
+import Map from './Maps';
 
 
 const Home = () => {
@@ -94,6 +95,7 @@ const Home = () => {
                 text={"Unlock Your Business's Full Potential with Our Holistic SEO Strategy"}
                 descrp="To maximize your online visibility and reach your ideal customers, a holistic approach to SEO is crucial. Our SEO services cover all the bases, including optimizing your website, creating engaging content, and building a strong backlink profile. By taking a comprehensive approach to SEO, we ensure that your business is visible to potential customers at every stage of their online journey, leading to increased traffic, conversions, and revenue."
             />
+            <Map />
         </>
     )
 }
