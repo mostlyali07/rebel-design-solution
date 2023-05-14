@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGear, faGlobe, faChartSimple, faRocket } from '@fortawesome/free-solid-svg-icons';
-import WEB from "../Images/WEB.png";
+// import WEB from "../Images/WEB.png";
 import VertForm from './Vert-Form';
 import ContentSec from './ContentSec';
 import Cta from './Cta';
@@ -16,20 +16,17 @@ const Home = () => {
                         <div className='col-md-6 banner-left d-flex align-items-center'>
                             <div>
                                 <h1>
-                                    Search Engine Optimization Services To Turn <span style={{ color: '#222222' }}> Your Online Presence</span> Into A Profit Machine
+                                    Lorem ipsum dolor sit amet,  <span style={{ color: '#222222' }}> consectetur adipiscing</span> elit
                                 </h1>
                                 <p>
-                                    Don't wait any longer to take your business to the next level - let
-                                    us help you get there with our top-notch search engine optimization services! At Rebel Design Solutions,
-                                    You will receive website analysis, strategy, forecast, and key
-                                    performance indicators without any strings attached.
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, quae sapiente libero atque perspiciatis nemo placeat laborum dignissimos commodi nihil similique inventore quidem repellendus excepturi, ipsa officiis, totam nostrum explicabo.
                                 </p>
                                 <button className="btns-two" type="submit">Explore Site</button> &nbsp;&nbsp;
                                 <button className="btns-one" type="submit">Analyze My Site</button>
                             </div>
                         </div>
                         <div className="col-md-6 d-flex justify-content-center">
-                            <img src={WEB} alt="" width={450} />
+                            <img src={"https://webandseoexperts.com/Assets/images/SEO-7.png"} alt="" width={450} />
                         </div>
                         <VertForm />
                     </div>
@@ -44,8 +41,8 @@ const Home = () => {
             </div>
             <ContentSec
                 src={"https://gforcewebdesign.co.uk/wp-content/uploads/2021/10/web-design-agency-1080x675.png"}
-                text={"Rethinking SEO – Let Our SEO Agency Take Your Business To New Heights"}
-                descrp="Are you tired of the same old approach to SEO? Look no further than Web and SEO Experts. Our SEO agency is on a mission to revolutionize the way businesses approach SEO. We believe that SEO is more than just a technical process - it's a creative endeavor that requires personalized attention. Our SEO consultants will help you rethink SEO and discover the true potential of this powerful tool."
+                text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit"}
+                descrp="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             />
             <div className="container mb-5">
                 <div className="row">
@@ -54,8 +51,7 @@ const Home = () => {
                             <FontAwesomeIcon icon={faGear} />
                             <h5>All Sizes Business</h5>
                             <h6>
-                                Our SEO services cater to businesses of all sizes, whether you're a small startup or a large
-                                corporation.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor aliqua.
                             </h6>
                         </div>
                     </div>
@@ -64,7 +60,7 @@ const Home = () => {
                             <FontAwesomeIcon icon={faGlobe} />
                             <h5>Customized SEO Strategies</h5>
                             <h6>
-                                We create customized SEO strategies tailored to your specific needs.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor aliqua.
                             </h6>
                         </div>
                     </div>
@@ -73,7 +69,7 @@ const Home = () => {
                             <FontAwesomeIcon icon={faChartSimple} />
                             <h5>Keep You In The Loop</h5>
                             <h6>
-                                We'll keep you in the loop every step of the way so you can see the results for yourself.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor aliqua.
                             </h6>
                         </div>
                     </div>
@@ -82,8 +78,7 @@ const Home = () => {
                             <FontAwesomeIcon icon={faRocket} />
                             <h5>Significant ROI</h5>
                             <h6>
-                                By targeting the right keywords and optimizing your website, we'll help you attract more
-                                qualified leads and increase your revenue.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor aliqua.
                             </h6>
                         </div>
                     </div>
@@ -91,9 +86,9 @@ const Home = () => {
             </div>
             <Cta />
             <ContentSec
-                src={"https://webandseoexperts.com/Assets/images/forth-sec.png"}
-                text={"Unlock Your Business's Full Potential with Our Holistic SEO Strategy"}
-                descrp="To maximize your online visibility and reach your ideal customers, a holistic approach to SEO is crucial. Our SEO services cover all the bases, including optimizing your website, creating engaging content, and building a strong backlink profile. By taking a comprehensive approach to SEO, we ensure that your business is visible to potential customers at every stage of their online journey, leading to increased traffic, conversions, and revenue."
+                src={"https://gforcewebdesign.co.uk/wp-content/uploads/2021/10/web-design-agency-1080x675.png"}
+                text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit"}
+                descrp="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             />
             <Map />
         </>
