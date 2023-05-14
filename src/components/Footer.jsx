@@ -25,7 +25,7 @@ const Footer = () => {
                                 <img src={NavLogo} alt="Rebel Design Solution" width="240" />
                             </Link>
                             <p className="mt-4">
-                                Web and SEO Experts is your one-stop-shop for all things digital marketing. From optimizing your online presence to driving traffic to your website, we offer a range of services that can help your business succeed. Let our team of experts guide you through the digital landscape and achieve your business goals.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quidem eligendi quia, tempore excepturi facere pariatur aliquam velit nam aspernatur! Natus, adipisci perspiciatis? Amet cum eum enim, autem possimus debitis.
                             </p>
                             <h6 className="fw-bold">Trusted By:</h6>
                             <img src="https://webandseoexperts.com/Assets/images/Footer-trusted-img.png" alt="" />
@@ -56,7 +56,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-md-12 text-center mt-5">
                             <h6 className="lh-lg">Copyright © 2023 rebeldesignsolution.com | All rights reserved |
-                                <Link to="/terms-and-conditions">Terms And Conditions</Link> |
+                                <Link to="/terms-and-conditions"> Terms And Conditions</Link> |
                                 <Link to="/privacy-policy">Privacy Policy</Link>
                             </h6>
                         </div>
