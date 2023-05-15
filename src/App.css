@@ -394,7 +394,24 @@ a {
 .rev-slide {
   position: relative;
   background-image: url("./Images/Top-quot.png"), url("./Images/Bot-quot.png");
-  background-position: top left, bottom right;
+  background-position: top left, 84% 300px;
   background-repeat: no-repeat;
   background-size: 10%;
+  padding: 80px 60px;
+}
+.rev-slide h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.rev-slide h4 span {
+  font-weight: 100;
+  font-size: 16px;
+}
+.rev-slide .stars {
+  color: #ffd82e;
+}
+.rev-slide p {
+  font-size: 14px;
+  color: #fff;
 }
