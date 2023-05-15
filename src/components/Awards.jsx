@@ -12,11 +12,11 @@ const Awards = () => {
                 <div className="row text-center">
                     <h2 className="fw-bold fs-2">Awards</h2>
                     <div className="Awards col-md-12 d-flex justify-content-evenly text-center flex-wrap">
-                        <img src={Award1} alt />
-                        <img src={Award2} alt />
-                        <img src={Award3} alt />
-                        <img src={Award4} alt />
-                        <img src={Award5} alt />
+                        <img src={Award1} />
+                        <img src={Award2} />
+                        <img src={Award3} />
+                        <img src={Award4} />
+                        <img src={Award5} />
                     </div>
                 </div>
             </div>

@@ -350,3 +350,51 @@ a {
 .child2:hover .hovered {
   display: block;
 }
+
+.review-back {
+  background-image: linear-gradient(to right, #f75515 50%, #222222 50%);
+}
+.review-back img {
+  width: 60%;
+  border-radius: 100%;
+}
+.revi-bor {
+  border-radius: 36px;
+  border: #ffffff 3px solid;
+  background-color: #f75515;
+  box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.28);
+  -webkit-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.28);
+}
+/* MySlider.css */
+
+.slick-dots {
+  text-align: left;
+}
+
+.slick-dots li {
+  display: inline-block;
+}
+
+.slick-dots li button:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 4px;
+  background-color: #fff;
+  border-radius: 2px;
+  margin: 0 1px;
+}
+
+.slick-dots li.slick-active button:before {
+  width: 26px; /* Adjust the width for the active dot */
+  height: 4px; /* Adjust the height for the active dot */
+  background-color: #fff; /* Adjust the background color for the active dot */
+}
+.rev-slide {
+  position: relative;
+  background-image: url("./Images/Top-quot.png"), url("./Images/Bot-quot.png");
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
+  background-size: 10%;
+}
