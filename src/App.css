@@ -22,11 +22,11 @@ header {
 }
 .main-banner {
   background-color: #f75515;
-  background-image: url(./Images/donut_3d_shape.png);
+  background-image: url(./Images/rebel-side.png);
   background-repeat: no-repeat;
-  background-position-x: -160px;
-  background-position-y: 240px;
-  background-size: 32%;
+  background-position-x: -29px;
+  background-position-y: 300px;
+  background-size: 18%;
   padding-top: 110px;
   height: 100vh;
 }

@@ -36,7 +36,7 @@ const Maps = () => {
                 >
                     {isHovered1 && <div className="hovered">
                         <p>
-                            We contracted with jump to 1, To increase our online exposure to our website. Daniel redesigned our website, and did a highly professional job.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo omnis consequatur asperiores fugit.
                         </p>
                         <span>Mary Elizabeth Lim</span>
                     </div>}
@@ -48,7 +48,7 @@ const Maps = () => {
                 >
                     {isHovered2 && <div className="hovered">
                         <p>
-                            Jonas, Julian and Team have been great. They have been both helpful and diligent. As to creating a website, I'm very impressed with the effort and skill...
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo omnis consequatur asperiores fugit.
                         </p>
                         <span>Betty Robinson</span>
                     </div>}
