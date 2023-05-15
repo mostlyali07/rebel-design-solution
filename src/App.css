@@ -387,8 +387,6 @@ a {
 }
 
 .slick-dots li.slick-active button:before {
-  width: 26px; /* Adjust the width for the active dot */
-  height: 4px; /* Adjust the height for the active dot */
   background-color: #fff; /* Adjust the background color for the active dot */
 }
 .rev-slide {
