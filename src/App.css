@@ -508,3 +508,42 @@ a {
   padding: 16px;
   margin-bottom: 26px;
 }
+.one {
+  width: 180px;
+  height: 200px;
+  background-image: url(./Images/PNG-1.png);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  color: #fff;
+}
+.one h6 {
+  padding-top: 50px;
+  font-size: 29px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.one h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+}
+/* .one::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background-image: url(./Images/PNG-1.png);
+  background-size: cover;
+  background-position: center;
+  animation: circular-motion 10s linear infinite;
+} */
+@keyframes circular-motion {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
