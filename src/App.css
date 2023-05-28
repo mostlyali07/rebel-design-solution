@@ -493,13 +493,13 @@ a {
 }
 
 .flip-box-front {
-  background: #ffffff6b;
+  background: #ffffffa0;
   color: black;
 }
 .flip-box-back {
   color: #000;
   transform: rotateY(180deg);
-  background: #ffffff6b;
+  background: #ffffffc8;
 }
 .flip-box-front svg {
   font-size: 29px;

@@ -1,20 +1,20 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMagnifyingGlassChart, faSquarePollVertical } from '@fortawesome/free-solid-svg-icons';
+import { faMagnifyingGlassChart, faSquarePollVertical, faCode, faPenNib } from '@fortawesome/free-solid-svg-icons';
 const AllServices = () => {
     return (
         <>
             <div className="container py-5">
                 <div className="row">
-                    <h2 className='fw-bold text-center'>
+                    <h2 className='fw-bold text-center pb-4'>
                         OUR SERVICES
                     </h2>
                     <div className="col-md-3">
                         <div className="flip-box">
                             <div className="flip-box-inner">
-                                <div className="flip-box-front d-flex align-items-center">
+                                <div className="flip-box-front d-flex align-items-center justify-content-center">
                                     <div>
                                         <FontAwesomeIcon icon={faMagnifyingGlassChart} />
-                                        <h4>Search Engine Optimization</h4>
+                                        <h4 className='fw-bold'>Search Engine Optimization</h4>
                                     </div>
                                 </div>
                                 <div className="flip-box-back d-flex align-items-center">
@@ -29,10 +29,10 @@ const AllServices = () => {
                     <div className="col-md-3">
                         <div className="flip-box">
                             <div className="flip-box-inner">
-                                <div className="flip-box-front d-flex align-items-center">
+                                <div className="flip-box-front d-flex align-items-center justify-content-center">
                                     <div>
                                         <FontAwesomeIcon icon={faSquarePollVertical} />
-                                        <h4>Social Media <br /> Marketing</h4>
+                                        <h4 className='fw-bold'>Social Media Marketing</h4>
                                     </div>
                                 </div>
                                 <div className="flip-box-back d-flex align-items-center">
@@ -47,10 +47,10 @@ const AllServices = () => {
                     <div className="col-md-3">
                         <div className="flip-box">
                             <div className="flip-box-inner">
-                                <div className="flip-box-front d-flex align-items-center">
+                                <div className="flip-box-front d-flex align-items-center justify-content-center">
                                     <div>
-                                        <FontAwesomeIcon icon={faMagnifyingGlassChart} />
-                                        <h4>Search Engine Optimization</h4>
+                                        <FontAwesomeIcon icon={faCode} />
+                                        <h4 className='fw-bold'>Website Designing Development</h4>
                                     </div>
                                 </div>
                                 <div className="flip-box-back d-flex align-items-center">
@@ -65,10 +65,10 @@ const AllServices = () => {
                     <div className="col-md-3">
                         <div className="flip-box">
                             <div className="flip-box-inner">
-                                <div className="flip-box-front d-flex align-items-center">
+                                <div className="flip-box-front d-flex align-items-center justify-content-center">
                                     <div>
-                                        <FontAwesomeIcon icon={faMagnifyingGlassChart} />
-                                        <h4>Search Engine Optimization</h4>
+                                        <FontAwesomeIcon icon={faPenNib} />
+                                        <h4 className='fw-bold'>Logo Design</h4>
                                     </div>
                                 </div>
                                 <div className="flip-box-back d-flex align-items-center">
