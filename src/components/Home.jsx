@@ -8,6 +8,7 @@ import Map from './Maps';
 import Awards from './Awards';
 import Reviews from './Reviews';
 import Faqs from './Faqs';
+import AllServices from './AllServices';
 
 
 const Home = () => {
@@ -98,6 +99,7 @@ const Home = () => {
             />
             <Map />
             <Cta />
+            <AllServices />
             <ContentSec
                 src={"https://gforcewebdesign.co.uk/wp-content/uploads/2021/10/web-design-agency-1080x675.png"}
                 text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit"}
