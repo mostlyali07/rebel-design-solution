@@ -526,7 +526,7 @@ a {
 .one h5 {
   font-size: 18px;
   font-weight: 600;
-  color: #000;
+  color: #fff;
 }
 /* .one::before {
   content: "";
@@ -546,4 +546,9 @@ a {
   100% {
     transform: translate(-50%, -50%) rotate(360deg);
   }
+}
+.colr-bac{
+  background-color: #f75515;
+  /* background-image: linear-gradient(90deg, #f75515, #222222); */
+  color: #fff;
 }
