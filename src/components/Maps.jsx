@@ -25,8 +25,9 @@ const Maps = () => {
     return (
         <>
             <div className="text-center mb-3">
-                <h2 className='fw-bold'>Our Client’s Feedback Has Been <br />
-                    Nothing Short Of Amazing!</h2>
+                <h2 className='fw-bold'>
+                    Breaking Boundaries, Connecting Continents: <br /> Our Worldwide Service Network
+                </h2>
             </div>
             <div className="parent mb-5">
                 <div

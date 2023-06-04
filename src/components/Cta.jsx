@@ -1,15 +1,18 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFilePen, faCube } from '@fortawesome/free-solid-svg-icons';
-const Cta = () => {
+const Cta = ({ ctAtext, ctAdescrp }) => {
     return (
         <>
             <div className="ctas py-4">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6">
-                            <h2 className="fw-bold">Let's Talk!</h2>
-                            <p>Share your project details and get a budget-friendly quote <br />
-                                right away!</p>
+                        <div className="col-md-6 d-flex align-items-center">
+                            <div>
+                                <h3 className="fw-bold">{ctAtext}</h3>
+                                <p>
+                                    {ctAdescrp}
+                                </p>
+                            </div>
                         </div>
                         <div className="col-md-6 text-end d-flex align-items-end justify-content-around flex-column">
                             <div className="mobile-cta-btn">

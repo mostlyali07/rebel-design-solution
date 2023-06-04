@@ -4,14 +4,14 @@ const Ourprocess = () => {
         <>
             <div className="container py-5">
                 <div className="row">
-                    <h5 className='fs-5 text-center pb-2'>
+                    {/* <h5 className='fs-5 text-center pb-2'>
                         OUR SEO PROCESS
-                    </h5>
+                    </h5> */}
                     <h2 className='fw-bold text-center pb-2'>
-                        Lorem ipsum dolor sit amet consectetur
+                        The Roadmap to Extraordinary: Inside Our Process
                     </h2>
                     <p className="text-center pb-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia repellat vitae commodi  <br /> explicabo culpa voluptate delectus veritatis quas cupiditate distinctio.
+                        With a keen focus on detail and a commitment to excellence, our process ensures we deliver remarkable results beyond expectations.
                     </p>
                     <div className="col-md-1"></div>
                     <div className="col-md-2">
@@ -20,8 +20,8 @@ const Ourprocess = () => {
                                 1
                             </h6>
                             <h5>
-                                COMPETITOR <br />
-                                ANALYSIS
+                                Discovery and <br />
+                                Understanding
                             </h5>
                         </div>
                     </div>
@@ -31,8 +31,8 @@ const Ourprocess = () => {
                                 2
                             </h6>
                             <h5>
-                                DEEP KEYWORDS <br />
-                                RESEARCH
+                                Strategic <br />
+                                Planning
                             </h5>
                         </div>
                     </div>
@@ -42,8 +42,8 @@ const Ourprocess = () => {
                                 3
                             </h6>
                             <h5>
-                                ON PAGE <br />
-                                OPTIMIZATION
+                                Creative <br />
+                                Conceptualization
                             </h5>
                         </div>
                     </div>
@@ -53,8 +53,8 @@ const Ourprocess = () => {
                                 4
                             </h6>
                             <h5>
-                                OFF PAGE <br />
-                                OPTIMIZATION
+                                Meticulous <br />
+                                Execution
                             </h5>
                         </div>
                     </div>
@@ -64,8 +64,8 @@ const Ourprocess = () => {
                                 5
                             </h6>
                             <h5>
-                                COMPREHENSIVE <br />
-                                REPORTING
+                                Continuous <br />
+                                Improvement
                             </h5>
                         </div>
                     </div>
