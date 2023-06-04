@@ -18,7 +18,13 @@ const Footer = () => {
                             <Link to="/contact-us" className="btns-ten">Contant Us <i className="fa-solid fa-arrow-right"></i></Link>
                         </div>
                     </div>
-                    {/* <hr style={"color: #fff;"} /> */}
+                    <hr
+                        style={{
+                            background: "#fff",
+                            height: "2px",
+                            border: "none",
+                        }}
+                    />
                     <div className="row mt-5">
                         <div className="col-md-5">
                             <Link className="navbar-brand" to="/">
