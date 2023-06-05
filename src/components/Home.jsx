@@ -10,6 +10,7 @@ import Reviews from './Reviews';
 import Faqs from './Faqs';
 import AllServices from './AllServices';
 import Ourprocess from './Ourprocess';
+import PricingTabs from './PricingTabs';
 
 
 const Home = () => {
@@ -108,6 +109,7 @@ const Home = () => {
             />
             <Reviews />
             <Awards />
+            <PricingTabs />
             <Faqs />
         </>
     )

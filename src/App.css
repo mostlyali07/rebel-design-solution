@@ -165,7 +165,13 @@ header {
   -webkit-box-shadow: 3px 4px 26px -4px rgba(255, 110, 38, 0.34);
   -moz-box-shadow: 3px 4px 26px -4px rgba(255, 110, 38, 0.34);
 }
-
+.custom-tabs .nav-item .active{
+  background-color: #222222;
+  color: #fff !important;
+}
+.nav-link{
+  color: #000 !important;
+}
 .four-divs h5 {
   color: #000;
   font-size: 20px;
