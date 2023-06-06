@@ -8,24 +8,24 @@ const PricingTabs = () => {
     };
     return (
         <>
-            <div className="container">
+            <div className="container py-5">
                 <div className="row">
                     <div className="col-md-12">
                         <Tabs activeKey={activeTab} onSelect={handleTabSelect} className="custom-tabs">
-                            <Tab eventKey={0} title="Tab 1">
+                            <Tab eventKey={0} title="Search Engine Optimization (SEO)">
                                 <div className="row mt-2 mb-4">
                                     <div className="col-md-4">
                                         <div className="price-box">
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Essential</h4>
-                                                    <span className="fw-bold fs-2">$300</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
+                                                    <span className="fw-bold fs-2">$299</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
                                                         First Month Payment</span>
                                                 </div>
                                                 <div className="priceplans d-flex align-items-center">
                                                     <div>
-                                                        <h6><span>$800</span> - Quarterly Plan</h6>
-                                                        <h6><span>$250</span> - Recurring</h6>
+                                                        <h6><span>$799</span> - Quarterly Plan</h6>
+                                                        <h6><span>$249</span> - Recurring</h6>
                                                         <h6>Monthly Payment</h6>
                                                     </div>
                                                 </div>
@@ -89,21 +89,18 @@ const PricingTabs = () => {
                                             <a href="/">Buy Package</a>
                                         </div>
                                     </div>
-
-
-
                                     <div className="col-md-4">
                                         <div className="price-box">
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Standard</h4>
-                                                    <span className="fw-bold fs-2">$500</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
+                                                    <span className="fw-bold fs-2">$499</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
                                                         First Month Payment</span>
                                                 </div>
                                                 <div className="priceplans d-flex align-items-center">
                                                     <div>
-                                                        <h6><span>$1400</span> - Quarterly Plan</h6>
-                                                        <h6><span>$450</span> - Recurring</h6>
+                                                        <h6><span>$1399</span> - Quarterly Plan</h6>
+                                                        <h6><span>$449</span> - Recurring</h6>
                                                         <h6>Monthly Payment</h6>
                                                     </div>
                                                 </div>
@@ -185,13 +182,13 @@ const PricingTabs = () => {
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Professional</h4>
-                                                    <span className="fw-bold fs-2">$750</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
+                                                    <span className="fw-bold fs-2">$749</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
                                                         First Month Payment</span>
                                                 </div>
                                                 <div className="priceplans d-flex align-items-center">
                                                     <div>
-                                                        <h6><span>$1950</span> - Quarterly Plan</h6>
-                                                        <h6><span>$600</span> - Recurring</h6>
+                                                        <h6><span>$1949</span> - Quarterly Plan</h6>
+                                                        <h6><span>$599</span> - Recurring</h6>
                                                         <h6>Monthly Payment</h6>
                                                     </div>
                                                 </div>
@@ -273,14 +270,410 @@ const PricingTabs = () => {
                                     </div>
                                 </div>
                             </Tab>
-                            <Tab eventKey={1} title="Tab 2">
-                                <h4>Hello 2</h4>
+                            <Tab eventKey={1} title="Social Media Marketing (SMM)">
+                                <div className="row mt-2 mb-4">
+                                    <div className="col-md-4">
+                                        <div className="price-box">
+                                            <div className="d-flex">
+                                                <div className="price">
+                                                    <h4 className="fw-bold">Essential</h4>
+                                                    <span className="fw-bold fs-2">$300</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
+                                                        First Month Payment</span>
+                                                </div>
+                                                <div className="priceplans d-flex align-items-center">
+                                                    <div>
+                                                        <h6 className="fw-bold">Was <del>$800</del> </h6>
+                                                        <h6 className="qutr-plane fw-bold">$750 - 3 Month</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="line"></div>
+                                            <div className="slimScrollBar">
+                                                <ul className="price-list">
+                                                    <li>12/Month Unique Social Media Content Posting</li>
+                                                    <li>Social Media Analysis</li>
+                                                    <li>Page Optimization</li>
+                                                    <li>Social Media Marketing Plan</li>
+                                                    <li>Post Design Scheduling</li>
+                                                    <li>Profile Keyword Optimization - 3 Keywords</li>
+                                                    <li>Performance Report</li>
+                                                    <li>2 Platforms</li>
+                                                </ul>
+                                            </div>
+                                            <a href="/">Buy Package</a>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-4">
+                                        <div className="price-box">
+                                            <div className="d-flex">
+                                                <div className="price">
+                                                    <h4 className="fw-bold">Standard</h4>
+                                                    <span className="fw-bold fs-2">$400</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
+                                                        First Month Payment</span>
+                                                </div>
+                                                <div className="priceplans d-flex align-items-center">
+                                                    <div>
+                                                        <h6 className="fw-bold">Was <del>$1100</del> </h6>
+                                                        <h6 className="qutr-plane fw-bold">$1000 - 3 Month</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="line"></div>
+                                            <div className="slimScrollBar">
+                                                <ul className="price-list">
+                                                    <li>20/Month Unique Social Media Content Posting</li>
+                                                    <li>Competitor Analysis</li>
+                                                    <li>Community Management</li>
+                                                    <li>Page Moderation</li>
+                                                    <li>Social Media Strategy</li>
+                                                    <li>Page Monitoring &amp; Responding</li>
+                                                    <li>Social Media Analysis</li>
+                                                    <li>Page Optimization</li>
+                                                    <li>Social Media Marketing Plan</li>
+                                                    <li>Post Design Scheduling</li>
+                                                    <li>Profile Keyword Optimization - 6 Keywords</li>
+                                                    <li>Performance Report</li>
+                                                    <li>4 Platforms</li>
+                                                </ul>
+                                            </div>
+                                            <a href="/">Buy Package</a>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-4">
+                                        <div className="price-box">
+                                            <div className="d-flex">
+                                                <div className="price">
+                                                    <h4 className="fw-bold">Professional</h4>
+                                                    <span className="fw-bold fs-2">$500</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
+                                                        First Month Payment</span>
+                                                </div>
+                                                <div className="priceplans d-flex align-items-center">
+                                                    <div>
+                                                        <h6 className="fw-bold">Was <del>$1400</del> </h6>
+                                                        <h6 className="qutr-plane fw-bold">$1200 - 3 Month</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="line"></div>
+                                            <div className="slimScrollBar">
+                                                <ul className="price-list">
+                                                    <li>40/Month Unique Social Media Content Posting</li>
+                                                    <li>Competitor Analysis</li>
+                                                    <li>Community Management</li>
+                                                    <li>Page Moderation</li>
+                                                    <li>Page Moderation</li>
+                                                    <li>Page Monitoring &amp; Responding</li>
+                                                    <li>Social Media Analysis</li>
+                                                    <li>Page Optimization</li>
+                                                    <li>Social Media Marketing Plan</li>
+                                                    <li>Post Design Scheduling</li>
+                                                    <li>Profile Keyword Optimization - 8 Keywords</li>
+                                                    <li>Performance Report</li>
+                                                    <li>Unlimited Platforms</li>
+                                                </ul>
+                                            </div>
+                                            <a href="/">Buy Package</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </Tab>
-                            <Tab eventKey={2} title="Tab 3">
-                                <h4>Hello 3</h4>
+                            <Tab eventKey={2} title="Pro Marketing Plans">
+                                <div className="row mt-2 mb-4">
+                                    <div className="col-md-4">
+                                        <div className="price-box">
+                                            <div className="d-flex">
+                                                <div className="price">
+                                                    <h4 className="fw-bold">Essential</h4>
+                                                    <span className="fw-bold fs-2">$649</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
+                                                        First Month Payment</span>
+                                                </div>
+                                                <div className="priceplans d-flex align-items-center">
+                                                    <div>
+                                                        <h6 className="fw-bold">Was <del>$1799</del></h6>
+                                                        <h6 className="qutr-plane fw-bold">$1699 - 3 Month</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="line"></div>
+                                            <div className="slimScrollBar">
+                                                <ul className="price-list">
+                                                    <li>15 Focused Keywords</li>
+                                                    <li>Onsite Optimization</li>
+                                                    <li>Complete Website Content Optimization</li>
+                                                    <li>2/Month (800 word count) On Page Blogs</li>
+                                                    <li>Meta Tags</li>
+                                                    <li>2/Month (500 word count) Off page blogs</li>
+                                                    <li>Total 15 Business listing</li>
+                                                    <li>2 Web 2.0</li>
+                                                    <li>2 Infographics</li>
+                                                    <li>2 Guest Posting</li>
+                                                    <li>Google Analytics</li>
+                                                    <li>Google Business Profile Optimization</li>
+                                                    <h5><strong>SMA (Social Media Advertisement)</strong></h5>
+                                                    <li>Facebook Shop Creation</li>
+                                                    <li>Lead Form Creation</li>
+                                                    <li>Likes, Followers, Subscribers - 1000 Likes on 1 one platform</li>
+                                                    <li>Facebook Ad Campaign Optimization</li>
+                                                    <li>Facebook Ads A/B Testing</li>
+                                                    <li>Social Media listing</li>
+                                                    <li>Facebook Ad Campaigns</li>
+                                                    <li>Tracking Setup</li>
+                                                    <h5><strong>SMM (Social Media Management)</strong></h5>
+                                                    <li>12/Month Unique Social Media Content Posting</li>
+                                                    <li>Social Media Analysis &amp; Performance Report</li>
+                                                    <li>Page Optimization</li>
+                                                    <li>Social Media Marketing Plan</li>
+                                                    <li>Progress Reporting</li>
+                                                    <li>Post Design Scheduled</li>
+                                                    <li>Profile Keyword Optimization - 3 Keywords</li>
+                                                    <li>2 Platforms</li>
+                                                </ul>
+                                            </div>
+                                            <a href="/">Buy Package</a>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-4">
+                                        <div className="price-box">
+                                            <div className="d-flex">
+                                                <div className="price">
+                                                    <h4 className="fw-bold">Standard</h4>
+                                                    <span className="fw-bold fs-2">$1099</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
+                                                        First Month Payment</span>
+                                                </div>
+                                                <div className="priceplans d-flex align-items-center">
+                                                    <div>
+                                                        <h6 className="fw-bold">Was <del>$3599</del> </h6>
+                                                        <h6 className="qutr-plane fw-bold">$2999 - 3 Month</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="line"></div>
+                                            <div className="slimScrollBar">
+                                                <ul className="price-list">
+                                                    <li>20 Focused Keywords</li>
+                                                    <li>Onsite Optimization</li>
+                                                    <li>Complete Website Content Optimization</li>
+                                                    <li>4/Month (1000 word count) On Page Blogs</li>
+                                                    <li>Meta Tags</li>
+                                                    <li>4/Month (500 word count) Off page blogs</li>
+                                                    <li>20 Business listing</li>
+                                                    <li>2 Web 2.0</li>
+                                                    <li>4 Infographics</li>
+                                                    <li>2 Guest Posting</li>
+                                                    <li>2 Press Release</li>
+                                                    <li>Google Analytics</li>
+                                                    <li>Google Business Profile Optimization</li>
+                                                    <h5><strong>SMA (Social Media Advertisement)</strong></h5>
+                                                    <li>Video Promo</li>
+                                                    <li>Facebook Shop Creation</li>
+                                                    <li>Lead Form Creation</li>
+                                                    <li>Likes, Followers, Subscribers - 2000 Likes on 2 platforms</li>
+                                                    <li>Facebook Ad Campaign Optimization</li>
+                                                    <li>Facebook Ads A/B Testing</li>
+                                                    <li>Social Media Listing</li>
+                                                    <li>Facebook Ad Campaigns</li>
+                                                    <li>Tracking Setup</li>
+                                                    <h5><strong>SMM (Social Media Management)</strong></h5>
+                                                    <li>20/Month Unique Social Media Content Posting</li>
+                                                    <li>Competitor Analysis</li>
+                                                    <li>Community Management</li>
+                                                    <li>Page Moderation</li>
+                                                    <li>Social Media Strategy</li>
+                                                    <li>Page Monitoring &amp; Responding</li>
+                                                    <li>Social Media Analysis &amp; Performance Report</li>
+                                                    <li>Page Optimization</li>
+                                                    <li>Social Media Marketing Plan</li>
+                                                    <li>Progress Reporting</li>
+                                                    <li>Post Design Scheduled</li>
+                                                    <li>Profile Keyword Optimization - 6 Keywords</li>
+                                                    <li>4 Platforms</li>
+                                                </ul>
+                                            </div>
+                                            <a href="/">Buy Package</a>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-4">
+                                        <div className="price-box">
+                                            <div className="d-flex">
+                                                <div className="price">
+                                                    <h4 className="fw-bold">Professional</h4>
+                                                    <span className="fw-bold fs-2">$1999</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
+                                                        First Month Payment</span>
+                                                </div>
+                                                <div className="priceplans d-flex align-items-center">
+                                                    <div>
+                                                        <h6 className="fw-bold">Was <del>$5999</del> </h6>
+                                                        <h6 className="qutr-plane fw-bold">$5699 - 3 Month</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="line"></div>
+                                            <div className="slimScrollBar">
+                                                <ul className="price-list">
+                                                    <li>25-30 Focused Keywords</li>
+                                                    <li>Onsite Optimization</li>
+                                                    <li>Complete Website Content Optimization</li>
+                                                    <li>6/Month (1000 word count) On Page Blogs</li>
+                                                    <li>Meta Tags</li>
+                                                    <li>4/Month (600 word count) Off page blogs</li>
+                                                    <li>30 Business listing</li>
+                                                    <li>4 Web 2.0</li>
+                                                    <li>6 Infographics</li>
+                                                    <li>4 Guest Posting</li>
+                                                    <li>4 Press Release</li>
+                                                    <li>Google Analytics</li>
+                                                    <li>Google Business Profile Optimization</li>
+                                                    <h5><strong>SMA (Social Media Advertisement)</strong></h5>
+                                                    <li>2 Video Promo</li>
+                                                    <li>Facebook Shop Creation</li>
+                                                    <li>Lead Form Creation</li>
+                                                    <li>Likes, Followers, Subscribers - 5000 Likes on 4 Platforms</li>
+                                                    <li>Facebook Ad Campaign Optimization</li>
+                                                    <li>Facebook Ads A/B Testing</li>
+                                                    <li>Social Media listing</li>
+                                                    <li>Facebook Ad Campaigns</li>
+                                                    <li>Tracking Setup</li>
+                                                    <h5><strong>SMM (Social Media Management)</strong></h5>
+                                                    <li>40/Month Unique Social Media Content Posting</li>
+                                                    <li>Competitor Analysis</li>
+                                                    <li>Community Management</li>
+                                                    <li>Page Moderation</li>
+                                                    <li>Social Media Strategy</li>
+                                                    <li>Page Monitoring &amp; Responding</li>
+                                                    <li>Social Media Analysis &amp; Performance Report</li>
+                                                    <li>Page Optimization</li>
+                                                    <li>Social Media Marketing Plan</li>
+                                                    <li>Progress Reporting</li>
+                                                    <li>Post Design Scheduled</li>
+                                                    <li>Profile Keyword Optimization - 8 Keywords</li>
+                                                    <li>Unlimited Platforms</li>
+                                                </ul>
+                                            </div>
+                                            <a href="/">Buy Package</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </Tab>
-                            <Tab eventKey={3} title="Tab 4">
-                                <h4>Hello 4</h4>
+                            <Tab eventKey={3} title="Website Design and Development">
+                                <div className="row mt-2 mb-4">
+                                    <div className="col-md-4">
+                                        <div className="price-box">
+                                            <div className="d-flex">
+                                                <div className="price">
+                                                    <h4 className="fw-bold">Essential</h4>
+                                                    <span className="fw-bold fs-2">$150</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
+                                                        First Month Payment</span>
+                                                </div>
+                                                <div className="priceplans d-flex align-items-center">
+                                                    <div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="line"></div>
+                                            <div className="slimScrollBar">
+                                                <ul className="price-list">
+                                                    <li>2-3 Pages Website</li>
+                                                    <li>02 Stock Images</li>
+                                                    <li>03 Banner Designs</li>
+                                                    <li>All Browser Compatibility</li>
+                                                    <li>Complete W3C Certified HTML</li>
+                                                    <li>Google Friendly Sitemap</li>
+                                                    <li>NO MONTHLY/YEARLY FEE</li>
+                                                    <h5>
+                                                        <b>Features</b>
+                                                    </h5>
+                                                    <li>Dedicated Project Manager</li>
+                                                    <li>48 to 72 hours TAT</li>
+                                                    <li>Complete Deployment</li>
+                                                    <li>100% Satisfaction Guarantee</li>
+                                                    <li>100% Unique Design Guarantee</li>
+                                                </ul>
+                                            </div>
+                                            <a href="/">Buy Package</a>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-4">
+                                        <div className="price-box">
+                                            <div className="d-flex">
+                                                <div className="price">
+                                                    <h4 className="fw-bold">Standard</h4>
+                                                    <span className="fw-bold fs-2">$500</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
+                                                        First Month Payment</span>
+                                                </div>
+                                                <div className="priceplans d-flex align-items-center">
+
+                                                </div>
+                                            </div>
+                                            <div className="line"></div>
+                                            <div className="slimScrollBar">
+                                                <ul className="price-list">
+                                                    <li>3-5 Pages Website</li>
+                                                    <li>Conceptual Interactive Design</li>
+                                                    <li>08 Stock Images</li>
+                                                    <li>05 Banner Design</li>
+                                                    <li>1 jQuery Slider Banner</li>
+                                                    <li>All Browser Compatibility</li>
+                                                    <li>Complete W3C Certified HTML</li>
+                                                    <li>Google Friendly Sitemap</li>
+                                                    <li>Contact/Query Form</li>
+                                                    <li>NO MONTHLY/YEARLY FEE</li>
+                                                    <h5>
+                                                        <b>Features</b>
+                                                    </h5>
+                                                    <li>Dedicated Project Manager</li>
+                                                    <li>48 to 72 hours TAT</li>
+                                                    <li>Complete Deployment</li>
+                                                    <li>100% Satisfaction Guarantee</li>
+                                                    <li>100% Unique Design Guarantee</li>
+                                                </ul>
+                                            </div>
+                                            <a href="/">Buy Package</a>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-4">
+                                        <div className="price-box">
+                                            <div className="d-flex">
+                                                <div className="price">
+                                                    <h4 className="fw-bold">Professional</h4>
+                                                    <span className="fw-bold fs-2">$700</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
+                                                        First Month Payment</span>
+                                                </div>
+                                                <div className="priceplans d-flex align-items-center">
+                                                    <div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="line"></div>
+                                            <div className="slimScrollBar">
+                                                <ul className="price-list">
+                                                    <li>5-10 Pages Website</li>
+                                                    <li>Conceptual Interactive Design</li>
+                                                    <li>12 Stock Images</li>
+                                                    <li>08 Banner Design</li>
+                                                    <li>1 jQuery Slider Banner</li>
+                                                    <li>All Browser Compatibility</li>
+                                                    <li>Complete W3C Certified HTML</li>
+                                                    <li>Google Friendly Sitemap</li>
+                                                    <li>Contact/Query Form</li>
+                                                    <li>Search Engine Submission</li>
+                                                    <li>Mobile Responsive</li>
+                                                    <li>NO MONTHLY/YEARLY FEE</li>
+                                                    <h5>
+                                                        <b>Features</b>
+                                                    </h5>
+                                                    <li>Dedicated Project Manager</li>
+                                                    <li>48 to 72 hours TAT</li>
+                                                    <li>Complete Deployment</li>
+                                                    <li>100% Satisfaction Guarantee</li>
+                                                    <li>100% Unique Design Guarantee</li>
+                                                </ul>
+                                            </div>
+                                            <a href="/">Buy Package</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </Tab>
                         </Tabs>
                     </div>

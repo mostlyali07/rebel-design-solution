@@ -146,7 +146,9 @@ header {
 .cus-width {
   width: 520px;
 }
-
+.bg-grad {
+  background-color: #e6e6e6;
+}
 .four-divs {
   background-color: #d2d2d2;
   border-radius: 36px;
@@ -164,11 +166,16 @@ header {
   -webkit-box-shadow: 3px 4px 26px -4px rgba(255, 110, 38, 0.34);
   -moz-box-shadow: 3px 4px 26px -4px rgba(255, 110, 38, 0.34);
 }
-.custom-tabs .nav-item .active{
+.custom-tabs .nav-item .active {
   background-color: #222222;
   color: #fff !important;
 }
-.nav-link{
+.custom-tabs {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-link {
   color: #000 !important;
 }
 .four-divs h5 {

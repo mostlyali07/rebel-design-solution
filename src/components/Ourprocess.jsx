@@ -2,7 +2,7 @@
 const Ourprocess = () => {
     return (
         <>
-            <div className="container py-5">
+            <div className="container pt-5 mt-5">
                 <div className="row">
                     {/* <h5 className='fs-5 text-center pb-2'>
                         OUR SEO PROCESS
@@ -70,9 +70,16 @@ const Ourprocess = () => {
                         </div>
                     </div>
                     <div className="col-md-1"></div>
-                    <div className="d-flex justify-content-center my-5">
-                        <button className="btns-three" type="submit">Analyze My Site</button> &nbsp;&nbsp;
-                        <button className="btns-three" type="submit">Explore Site</button>
+
+                </div>
+            </div>
+            <div className="container-fluid">
+                <div className="row">
+                    <div className="col-md-12">
+                        <div className="d-flex justify-content-center my-5">
+                            <button className="btns-three" type="submit">Analyze My Site</button> &nbsp;&nbsp;
+                            <button className="btns-three" type="submit">Explore Site</button>
+                        </div>
                     </div>
                 </div>
             </div>
