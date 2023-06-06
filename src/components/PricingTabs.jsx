@@ -13,16 +13,16 @@ const PricingTabs = () => {
                     <div className="col-md-12">
                         <Tabs activeKey={activeTab} onSelect={handleTabSelect} className="custom-tabs">
                             <Tab eventKey={0} title="Tab 1">
-                                <div class="row mt-2 mb-4">
-                                    <div class="col-md-4">
-                                        <div class="price-box">
-                                            <div class="d-flex">
-                                                <div class="price">
-                                                    <h4 class="fw-bold">Essential</h4>
-                                                    <span class="fw-bold fs-2">$300</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
+                                <div className="row mt-2 mb-4">
+                                    <div className="col-md-4">
+                                        <div className="price-box">
+                                            <div className="d-flex">
+                                                <div className="price">
+                                                    <h4 className="fw-bold">Essential</h4>
+                                                    <span className="fw-bold fs-2">$300</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
                                                         First Month Payment</span>
                                                 </div>
-                                                <div class="priceplans d-flex align-items-center">
+                                                <div className="priceplans d-flex align-items-center">
                                                     <div>
                                                         <h6><span>$800</span> - Quarterly Plan</h6>
                                                         <h6><span>$250</span> - Recurring</h6>
@@ -30,9 +30,9 @@ const PricingTabs = () => {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="line"></div>
-                                            <div class="slimScrollBar">
-                                                <ul class="price-list">
+                                            <div className="line"></div>
+                                            <div className="slimScrollBar">
+                                                <ul className="price-list">
                                                     <h5>
                                                         <b>Prior Analysis</b>
                                                     </h5>
@@ -92,15 +92,15 @@ const PricingTabs = () => {
 
 
 
-                                    <div class="col-md-4">
-                                        <div class="price-box">
-                                            <div class="d-flex">
-                                                <div class="price">
-                                                    <h4 class="fw-bold">Standard</h4>
-                                                    <span class="fw-bold fs-2">$500</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
+                                    <div className="col-md-4">
+                                        <div className="price-box">
+                                            <div className="d-flex">
+                                                <div className="price">
+                                                    <h4 className="fw-bold">Standard</h4>
+                                                    <span className="fw-bold fs-2">$500</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
                                                         First Month Payment</span>
                                                 </div>
-                                                <div class="priceplans d-flex align-items-center">
+                                                <div className="priceplans d-flex align-items-center">
                                                     <div>
                                                         <h6><span>$1400</span> - Quarterly Plan</h6>
                                                         <h6><span>$450</span> - Recurring</h6>
@@ -108,9 +108,9 @@ const PricingTabs = () => {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="line"></div>
-                                            <div class="slimScrollBar">
-                                                <ul class="price-list">
+                                            <div className="line"></div>
+                                            <div className="slimScrollBar">
+                                                <ul className="price-list">
                                                     <h5>
                                                         <b>Prior Analysis</b>
                                                     </h5>
@@ -180,15 +180,15 @@ const PricingTabs = () => {
                                             <a href="/">Buy Package</a>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
-                                        <div class="price-box">
-                                            <div class="d-flex">
-                                                <div class="price">
-                                                    <h4 class="fw-bold">Professional</h4>
-                                                    <span class="fw-bold fs-2">$750</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
+                                    <div className="col-md-4">
+                                        <div className="price-box">
+                                            <div className="d-flex">
+                                                <div className="price">
+                                                    <h4 className="fw-bold">Professional</h4>
+                                                    <span className="fw-bold fs-2">$750</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
                                                         First Month Payment</span>
                                                 </div>
-                                                <div class="priceplans d-flex align-items-center">
+                                                <div className="priceplans d-flex align-items-center">
                                                     <div>
                                                         <h6><span>$1950</span> - Quarterly Plan</h6>
                                                         <h6><span>$600</span> - Recurring</h6>
@@ -196,9 +196,9 @@ const PricingTabs = () => {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="line"></div>
-                                            <div class="slimScrollBar">
-                                                <ul class="price-list">
+                                            <div className="line"></div>
+                                            <div className="slimScrollBar">
+                                                <ul className="price-list">
                                                     <h5>
                                                         <b>Prior Analysis</b>
                                                     </h5>

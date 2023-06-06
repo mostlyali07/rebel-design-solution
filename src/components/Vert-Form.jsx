@@ -11,13 +11,13 @@ const VertForm = () => {
                 <div>
 
                     <form className="vert-form form-get-quote">
-                        <input type="text" placeholder="YOUR NAME" name="quote[name]" className="input-feilds" required="" />
+                        <input type="text" placeholder="YOUR NAME" name="quote[name]" className="input-feilds" required />
 
-                        <input type="email" placeholder="YOUR EMAIL" name="quote[email]" className="input-feilds" required="" />
+                        <input type="email" placeholder="YOUR EMAIL" name="quote[email]" className="input-feilds" required />
 
-                        <input type="tel" placeholder="YOUR PHONE" name="quote[phone]" className="input-feilds" required="" />
+                        <input type="tel" placeholder="YOUR PHONE" name="quote[phone]" className="input-feilds" required />
 
-                        <input type="text" placeholder="YOUR WEBSITE" name="quote[website]" className="input-feilds" required="" />
+                        <input type="text" placeholder="YOUR WEBSITE" name="quote[website]" className="input-feilds" required />
 
                         <button className="btns-one">ANALYZE</button>
                     </form>
@@ -27,7 +27,6 @@ const VertForm = () => {
                         <img src={Client2} alt="client01" />
                         <img src={Client3} alt="client01" />
                         <img src={Client4} alt="client01" />
-
                     </div>
                 </div>
             </div>
