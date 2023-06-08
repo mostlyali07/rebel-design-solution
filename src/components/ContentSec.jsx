@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContentSec = ({ text, descrp, src }) => {
     return (
-        <div className='right-side'>
+        <div className='right-side your-animation-class'>
             <div className="container my-5 py-5">
                 <div className="row">
                     <div className="col-md-6 text-center">

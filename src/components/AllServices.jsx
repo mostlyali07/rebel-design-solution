@@ -3,7 +3,7 @@ import { faMagnifyingGlassChart, faSquarePollVertical, faCode, faPenNib } from '
 const AllServices = () => {
     return (
         <>
-            <div className="container py-5">
+            <div className="container py-5 your-animation-class">
                 <div className="row">
                     <h2 className='fw-bold text-center pb-4'>
                         Design. Develop. Deliver: Experience Our Suite of Services

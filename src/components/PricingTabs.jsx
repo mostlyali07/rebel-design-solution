@@ -8,7 +8,7 @@ const PricingTabs = () => {
     };
     return (
         <>
-            <div className="container py-5">
+            <div className="container py-5 your-animation-class">
                 <div className="row">
                     <div className="col-md-12">
                         <Tabs activeKey={activeTab} onSelect={handleTabSelect} className="custom-tabs">
@@ -176,7 +176,7 @@ const PricingTabs = () => {
                                                     <li>Phone Support</li>
                                                 </ul>
                                             </div>
-                                            <div className="text-center marg-min">
+                                            <div className="text-center marg-min pt-3">
                                                 <a href="/" className='btn btn-dark rounded-pill btn-lg'>Buy Package</a>
                                             </div>
                                         </div>
@@ -269,7 +269,7 @@ const PricingTabs = () => {
                                                     <li>Phone Support</li>
                                                 </ul>
                                             </div>
-                                            <div className="text-center marg-min">
+                                            <div className="text-center marg-min pt-3">
                                                 <a href="/" className='btn btn-dark rounded-pill btn-lg'>Buy Package</a>
                                             </div>
                                         </div>

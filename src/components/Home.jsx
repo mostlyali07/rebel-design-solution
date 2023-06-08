@@ -1,6 +1,7 @@
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faGear, faGlobe, faChartSimple, faRocket } from '@fortawesome/free-solid-svg-icons';
 // import WEB from "../Images/WEB.png";
+
 import VertForm from './Vert-Form';
 import ContentSec from './ContentSec';
 import Cta from './Cta';
@@ -13,10 +14,12 @@ import Ourprocess from './Ourprocess';
 import PricingTabs from './PricingTabs';
 
 
+
 const Home = () => {
+  
     return (
         <>
-            <div className="main-banner">
+            <div className="main-banner" >
                 <div className="container">
                     <div className="row">
                         <div className='col-md-6 banner-left d-flex align-items-center'>
@@ -41,18 +44,24 @@ const Home = () => {
                 </div>
                 <div className="shape-divider"></div>
             </div>
-            <ContentSec
-                src={"https://gforcewebdesign.co.uk/wp-content/uploads/2021/10/web-design-agency-1080x675.png"}
-                text={"Rebel Design Solution: Where Design Meets Digital Ingenuity"}
-                descrp="Rebel Design Solution is the perfect fusion of design and digital ingenuity. We are a team of visionaries and innovators passionate about pushing the boundaries of creativity. With our expertise in design and deep understanding of digital technologies, we craft captivating and immersive solutions that captivate audiences and elevate brands to new heights. From stunning visual designs to seamless user experiences, we blend the art of design with the power of digital innovation, ensuring that every interaction leaves a lasting impression. Trust Rebel Design Solution to transform your brand and bring your vision to life in the digital landscape."
-            />
-            <AllServices />
+        
+                <ContentSec
+                    src={"https://gforcewebdesign.co.uk/wp-content/uploads/2021/10/web-design-agency-1080x675.png"}
+                    text={"Rebel Design Solution: Where Design Meets Digital Ingenuity"}
+                    descrp="Rebel Design Solution is the perfect fusion of design and digital ingenuity. We are a team of visionaries and innovators passionate about pushing the boundaries of creativity. With our expertise in design and deep understanding of digital technologies, we craft captivating and immersive solutions that captivate audiences and elevate brands to new heights. From stunning visual designs to seamless user experiences, we blend the art of design with the power of digital innovation, ensuring that every interaction leaves a lasting impression. Trust Rebel Design Solution to transform your brand and bring your vision to life in the digital landscape."
+                />
+        
+         
+                <AllServices />
+            
             <Cta
                 ctAtext="Join the Rebellion for Extraordinary Results!"
                 ctAdescrp="Step into a world of limitless possibilities where creativity knows no bounds. Take advantage of this opportunity to join the rebellion and unlock the path to unprecedented success."
             />
             <Ourprocess />
-            <PricingTabs />
+         
+                <PricingTabs />
+       
             {/* <div className="container mb-5">
                 <div className="row">
                     <div className="col-md-3 p-4">
@@ -114,6 +123,7 @@ const Home = () => {
 
             <Faqs />
             <Awards />
+
         </>
     )
 }
