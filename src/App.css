@@ -587,6 +587,20 @@ a {
   /* background-image: linear-gradient(90deg, #f75515, #222222); */
   color: #fff;
 }
+.price {
+  width: 70%;
+}
+.price h4 {
+  color: #fff;
+  font-size: 18px;
+}
+.price span {
+  color: #fff;
+}
+.priceplans h6 {
+  color: #fff;
+  font-size: 14px;
+}
 .price-box {
   -webkit-box-shadow: 0px 0px 56px -31px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 56px -31px rgba(0, 0, 0, 0.75);
@@ -594,4 +608,26 @@ a {
   padding: 26px;
   border-radius: 12px;
   margin: 0px 26px;
+  height: 526px;
+  background-color: #ffffffa0;
+}
+.slimScrollBar {
+  height: 260px;
+  overflow: auto;
+  margin-bottom: 26px;
+}
+.middle-tab {
+  background-image: url(./Images/block-tilt.png);
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.tab-gray {
+  background-image: url(./Images/block-tilt-gray.png);
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.slimScrollBar {
+  margin-top: 50px;
 }

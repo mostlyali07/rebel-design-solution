@@ -15,11 +15,11 @@ const PricingTabs = () => {
                             <Tab eventKey={0} title="Search Engine Optimization (SEO)">
                                 <div className="row mt-2 mb-4">
                                     <div className="col-md-4">
-                                        <div className="price-box mt-4">
+                                        <div className="price-box mt-4 middle-tab">
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Essential</h4>
-                                                    <span className="fw-bold fs-2">$299</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
+                                                    <span className="fw-bold fs-3">$299</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
                                                         First Month Payment</span>
                                                 </div>
                                                 <div className="priceplans d-flex align-items-center">
@@ -90,11 +90,11 @@ const PricingTabs = () => {
                                         </div>
                                     </div>
                                     <div className="col-md-4">
-                                        <div className="price-box mt-4">
+                                        <div className="price-box mt-4 middle-tab">
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Standard</h4>
-                                                    <span className="fw-bold fs-2">$499</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
+                                                    <span className="fw-bold fs-3">$499</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
                                                         First Month Payment</span>
                                                 </div>
                                                 <div className="priceplans d-flex align-items-center">
@@ -178,11 +178,11 @@ const PricingTabs = () => {
                                         </div>
                                     </div>
                                     <div className="col-md-4">
-                                        <div className="price-box mt-4">
+                                        <div className="price-box mt-4 middle-tab">
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Professional</h4>
-                                                    <span className="fw-bold fs-2">$749</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
+                                                    <span className="fw-bold fs-3">$749</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
                                                         First Month Payment</span>
                                                 </div>
                                                 <div className="priceplans d-flex align-items-center">
@@ -277,7 +277,7 @@ const PricingTabs = () => {
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Essential</h4>
-                                                    <span className="fw-bold fs-2">$300</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
+                                                    <span className="fw-bold fs-3">$300</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
                                                         First Month Payment</span>
                                                 </div>
                                                 <div className="priceplans d-flex align-items-center">
@@ -308,7 +308,7 @@ const PricingTabs = () => {
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Standard</h4>
-                                                    <span className="fw-bold fs-2">$400</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
+                                                    <span className="fw-bold fs-3">$400</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
                                                         First Month Payment</span>
                                                 </div>
                                                 <div className="priceplans d-flex align-items-center">
@@ -344,7 +344,7 @@ const PricingTabs = () => {
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Professional</h4>
-                                                    <span className="fw-bold fs-2">$500</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
+                                                    <span className="fw-bold fs-3">$500</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
                                                         First Month Payment</span>
                                                 </div>
                                                 <div className="priceplans d-flex align-items-center">
@@ -384,7 +384,7 @@ const PricingTabs = () => {
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Essential</h4>
-                                                    <span className="fw-bold fs-2">$649</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
+                                                    <span className="fw-bold fs-3">$649</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
                                                         First Month Payment</span>
                                                 </div>
                                                 <div className="priceplans d-flex align-items-center">
@@ -437,7 +437,7 @@ const PricingTabs = () => {
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Standard</h4>
-                                                    <span className="fw-bold fs-2">$1099</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
+                                                    <span className="fw-bold fs-3">$1099</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
                                                         First Month Payment</span>
                                                 </div>
                                                 <div className="priceplans d-flex align-items-center">
@@ -497,7 +497,7 @@ const PricingTabs = () => {
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Professional</h4>
-                                                    <span className="fw-bold fs-2">$1999</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
+                                                    <span className="fw-bold fs-3">$1999</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
                                                         First Month Payment</span>
                                                 </div>
                                                 <div className="priceplans d-flex align-items-center">
@@ -561,7 +561,7 @@ const PricingTabs = () => {
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Essential</h4>
-                                                    <span className="fw-bold fs-2">$150</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
+                                                    <span className="fw-bold fs-3">$150</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
                                                         First Month Payment</span>
                                                 </div>
                                                 <div className="priceplans d-flex align-items-center">
@@ -598,7 +598,7 @@ const PricingTabs = () => {
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Standard</h4>
-                                                    <span className="fw-bold fs-2">$500</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
+                                                    <span className="fw-bold fs-3">$500</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
                                                         First Month Payment</span>
                                                 </div>
                                                 <div className="priceplans d-flex align-items-center">
@@ -636,7 +636,7 @@ const PricingTabs = () => {
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Professional</h4>
-                                                    <span className="fw-bold fs-2">$700</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
+                                                    <span className="fw-bold fs-3">$700</span><br /> <span style={{ color: "#fff", fontSize: " 14px" }}>
                                                         First Month Payment</span>
                                                 </div>
                                                 <div className="priceplans d-flex align-items-center">
