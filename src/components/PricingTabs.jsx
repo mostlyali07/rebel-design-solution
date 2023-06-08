@@ -86,7 +86,7 @@ const PricingTabs = () => {
                                                     <li>Phone Support</li>
                                                 </ul>
                                             </div>
-                                            <a href="/">Buy Package</a>
+                                            <a href="/" className='btn btn-dark rounded-pill'>Buy Package</a>
                                         </div>
                                     </div>
                                     <div className="col-md-4">
@@ -174,7 +174,7 @@ const PricingTabs = () => {
                                                     <li>Phone Support</li>
                                                 </ul>
                                             </div>
-                                            <a href="/">Buy Package</a>
+                                            <a href="/" className='btn btn-dark rounded-pill'>Buy Package</a>
                                         </div>
                                     </div>
                                     <div className="col-md-4">
@@ -265,7 +265,7 @@ const PricingTabs = () => {
                                                     <li>Phone Support</li>
                                                 </ul>
                                             </div>
-                                            <a href="/">Buy Package</a>
+                                            <a href="/" className='btn btn-dark rounded-pill'>Buy Package</a>
                                         </div>
                                     </div>
                                 </div>
@@ -300,7 +300,7 @@ const PricingTabs = () => {
                                                     <li>2 Platforms</li>
                                                 </ul>
                                             </div>
-                                            <a href="/">Buy Package</a>
+                                            <a href="/" className='btn btn-dark rounded-pill'>Buy Package</a>
                                         </div>
                                     </div>
                                     <div className="col-md-4">
@@ -336,7 +336,7 @@ const PricingTabs = () => {
                                                     <li>4 Platforms</li>
                                                 </ul>
                                             </div>
-                                            <a href="/">Buy Package</a>
+                                            <a href="/" className='btn btn-dark rounded-pill'>Buy Package</a>
                                         </div>
                                     </div>
                                     <div className="col-md-4">
@@ -372,7 +372,7 @@ const PricingTabs = () => {
                                                     <li>Unlimited Platforms</li>
                                                 </ul>
                                             </div>
-                                            <a href="/">Buy Package</a>
+                                            <a href="/" className='btn btn-dark rounded-pill'>Buy Package</a>
                                         </div>
                                     </div>
                                 </div>
@@ -429,7 +429,7 @@ const PricingTabs = () => {
                                                     <li>2 Platforms</li>
                                                 </ul>
                                             </div>
-                                            <a href="/">Buy Package</a>
+                                            <a href="/" className='btn btn-dark rounded-pill'>Buy Package</a>
                                         </div>
                                     </div>
                                     <div className="col-md-4">
@@ -489,7 +489,7 @@ const PricingTabs = () => {
                                                     <li>4 Platforms</li>
                                                 </ul>
                                             </div>
-                                            <a href="/">Buy Package</a>
+                                            <a href="/" className='btn btn-dark rounded-pill'>Buy Package</a>
                                         </div>
                                     </div>
                                     <div className="col-md-4">
@@ -549,7 +549,7 @@ const PricingTabs = () => {
                                                     <li>Unlimited Platforms</li>
                                                 </ul>
                                             </div>
-                                            <a href="/">Buy Package</a>
+                                            <a href="/" className='btn btn-dark rounded-pill'>Buy Package</a>
                                         </div>
                                     </div>
                                 </div>
@@ -590,7 +590,7 @@ const PricingTabs = () => {
                                                     <li>100% Unique Design Guarantee</li>
                                                 </ul>
                                             </div>
-                                            <a href="/">Buy Package</a>
+                                            <a href="/" className='btn btn-dark rounded-pill'>Buy Package</a>
                                         </div>
                                     </div>
                                     <div className="col-md-4">
@@ -628,7 +628,7 @@ const PricingTabs = () => {
                                                     <li>100% Unique Design Guarantee</li>
                                                 </ul>
                                             </div>
-                                            <a href="/">Buy Package</a>
+                                            <a href="/" className='btn btn-dark rounded-pill'>Buy Package</a>
                                         </div>
                                     </div>
                                     <div className="col-md-4">
@@ -670,7 +670,7 @@ const PricingTabs = () => {
                                                     <li>100% Unique Design Guarantee</li>
                                                 </ul>
                                             </div>
-                                            <a href="/">Buy Package</a>
+                                            <a href="/" className='btn btn-dark rounded-pill'>Buy Package</a>
                                         </div>
                                     </div>
                                 </div>
