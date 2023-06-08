@@ -86,7 +86,9 @@ const PricingTabs = () => {
                                                     <li>Phone Support</li>
                                                 </ul>
                                             </div>
-                                            <a href="/" className='btn btn-dark rounded-pill'>Buy Package</a>
+                                            <div className="text-center marg-min">
+                                                <a href="/" className='btn btn-dark rounded-pill btn-lg'>Buy Package</a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div className="col-md-4">
@@ -174,7 +176,9 @@ const PricingTabs = () => {
                                                     <li>Phone Support</li>
                                                 </ul>
                                             </div>
-                                            <a href="/" className='btn btn-dark rounded-pill'>Buy Package</a>
+                                            <div className="text-center marg-min">
+                                                <a href="/" className='btn btn-dark rounded-pill btn-lg'>Buy Package</a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div className="col-md-4">
@@ -265,7 +269,9 @@ const PricingTabs = () => {
                                                     <li>Phone Support</li>
                                                 </ul>
                                             </div>
-                                            <a href="/" className='btn btn-dark rounded-pill'>Buy Package</a>
+                                            <div className="text-center marg-min">
+                                                <a href="/" className='btn btn-dark rounded-pill btn-lg'>Buy Package</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -273,7 +279,7 @@ const PricingTabs = () => {
                             <Tab eventKey={1} title="Social Media Marketing (SMM)">
                                 <div className="row mt-2 mb-4">
                                     <div className="col-md-4">
-                                        <div className="price-box mt-4">
+                                        <div className="price-box mt-4 middle-tab">
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Essential</h4>
@@ -300,11 +306,13 @@ const PricingTabs = () => {
                                                     <li>2 Platforms</li>
                                                 </ul>
                                             </div>
-                                            <a href="/" className='btn btn-dark rounded-pill'>Buy Package</a>
+                                            <div className="text-center marg-min">
+                                                <a href="/" className='btn btn-dark rounded-pill btn-lg'>Buy Package</a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div className="col-md-4">
-                                        <div className="price-box mt-4">
+                                        <div className="price-box mt-4 middle-tab">
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Standard</h4>
@@ -336,11 +344,13 @@ const PricingTabs = () => {
                                                     <li>4 Platforms</li>
                                                 </ul>
                                             </div>
-                                            <a href="/" className='btn btn-dark rounded-pill'>Buy Package</a>
+                                            <div className="text-center marg-min">
+                                                <a href="/" className='btn btn-dark rounded-pill btn-lg'>Buy Package</a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div className="col-md-4">
-                                        <div className="price-box mt-4">
+                                        <div className="price-box mt-4 middle-tab">
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Professional</h4>
@@ -372,7 +382,9 @@ const PricingTabs = () => {
                                                     <li>Unlimited Platforms</li>
                                                 </ul>
                                             </div>
-                                            <a href="/" className='btn btn-dark rounded-pill'>Buy Package</a>
+                                            <div className="text-center marg-min">
+                                                <a href="/" className='btn btn-dark rounded-pill btn-lg'>Buy Package</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -380,7 +392,7 @@ const PricingTabs = () => {
                             <Tab eventKey={2} title="Pro Marketing Plans">
                                 <div className="row mt-2 mb-4">
                                     <div className="col-md-4">
-                                        <div className="price-box mt-4">
+                                        <div className="price-box mt-4 middle-tab">
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Essential</h4>
@@ -429,11 +441,13 @@ const PricingTabs = () => {
                                                     <li>2 Platforms</li>
                                                 </ul>
                                             </div>
-                                            <a href="/" className='btn btn-dark rounded-pill'>Buy Package</a>
+                                            <div className="text-center marg-min">
+                                                <a href="/" className='btn btn-dark rounded-pill btn-lg'>Buy Package</a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div className="col-md-4">
-                                        <div className="price-box mt-4">
+                                        <div className="price-box mt-4 middle-tab">
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Standard</h4>
@@ -489,11 +503,13 @@ const PricingTabs = () => {
                                                     <li>4 Platforms</li>
                                                 </ul>
                                             </div>
-                                            <a href="/" className='btn btn-dark rounded-pill'>Buy Package</a>
+                                            <div className="text-center marg-min">
+                                                <a href="/" className='btn btn-dark rounded-pill btn-lg'>Buy Package</a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div className="col-md-4">
-                                        <div className="price-box mt-4">
+                                        <div className="price-box mt-4 middle-tab">
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Professional</h4>
@@ -549,7 +565,9 @@ const PricingTabs = () => {
                                                     <li>Unlimited Platforms</li>
                                                 </ul>
                                             </div>
-                                            <a href="/" className='btn btn-dark rounded-pill'>Buy Package</a>
+                                            <div className="text-center marg-min">
+                                                <a href="/" className='btn btn-dark rounded-pill btn-lg'>Buy Package</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -557,7 +575,7 @@ const PricingTabs = () => {
                             <Tab eventKey={3} title="Website Design and Development">
                                 <div className="row mt-2 mb-4">
                                     <div className="col-md-4">
-                                        <div className="price-box mt-4">
+                                        <div className="price-box mt-4 middle-tab">
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Essential</h4>
@@ -590,11 +608,13 @@ const PricingTabs = () => {
                                                     <li>100% Unique Design Guarantee</li>
                                                 </ul>
                                             </div>
-                                            <a href="/" className='btn btn-dark rounded-pill'>Buy Package</a>
+                                            <div className="text-center marg-min">
+                                                <a href="/" className='btn btn-dark rounded-pill btn-lg'>Buy Package</a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div className="col-md-4">
-                                        <div className="price-box mt-4">
+                                        <div className="price-box mt-4 middle-tab">
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Standard</h4>
@@ -628,11 +648,13 @@ const PricingTabs = () => {
                                                     <li>100% Unique Design Guarantee</li>
                                                 </ul>
                                             </div>
-                                            <a href="/" className='btn btn-dark rounded-pill'>Buy Package</a>
+                                            <div className="text-center marg-min">
+                                                <a href="/" className='btn btn-dark rounded-pill btn-lg'>Buy Package</a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div className="col-md-4">
-                                        <div className="price-box mt-4">
+                                        <div className="price-box mt-4 middle-tab">
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Professional</h4>
@@ -670,7 +692,9 @@ const PricingTabs = () => {
                                                     <li>100% Unique Design Guarantee</li>
                                                 </ul>
                                             </div>
-                                            <a href="/" className='btn btn-dark rounded-pill'>Buy Package</a>
+                                            <div className="text-center marg-min">
+                                                <a href="/" className='btn btn-dark rounded-pill btn-lg'>Buy Package</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

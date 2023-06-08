@@ -608,7 +608,7 @@ a {
   padding: 26px;
   border-radius: 12px;
   margin: 0px 26px;
-  height: 526px;
+  /* height: 520px; */
   background-color: #fff;
 }
 .slimScrollBar {
@@ -618,7 +618,7 @@ a {
 }
 .middle-tab {
   background-image: url(./Images/block-tilt.png);
-  background-size: contain;
+  background-size: 112%;
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -658,4 +658,7 @@ a {
 .slimScrollBar::-webkit-scrollbar-track {
   background-color: #dbdbdb;
   border-radius: 6px;
+}
+.marg-min {
+  margin-bottom: -50px;
 }
