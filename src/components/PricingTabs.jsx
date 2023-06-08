@@ -15,7 +15,7 @@ const PricingTabs = () => {
                             <Tab eventKey={0} title="Search Engine Optimization (SEO)">
                                 <div className="row mt-2 mb-4">
                                     <div className="col-md-4">
-                                        <div className="price-box">
+                                        <div className="price-box mt-4">
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Essential</h4>
@@ -90,7 +90,7 @@ const PricingTabs = () => {
                                         </div>
                                     </div>
                                     <div className="col-md-4">
-                                        <div className="price-box">
+                                        <div className="price-box mt-4">
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Standard</h4>
@@ -178,7 +178,7 @@ const PricingTabs = () => {
                                         </div>
                                     </div>
                                     <div className="col-md-4">
-                                        <div className="price-box">
+                                        <div className="price-box mt-4">
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Professional</h4>
@@ -273,7 +273,7 @@ const PricingTabs = () => {
                             <Tab eventKey={1} title="Social Media Marketing (SMM)">
                                 <div className="row mt-2 mb-4">
                                     <div className="col-md-4">
-                                        <div className="price-box">
+                                        <div className="price-box mt-4">
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Essential</h4>
@@ -304,7 +304,7 @@ const PricingTabs = () => {
                                         </div>
                                     </div>
                                     <div className="col-md-4">
-                                        <div className="price-box">
+                                        <div className="price-box mt-4">
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Standard</h4>
@@ -340,7 +340,7 @@ const PricingTabs = () => {
                                         </div>
                                     </div>
                                     <div className="col-md-4">
-                                        <div className="price-box">
+                                        <div className="price-box mt-4">
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Professional</h4>
@@ -380,7 +380,7 @@ const PricingTabs = () => {
                             <Tab eventKey={2} title="Pro Marketing Plans">
                                 <div className="row mt-2 mb-4">
                                     <div className="col-md-4">
-                                        <div className="price-box">
+                                        <div className="price-box mt-4">
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Essential</h4>
@@ -433,7 +433,7 @@ const PricingTabs = () => {
                                         </div>
                                     </div>
                                     <div className="col-md-4">
-                                        <div className="price-box">
+                                        <div className="price-box mt-4">
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Standard</h4>
@@ -493,7 +493,7 @@ const PricingTabs = () => {
                                         </div>
                                     </div>
                                     <div className="col-md-4">
-                                        <div className="price-box">
+                                        <div className="price-box mt-4">
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Professional</h4>
@@ -557,7 +557,7 @@ const PricingTabs = () => {
                             <Tab eventKey={3} title="Website Design and Development">
                                 <div className="row mt-2 mb-4">
                                     <div className="col-md-4">
-                                        <div className="price-box">
+                                        <div className="price-box mt-4">
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Essential</h4>
@@ -594,7 +594,7 @@ const PricingTabs = () => {
                                         </div>
                                     </div>
                                     <div className="col-md-4">
-                                        <div className="price-box">
+                                        <div className="price-box mt-4">
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Standard</h4>
@@ -632,7 +632,7 @@ const PricingTabs = () => {
                                         </div>
                                     </div>
                                     <div className="col-md-4">
-                                        <div className="price-box">
+                                        <div className="price-box mt-4">
                                             <div className="d-flex">
                                                 <div className="price">
                                                     <h4 className="fw-bold">Professional</h4>
