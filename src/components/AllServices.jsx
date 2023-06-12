@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMagnifyingGlassChart, faSquarePollVertical, faCode, faPenNib } from '@fortawesome/free-solid-svg-icons';
+import { faMagnifyingGlassChart, faSquarePollVertical, faCode, faPenNib, faBullhorn, faThumbsUp, faSignature, faSquarePen } from '@fortawesome/free-solid-svg-icons';
 const AllServices = () => {
     return (
         <>
@@ -13,7 +13,7 @@ const AllServices = () => {
                             <div className="flip-box-inner">
                                 <div className="flip-box-front d-flex align-items-center justify-content-center">
                                     <div>
-                                        <FontAwesomeIcon icon={faMagnifyingGlassChart} />
+                                        <FontAwesomeIcon icon={faPenNib} />
                                         <h4 className='fw-bold'>Graphics Design</h4>
                                     </div>
                                 </div>
@@ -64,7 +64,7 @@ const AllServices = () => {
                             <div className="flip-box-inner">
                                 <div className="flip-box-front d-flex align-items-center justify-content-center">
                                     <div>
-                                        <FontAwesomeIcon icon={faPenNib} />
+                                        <FontAwesomeIcon icon={faMagnifyingGlassChart} />
                                         <h4 className='fw-bold'>Search Engine Optimization (SEO)</h4>
                                     </div>
                                 </div>
@@ -83,7 +83,7 @@ const AllServices = () => {
                             <div className="flip-box-inner">
                                 <div className="flip-box-front d-flex align-items-center justify-content-center">
                                     <div>
-                                        <FontAwesomeIcon icon={faPenNib} />
+                                        <FontAwesomeIcon icon={faBullhorn} />
                                         <h4 className='fw-bold'>Google Ads Management</h4>
                                     </div>
                                 </div>
@@ -100,7 +100,7 @@ const AllServices = () => {
                             <div className="flip-box-inner">
                                 <div className="flip-box-front d-flex align-items-center justify-content-center">
                                     <div>
-                                        <FontAwesomeIcon icon={faPenNib} />
+                                        <FontAwesomeIcon icon={faThumbsUp} />
                                         <h4 className='fw-bold'>Social Media Marketing</h4>
                                     </div>
                                 </div>
@@ -117,7 +117,7 @@ const AllServices = () => {
                             <div className="flip-box-inner">
                                 <div className="flip-box-front d-flex align-items-center justify-content-center">
                                     <div>
-                                        <FontAwesomeIcon icon={faPenNib} />
+                                        <FontAwesomeIcon icon={faSignature} />
                                         <h4 className='fw-bold'>Content Marketing</h4>
                                     </div>
                                 </div>
@@ -134,7 +134,7 @@ const AllServices = () => {
                             <div className="flip-box-inner">
                                 <div className="flip-box-front d-flex align-items-center justify-content-center">
                                     <div>
-                                        <FontAwesomeIcon icon={faPenNib} />
+                                        <FontAwesomeIcon icon={faSquarePen} />
                                         <h4 className='fw-bold'>Website Content</h4>
                                     </div>
                                 </div>
