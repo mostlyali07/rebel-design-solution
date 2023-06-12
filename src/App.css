@@ -494,10 +494,15 @@ a {
 .accordion-button:focus {
   border-color: #000 !important;
 }
-.flip-box {
+.flip-box-orange {
   background-image: linear-gradient(to right, #f75515 50%, #222222 50%);
-  width: 350px;
-  height: 350px;
+}
+.flip-box-black {
+  background-image: linear-gradient(to right, #222222 50%, #f75515 50%);
+}
+.flip-box {
+  width: 285px;
+  height: 320px;
   box-shadow: 0px 5px 31px -14px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 0px 5px 31px -14px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 5px 31px -14px rgba(0, 0, 0, 0.75);
@@ -539,7 +544,11 @@ a {
   -moz-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.28);
 }
 .flip-box-front h4 {
+  font-size: 20px;
   color: #fff;
+}
+.flip-box-back p {
+  font-size: 14px;
 }
 .flip-box-back {
   color: #000;
@@ -548,10 +557,10 @@ a {
   padding: 12px;
 }
 .flip-box-front svg {
-  font-size: 29px;
+  font-size: 24px;
   background-color: #fff;
   border-radius: 100%;
-  padding: 16px;
+  padding: 18px 18px;
   margin-bottom: 26px;
 }
 .one {

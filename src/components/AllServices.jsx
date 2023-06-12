@@ -8,8 +8,8 @@ const AllServices = () => {
                     <h2 className='fw-bold text-center pb-4'>
                         Design. Develop. Deliver: Experience Our Suite of Services
                     </h2>
-                    <div className="col-md-4 d-flex justify-content-center">
-                        <div className="flip-box">
+                    <div className="col-md-3 d-flex justify-content-center">
+                        <div className="flip-box flip-box-orange">
                             <div className="flip-box-inner">
                                 <div className="flip-box-front d-flex align-items-center justify-content-center">
                                     <div>
@@ -26,8 +26,8 @@ const AllServices = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 d-flex justify-content-center">
-                        <div className="flip-box">
+                    <div className="col-md-3 d-flex justify-content-center">
+                        <div className="flip-box flip-box-black">
                             <div className="flip-box-inner">
                                 <div className="flip-box-front d-flex align-items-center justify-content-center">
                                     <div>
@@ -43,8 +43,8 @@ const AllServices = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 d-flex justify-content-center">
-                        <div className="flip-box">
+                    <div className="col-md-3 d-flex justify-content-center">
+                        <div className="flip-box flip-box-orange">
                             <div className="flip-box-inner">
                                 <div className="flip-box-front d-flex align-items-center justify-content-center">
                                     <div>
@@ -59,10 +59,8 @@ const AllServices = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="row mt-5">
-                    <div className="col-md-4 d-flex justify-content-center">
-                        <div className="flip-box">
+                    <div className="col-md-3 d-flex justify-content-center">
+                        <div className="flip-box flip-box-black">
                             <div className="flip-box-inner">
                                 <div className="flip-box-front d-flex align-items-center justify-content-center">
                                     <div>
@@ -78,8 +76,10 @@ const AllServices = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 d-flex justify-content-center">
-                        <div className="flip-box">
+                </div>
+                <div className="row mt-5">
+                    <div className="col-md-3 d-flex justify-content-center">
+                        <div className="flip-box flip-box-black">
                             <div className="flip-box-inner">
                                 <div className="flip-box-front d-flex align-items-center justify-content-center">
                                     <div>
@@ -95,8 +95,8 @@ const AllServices = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 d-flex justify-content-center">
-                        <div className="flip-box">
+                    <div className="col-md-3 d-flex justify-content-center">
+                        <div className="flip-box flip-box-orange">
                             <div className="flip-box-inner">
                                 <div className="flip-box-front d-flex align-items-center justify-content-center">
                                     <div>
@@ -112,11 +112,8 @@ const AllServices = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="row mt-5">
-                    <div className="col-md-4"></div>
-                    <div className="col-md-4 d-flex justify-content-center">
-                        <div className="flip-box">
+                    <div className="col-md-3 d-flex justify-content-center">
+                        <div className="flip-box flip-box-black">
                             <div className="flip-box-inner">
                                 <div className="flip-box-front d-flex align-items-center justify-content-center">
                                     <div>
@@ -132,8 +129,25 @@ const AllServices = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4"></div>
+                    <div className="col-md-3 d-flex justify-content-center">
+                        <div className="flip-box flip-box-orange">
+                            <div className="flip-box-inner">
+                                <div className="flip-box-front d-flex align-items-center justify-content-center">
+                                    <div>
+                                        <FontAwesomeIcon icon={faPenNib} />
+                                        <h4 className='fw-bold'>Website Content</h4>
+                                    </div>
+                                </div>
+                                <div className="flip-box-back d-flex align-items-center">
+                                    <p>
+                                        Our content service creates captivating, persuasive website copy. We optimize for SEO, driving traffic and boosting conversions. With attention to detail and audience understanding, we enhance your online presence and leave a lasting impression.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </>
     )
