@@ -495,9 +495,7 @@ a {
   border-color: #000 !important;
 }
 .flip-box {
-  background-image: url(./Images/Flip-Bgd.jpg);
-  background-size: cover;
-  /* background-color: transparent; */
+  background-image: linear-gradient(to right, #f75515 50%, #222222 50%);
   width: 350px;
   height: 350px;
   box-shadow: 0px 5px 31px -14px rgba(0, 0, 0, 0.75);
@@ -505,6 +503,7 @@ a {
   -moz-box-shadow: 0px 5px 31px -14px rgba(0, 0, 0, 0.75);
   perspective: 1000px;
   border-radius: 6px;
+  padding: 20px;
 }
 .flip-box-inner {
   position: relative;
@@ -531,13 +530,22 @@ a {
 }
 
 .flip-box-front {
-  background: #ffffffa0;
-  color: black;
+  color: #000;
+  border-radius: 6px;
+  border: #ffffff 2px solid;
+  background-color: #f75515;
+  box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.28);
+  -webkit-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.28);
+}
+.flip-box-front h4 {
+  color: #fff;
 }
 .flip-box-back {
   color: #000;
   transform: rotateY(180deg);
-  background: #ffffffc8;
+  background: #fff;
+  padding: 12px;
 }
 .flip-box-front svg {
   font-size: 29px;

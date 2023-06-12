@@ -18,7 +18,13 @@ const VertForm = () => {
                         <input type="tel" placeholder="YOUR PHONE" name="quote[phone]" className="input-feilds" required />
 
                         <input type="text" placeholder="YOUR WEBSITE" name="quote[website]" className="input-feilds" required />
-
+                        <select id="services" className="input-feilds" required>
+                            <option disabled selected>Please Select a Service</option>
+                            <option>Search Engine Optimization (SEO)</option>
+                            <option>Google Ads Management</option>
+                            <option>Social Media Marketing</option>
+                            <option>Website Design & Development</option>
+                        </select>
                         <button className="btns-one">ANALYZE</button>
                     </form>
 

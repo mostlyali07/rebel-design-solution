@@ -8,7 +8,7 @@ const Ourprocess = () => {
                         OUR SEO PROCESS
                     </h5> */}
                     <h2 className='fw-bold text-center pb-2'>
-                        The Roadmap to Extraordinary: Inside Our Process
+                        The <span style={{ color: '#f75515' }}> Roadmap to Extraordinary</span>: Inside Our Process
                     </h2>
                     <p className="text-center pb-4">
                         With a keen focus on detail and a commitment to excellence, our process ensures we deliver remarkable results beyond expectations.
