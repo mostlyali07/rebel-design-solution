@@ -187,6 +187,16 @@ header {
   font-size: 20px;
   font-weight: 600;
 }
+.service-banner {
+  background-image: url(./Images/rebel-side.png);
+  background-repeat: no-repeat;
+  background-position-x: -20px;
+  background-position-y: 102px;
+  background-size: 13%;
+  background-color: #f75515;
+  color: #fff;
+  padding-top: 110px;
+}
 .contect-banner {
   background-image: url(./Images/rebel-side.png);
   background-repeat: no-repeat;
@@ -690,7 +700,7 @@ a {
   opacity: 1;
   transform: scale(1);
 }
-.img-faq{
+.img-faq {
   object-fit: contain;
   width: 550px;
 }
