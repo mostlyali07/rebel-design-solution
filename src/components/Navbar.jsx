@@ -38,11 +38,14 @@ const Navbar = () => {
                                         All Services
                                     </Link>
                                     <ul className="dropdown-menu">
+                                        <li><Link className="dropdown-item" to="/graphics-design-services">Graphics Design</Link></li>
+                                        <li><Link className="dropdown-item" to="/website-design-development-services">Website Design & Development</Link></li>
                                         <li><Link className="dropdown-item" to="/app-development-services">App Development</Link></li>
-                                        <li><Link className="dropdown-item" to="/seo-services">Search Engine Optimization</Link></li>
+                                        <li><Link className="dropdown-item" to="/seo-services">Search Engine Optimization (SEO)</Link></li>
                                         <li><Link className="dropdown-item" to="/google-ads-management-services">Google Ads Management</Link></li>
-                                        <li><Link className="dropdown-item" to="/social-media-services">Social Media marketing</Link></li>
-                                        <li><Link className="dropdown-item" to="/website-design-development-services">Website Design &amp; Development</Link></li>
+                                        <li><Link className="dropdown-item" to="/social-media-marketing-services">Social Media Marketing</Link></li>
+                                        <li><Link className="dropdown-item" to="/content-marketing-services">Content Marketing</Link></li>
+                                        <li><Link className="dropdown-item" to="/website-content-services">Website Content</Link></li>
                                     </ul>
                                 </li>
                                 <li className="nav-item">
