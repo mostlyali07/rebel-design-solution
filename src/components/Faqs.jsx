@@ -1,4 +1,5 @@
-import React from 'react'
+import FAQs from "../Images/FAQs.jpg"
+
 
 const Faqs = () => {
     return (
@@ -6,7 +7,7 @@ const Faqs = () => {
             <div className="container py-5">
                 <div className="row">
                     <div className="col-md-6 d-flex justify-content-center">
-                        <img src={"https://webandseoexperts.com/Assets/images/SEO-7.png"} alt="" width={450} />
+                        <img src={FAQs} className="img-faq" width={450} />
                     </div>
                     <div className="col-md-6">
                         <div className="accordion" id="accordionExample">

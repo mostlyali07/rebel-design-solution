@@ -690,3 +690,7 @@ a {
   opacity: 1;
   transform: scale(1);
 }
+.img-faq{
+  object-fit: contain;
+  width: 550px;
+}

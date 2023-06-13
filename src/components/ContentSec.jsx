@@ -5,7 +5,7 @@ const ContentSec = ({ text, descrp, src }) => {
         <div className='right-side your-animation-class'>
             <div className="container my-5 py-5">
                 <div className="row">
-                    <div className="col-md-6 text-center">
+                    <div className="col-md-6 d-flex align-items-center justify-content-center">
                         <img src={src} className="cus-width" />
                     </div>
                     <div className="col-md-6 d-flex align-items-center">
