@@ -49,6 +49,11 @@ const SearchEngineOptimization = () => {
             />
             <Ourprocess />
             <PricingTabs />
+            <ContentSec
+                src={secImg}
+                text={"Lorem ipsum dolor sit amet consectetur adipisicing elit"}
+                descrp={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptatum atque, voluptas voluptate esse quis molestiae odit! Nihil, itaque, earum atque esse excepturi corrupti, eum incidunt dicta laboriosam nam fuga.Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptatum atque, voluptas voluptate esse quis molestiae odit! Nihil, itaque, earum atque esse excepturi corrupti, eum incidunt dicta laboriosam nam fuga."}
+            />
             <Cta
                 ctAtext="Join the Rebellion for Extraordinary Results!"
                 ctAdescrp="Step into a world of limitless possibilities where creativity knows no bounds. Take advantage of this opportunity to join the rebellion and unlock the path to unprecedented success."

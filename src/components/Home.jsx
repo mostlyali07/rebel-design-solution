@@ -15,6 +15,8 @@ import WEB from "../Images/main-picture.png";
 import secImg from "../Images/sec-img.png"
 import thirdImg from "../Images/third-sec.webp"
 import fouImg from "../Images/fourth-sec.png"
+
+
 const Home = () => {
 
     return (
