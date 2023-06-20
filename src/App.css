@@ -705,5 +705,9 @@ a {
   width: 550px;
 }
 .pop-img{
-  background-image: url();
+  background-image: url(./Images/patterns.jpg);
+  height: 200px;
+}
+.modal-body{
+  padding: 0px !important;
 }
