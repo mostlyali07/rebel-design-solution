@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Modal, Button } from 'react-bootstrap';
+import { Modal } from 'react-bootstrap';
 const Popup = () => {
     const [showPopup, setShowPopup] = useState(false);
 
@@ -15,17 +15,16 @@ const Popup = () => {
 
     return (
         <Modal show={showPopup} onHide={() => setShowPopup(false)} centered className="modal-xl">
-            <Modal.Header closeButton>
-                <Modal.Title>Welcome to the Popup</Modal.Title>
-            </Modal.Header>
-            <Modal.Body>
-                <p>This is a Bootstrap popup that appears after 4 seconds.</p>
+            <Modal.Body closeButton>
+                <div className="row">
+                    <div className="pop-img">
+                        <div className="col-md-6">
+
+                        </div>
+                    </div>
+                    <div className="col-md-6"></div>
+                </div>
             </Modal.Body>
-            <Modal.Footer>
-                <Button variant="secondary" onClick={() => setShowPopup(false)} className='btns-three'>
-                    Close
-                </Button>
-            </Modal.Footer>
         </Modal>
     );
 };

@@ -704,3 +704,6 @@ a {
   object-fit: contain;
   width: 550px;
 }
+.pop-img{
+  background-image: url();
+}
