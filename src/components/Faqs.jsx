@@ -7,7 +7,9 @@ const Faqs = () => {
             <div className="container py-5">
                 <div className="row">
                     <div className="col-md-6 d-flex justify-content-center">
-                        <img src={FAQs} className="img-faq" width={450} />
+                        <div className="tilt-container">
+                            <img src={FAQs} className="img-faq tilt-image" alt="Rebel" width={450} />
+                        </div>
                     </div>
                     <div className="col-md-6">
                         <div className="accordion" id="accordionExample">

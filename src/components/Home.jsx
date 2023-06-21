@@ -17,11 +17,7 @@ import thirdImg from "../Images/third-sec.webp"
 import fouImg from "../Images/fourth-sec.png"
 import Popup from './Popup';
 
-const TiltedImage = ({ src, alt }) => (
-    <div className="tilt-container">
-        <img className="tilt-image" src={src} alt={alt} width={450} />
-    </div>
-);
+
 
 const Home = () => {
 
@@ -45,7 +41,9 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="col-md-6 d-flex justify-content-center">
-                            <TiltedImage src={WEB} alt="Rebel" />
+                            <div className="tilt-container">
+                                <img className="tilt-image" src={WEB} alt="Rebel" width={450} />
+                            </div>
                         </div>
                         <VertForm />
                     </div>

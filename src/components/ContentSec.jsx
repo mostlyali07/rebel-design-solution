@@ -6,7 +6,9 @@ const ContentSec = ({ text, descrp, src }) => {
             <div className="container my-5 py-5">
                 <div className="row">
                     <div className="col-md-6 d-flex align-items-center justify-content-center">
-                        <img src={src} className="cus-width" />
+                        <div className="tilt-container">
+                            <img className="tilt-image cus-width" src={src} alt="Rebel" width={450} />
+                        </div>
                     </div>
                     <div className="col-md-6 d-flex align-items-center">
                         <div>
