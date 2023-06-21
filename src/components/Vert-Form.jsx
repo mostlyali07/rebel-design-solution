@@ -19,7 +19,7 @@ const VertForm = () => {
 
                         <input type="text" placeholder="YOUR WEBSITE" name="quote[website]" className="input-feilds" required />
                         <select id="services" className="input-feilds" required>
-                            <option disabled selected>Please Select a Service</option>
+                            <option disabled selected>PLEASE SELECT A SERVICES</option>
                             <option>Search Engine Optimization (SEO)</option>
                             <option>Google Ads Management</option>
                             <option>Social Media Marketing</option>

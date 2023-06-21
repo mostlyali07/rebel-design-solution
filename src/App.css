@@ -14,7 +14,6 @@ header {
   left: 0;
   width: 100%;
   background-color: #f75515;
-  z-index: 9999999;
   transition: all 0.3s ease-in-out;
 }
 .navbar-nav .nav-link {
@@ -704,10 +703,31 @@ a {
   object-fit: contain;
   width: 550px;
 }
-.pop-img{
+.pop-img {
   background-image: url(./Images/patterns.jpg);
-  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.modal-body{
+.modal-body {
   padding: 0px !important;
+}
+.popup-close-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  color: #111;
+  font-size: 32px;
+}
+.tilt-container {
+  perspective: 1000px;
+  display: inline-block;
+}
+
+.tilt-image {
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.tilt-container:hover .tilt-image {
+  transform: rotateX(10deg) rotateY(15deg);
 }
