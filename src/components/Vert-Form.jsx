@@ -10,7 +10,7 @@ const VertForm = () => {
             <div className='heighs d-flex justify-content-center align-items-center mt-3'>
                 <div>
 
-                    <form className="vert-form form-get-quote">
+                    <form className="vert-form form-get-quote text-center">
                         <input type="text" placeholder="YOUR NAME" name="quote[name]" className="input-feilds" required />
 
                         <input type="email" placeholder="YOUR EMAIL" name="quote[email]" className="input-feilds" required />

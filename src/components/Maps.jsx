@@ -25,7 +25,7 @@ const Maps = () => {
     return (
         <>
             <div className="text-center mb-3">
-                <h2 className='fw-bold'>
+                <h2 className='fw-bold rand'>
                     Breaking Boundaries, Connecting Continents: <br /> Our Worldwide Service Network
                 </h2>
             </div>
