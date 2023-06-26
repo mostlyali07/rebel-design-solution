@@ -40,9 +40,9 @@ const Home = () => {
                                 <button className="btns-one" type="submit">Analyze My Site</button>
                             </div>
                         </div>
-                        <div className="col-md-6 d-flex justify-content-center">
-                            <div className="tilt-container">
-                                <img className="tilt-image" src={WEB} alt="Rebel" width={450} />
+                        <div className="col-md-6">
+                            <div className="tilt-container d-flex justify-content-center align-items-center">
+                                <img className="tilt-image" src={WEB} alt="Rebel" />
                             </div>
                         </div>
                         <VertForm />

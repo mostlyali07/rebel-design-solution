@@ -726,7 +726,7 @@ a {
 .tilt-image {
   transform-style: preserve-3d;
   transition: transform 0.5s;
-  width: 360px;
+  width: 450px;
 }
 
 .tilt-container:hover .tilt-image {
@@ -740,6 +740,11 @@ a {
   background-image: url(./Images/bars-solid.svg);
   width: 20px;
   height: 20px;
+}
+.mid-main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 @media only screen and (max-width: 600px) {
   .vert-form {
@@ -782,7 +787,22 @@ a {
   .parent {
     display: none;
   }
-  .rand{
+  .rand {
     display: none;
+  }
+  .tilt-image {
+    width: 350px;
+  }
+  .navbar-collapse {
+    padding: 26px;
+    background-color: #040406;
+    z-index: 999;
+    border-radius: 6px;
+  }
+  .rev-slide {
+    background-position: top left, 96% 450px;
+  }
+  .review-back img {
+    width: 75%;
   }
 }
