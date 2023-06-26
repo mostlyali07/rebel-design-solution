@@ -734,7 +734,9 @@ a {
   transition: transform 0.5s;
   width: 450px;
 }
-
+.fix {
+  width: 450px;
+}
 .tilt-container:hover .tilt-image {
   transform: rotateX(10deg) rotateY(15deg);
 }
@@ -797,6 +799,9 @@ a {
     display: none;
   }
   .tilt-image {
+    width: 350px;
+  }
+  .fix {
     width: 350px;
   }
   .navbar-collapse {

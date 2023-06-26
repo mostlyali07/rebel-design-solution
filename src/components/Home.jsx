@@ -40,10 +40,8 @@ const Home = () => {
                                 <button className="btns-one" type="submit">Analyze My Site</button>
                             </div>
                         </div>
-                        <div className="col-md-6">
-                            <div className="tilt-container d-flex justify-content-center align-items-center">
-                                <img className="tilt-image" src={WEB} alt="Rebel" />
-                            </div>
+                        <div className="col-md-6 d-flex justify-content-center align-items-center">
+                            <img className="fix" src={WEB} alt="Rebel" />
                         </div>
                         <VertForm />
                     </div>
@@ -80,7 +78,15 @@ const Home = () => {
                 ctAtext="Join the Rebellion for Extraordinary Results!"
                 ctAdescrp="Step into a world of limitless possibilities where creativity knows no bounds. Take advantage of this opportunity to join the rebellion and unlock the path to unprecedented success."
             />
-            <Ourprocess />
+            <Ourprocess
+                prcsMain="The Roadmap to Extraordinary: Inside Our Process"
+                prcsPara="With a keen focus on detail and a commitment to excellence, our process ensures we deliver remarkable results beyond expectations."
+                prcsOne="Discovery and Understanding"
+                prcsTwo="Strategic Planning"
+                prcsThree="Creative Conceptualization"
+                prcsFour="Meticulous Execution"
+                prcsFive="Continuous Improvement"
+            />
             <PricingTabs />
             <ContentSec
                 src={thirdImg}
@@ -100,7 +106,18 @@ const Home = () => {
             />
             <Reviews />
 
-            <Faqs />
+            <Faqs
+                faqOneQ="Q: What differentiates Rebel Design Solution from other design and marketing agencies?"
+                faqOneA="A: At Rebel Design Solution, we embrace a rebellious spirit that fuels our creativity and innovative approach. We go beyond the ordinary, pushing the boundaries of design and marketing to deliver extraordinary results that leave a lasting impression. Our team of visionary designers, digital experts, and content connoisseurs are passionate about challenging the status quo and crafting remarkable brand experiences."
+                faqTwoQ="Q: What industries do you specialize in?"
+                faqTwoA="A: We cater to a diverse range of industries, including but not limited to technology, fashion, hospitality, e-commerce, and healthcare. Our team's expertise allows us to adapt to various sectors and deliver tailored solutions that align with each industry's unique needs and objectives."
+                faqThreeQ="Q: How do you ensure effective communication and collaboration throughout the project?"
+                faqThreeA="A: Communication is key to our success. We prioritize open and transparent communication with our clients, ensuring we understand their vision, goals, and preferences. Our project management systems facilitate seamless collaboration, allowing real-time updates, feedback, and a shared understanding of project milestones and progress."
+                faqFourQ="Q: Can you handle both small and large-scale projects?"
+                faqFourA="A: Absolutely! We have experience working with businesses of all sizes, from startups to established enterprises. Our team is equipped to handle projects of various scales, offering customized solutions tailored to each client's unique requirements and budgets."
+                faqFiveQ="Q: What is your approach to delivering measurable results?"
+                faqFiveA="A: We believe in data-driven strategies and continuous improvement. Our approach combines creativity with analytics to ensure our efforts generate tangible results. We establish key performance indicators (KPIs) at the start of each project and regularly monitor and analyze metrics to measure the impact of our design and marketing efforts. This data-driven approach allows us to make data-backed decisions and optimize campaigns for significant ROI."
+            />
             <Awards />
             <Popup />
         </>

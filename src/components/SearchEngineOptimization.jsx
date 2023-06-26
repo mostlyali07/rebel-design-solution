@@ -67,18 +67,46 @@ const SearchEngineOptimization = () => {
                 serSeven={"GMB Optimization"}
                 desSeven={"Optimize your Google My Business profile to enhance local visibility, attract more customers, and drive foot traffic to your business."}
             />
-            <Ourprocess />
+            <Ourprocess
+                prcsMain="Rebelize Your SEO Strategy: Unveiling the Path to Digital Domination"
+                prcsPara="Ignite your SEO strategy and conquer the digital realm with our rebellious approach to achieve unrivaled online dominance."
+                prcsOne="Discovery and Analysis"
+                prcsTwo="Keyword Research and Strategy"
+                prcsThree="On-Page Optimization"
+                prcsFour="Off-Page Optimization and Link Building"
+                prcsFive="Tracking and Reporting"
+            />
+            <Cta
+                ctAtext="Rise to the Top of Google – Embrace the Power of Google SEO Services!"
+                ctAdescrp="Harness the immense power of Google with our specialized SEO services tailored to boost your rankings."
+            />
+            <ContentSec
+                src={secImg}
+                text={"Fully Managed SEO Services for Your Brand's Success"}
+                descrp={"Take the stress out of SEO with our fully managed services. Our rebellious team will handle every aspect of your SEO strategy, from initial analysis to ongoing optimization. We'll conduct in-depth keyword research, optimize your website's on-page elements, create compelling content, build high-quality backlinks, and continuously monitor your performance to ensure maximum impact. With our fully managed SEO services, you can focus on your core business while we take care of your brand's online visibility."}
+            />
             <PricingTabs />
             <ContentSec
                 src={secImg}
-                text={"Lorem ipsum dolor sit amet consectetur adipisicing elit"}
-                descrp={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptatum atque, voluptas voluptate esse quis molestiae odit! Nihil, itaque, earum atque esse excepturi corrupti, eum incidunt dicta laboriosam nam fuga.Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptatum atque, voluptas voluptate esse quis molestiae odit! Nihil, itaque, earum atque esse excepturi corrupti, eum incidunt dicta laboriosam nam fuga."}
+                text={"Partner with a Rebellious SEO Optimization Service"}
+                descrp={"Partnering with Rebel Design Solution means collaborating with a rebellious SEO optimization service that understands the intricacies of the digital landscape. We go beyond the basics of SEO, employing advanced techniques and staying up-to-date with the latest industry trends. Our rebellious team takes a holistic approach, considering your brand's unique identity, target audience, and business objectives to create a customized SEO strategy that delivers exceptional results. Trust Rebel Design Solution to be your partner in revolutionizing your brand's SEO efforts."}
             />
             <Cta
-                ctAtext="Join the Rebellion for Extraordinary Results!"
-                ctAdescrp="Step into a world of limitless possibilities where creativity knows no bounds. Take advantage of this opportunity to join the rebellion and unlock the path to unprecedented success."
+                ctAtext="Sit Back, Relax, and Dominate – Start Buying SEO Services Now!"
+                ctAdescrp="Let our expert team handle every aspect of your SEO strategy while you focus on your core business - dominate the search results with ease."
             />
-            <Faqs />
+            <Faqs
+                faqOneQ="Q1: What are the key benefits of hiring professional SEO services?"
+                faqOneA="Ans: Professional SEO services offer numerous benefits, including increased website visibility, higher organic rankings, targeted traffic, improved user experience, higher conversions, and a competitive edge in the digital landscape. At Rebel Design Solution, our expert team utilizes industry best practices and cutting-edge strategies to deliver these advantages and help your brand thrive online."
+                faqTwoQ="Q2: How can buying SEO services benefit my business?"
+                faqTwoA="Ans: Buying SEO services can benefit your business by saving you time and resources, as you'll have a team of experienced professionals handling your SEO strategy. Our rebellious SEO services at Rebel Design Solution are designed to deliver tangible results, helping you increase organic traffic, improve search engine rankings, and generate more leads and revenue for your business."
+                faqThreeQ="Q3: What sets Google SEO services apart from other SEO services?"
+                faqThreeA="Ans: Google SEO services focus specifically on optimizing your website to meet Google's ranking algorithms and guidelines. Our team at Rebel Design Solution stays up-to-date with the latest Google updates and industry trends to ensure your website aligns with Google's best practices. This targeted approach helps improve your website's visibility in Google search results and enhances its chances of reaching a broader audience."
+                faqFourQ="Q4: How can SEO optimization services help my website's performance?"
+                faqFourA="Ans: SEO optimization services play a crucial role in improving your website's performance by enhancing its visibility, relevance, and user experience. Through strategic optimization of on-page elements, content, site structure, and technical aspects, our rebellious team at Rebel Design Solution ensures that search engines can easily crawl and understand your website, leading to higher rankings, increased organic traffic, and better overall website performance."
+                faqFiveQ="Q5: What are the key components of search optimization services?"
+                faqFiveA="Ans: Search optimization services encompass a range of strategies and techniques to improve your website's search engine visibility. Key components include comprehensive keyword research, on-page optimization, technical SEO, link building, content creation, and continuous monitoring and analysis. At Rebel Design Solution, we integrate these components into a holistic search optimization approach tailored to meet your specific business goals and achieve maximum online success."
+            />
             <Awards />
         </>
     )

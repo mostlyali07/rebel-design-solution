@@ -1,5 +1,5 @@
 
-const Ourprocess = () => {
+const Ourprocess = ({ prcsMain, prcsPara, prcsOne, prcsTwo, prcsThree, prcsFour, prcsFive }) => {
     return (
         <>
             <div className="container pt-5 mt-5">
@@ -8,10 +8,11 @@ const Ourprocess = () => {
                         OUR SEO PROCESS
                     </h5> */}
                     <h2 className='fw-bold text-center pb-2'>
-                        The <span style={{ color: '#f75515' }}> Roadmap to Extraordinary</span>: Inside Our Process
+                        {prcsMain}
+                        {/* The <span style={{ color: '#f75515' }}> Roadmap to Extraordinary</span>: Inside Our Process */}
                     </h2>
                     <p className="text-center pb-4">
-                        With a keen focus on detail and a commitment to excellence, our process ensures we deliver remarkable results beyond expectations.
+                        {prcsPara}
                     </p>
                     <div className="col-md-12">
                         <div className="mid-main">
@@ -20,8 +21,8 @@ const Ourprocess = () => {
                                     1
                                 </h6>
                                 <h5>
-                                    Discovery and <br />
-                                    Understanding
+                                    {prcsOne}
+
                                 </h5>
                             </div>
                             <div className="one text-center">
@@ -29,8 +30,8 @@ const Ourprocess = () => {
                                     2
                                 </h6>
                                 <h5>
-                                    Strategic <br />
-                                    Planning
+                                    {prcsTwo}
+                                   
                                 </h5>
                             </div>
                             <div className="one text-center">
@@ -38,8 +39,8 @@ const Ourprocess = () => {
                                     3
                                 </h6>
                                 <h5>
-                                    Creative <br />
-                                    Conceptualization
+                                    {prcsThree}
+                                    
                                 </h5>
                             </div>
                             <div className="one text-center">
@@ -47,8 +48,8 @@ const Ourprocess = () => {
                                     4
                                 </h6>
                                 <h5>
-                                    Meticulous <br />
-                                    Execution
+                                    {prcsFour}
+                                  
                                 </h5>
                             </div>
                             <div className="one text-center">
@@ -56,8 +57,8 @@ const Ourprocess = () => {
                                     5
                                 </h6>
                                 <h5>
-                                    Continuous <br />
-                                    Improvement
+                                    {prcsFive}
+                                    
                                 </h5>
                             </div>
                         </div>

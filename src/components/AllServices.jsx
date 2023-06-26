@@ -157,7 +157,7 @@ const AllServices = ({ mainText, serOne, serTwo, serThree, serFour, serFive, ser
                                 <div className="flip-box-back d-flex align-items-center">
                                     <p>
                                         {desEight}
-                                        
+
                                     </p>
                                 </div>
                             </div>
