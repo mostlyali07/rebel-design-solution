@@ -57,8 +57,24 @@ const Home = () => {
                 descrp="Rebel Design Solution is the perfect fusion of design and digital ingenuity. We are a team of visionaries and innovators passionate about pushing the boundaries of creativity. With our expertise in design and deep understanding of digital technologies, we craft captivating and immersive solutions that captivate audiences and elevate brands to new heights. From stunning visual designs to seamless user experiences, we blend the art of design with the power of digital innovation, ensuring that every interaction leaves a lasting impression. Trust Rebel Design Solution to transform your brand and bring your vision to life in the digital landscape."
             />
 
-
-            <AllServices />
+            <AllServices mainText={"Design. Develop. Deliver: Experience Our Suite of Services"}
+                serOne={"Graphics Design"}
+                desOne={"Our graphic design services bring your brand to life through visually captivating and impactful designs, ensuring your message stands out and resonates with your audience."}
+                serTwo={"Website Design & Development"}
+                desTwo={"We create stunning and user-friendly websites that visually impress and provide seamless user experiences, helping you establish a strong online presence and drive conversions."}
+                serThree={"App Development"}
+                desThree={"Our expert team designs and develops innovative mobile applications for iOS and Android platforms, customized to meet your specific business needs and deliver engaging experiences to your users."}
+                serFour={"Search Engine Optimization (SEO)"}
+                desFour={"Our SEO services focus on improving your website's visibility and organic rankings on search engines. We employ strategies such as keyword optimization, content enhancement, and technical optimizations to drive targeted traffic and increase your online presence."}
+                serFive={"Google Ads Management"}
+                desFive={"Our Google Ads management services revolve around creating and optimizing pay-per-click (PPC) advertising campaigns on the Google Ads platform. We develop targeted ads, conduct keyword research, monitor performance, and refine strategies to maximize your ad spend and generate valuable leads or conversions."}
+                serSix={"Social Media Marketing"}
+                desSix={"Leveraging the power of social media platforms, we design and implement strategic marketing campaigns to boost brand awareness, engage your audience, and drive meaningful interactions that result in tangible business outcomes."}
+                serSeven={"Content Marketing"}
+                desSeven={"Our content marketing services focus on creating valuable and compelling content that tells your brand's story, engages your audience, and drives organic growth, positioning your business as an industry authority."}
+                serEight={"Website Content"}
+                desEight={"Our content service creates captivating, persuasive website copy. We optimize for SEO, driving traffic and boosting conversions. With attention to detail and audience understanding, we enhance your online presence and leave a lasting impression."}
+            />
 
             <Cta
                 ctAtext="Join the Rebellion for Extraordinary Results!"

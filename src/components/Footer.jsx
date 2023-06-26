@@ -31,7 +31,7 @@ const Footer = () => {
                                 <img src={NavLogo} alt="Rebel Design Solution" width="240" />
                             </Link>
                             <p className="mt-4">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quidem eligendi quia, tempore excepturi facere pariatur aliquam velit nam aspernatur! Natus, adipisci perspiciatis? Amet cum eum enim, autem possimus debitis.
+                                We are a team of digital marketers, creative web developers, SEO experts, social media marketers, passionate researchers, and enthusiastic nerds who constantly strive to stay ahead of the curve in the Digital industry.
                             </p>
                             <h6 className="fw-bold">Trusted By:</h6>
                             <img src="https://webandseoexperts.com/Assets/images/Footer-trusted-img.png" alt="" />

@@ -20,6 +20,9 @@ header {
   color: #fff !important;
   font-weight: 500;
 }
+.dropdown-menu {
+  z-index: 999;
+}
 .main-banner {
   background-color: #f75515;
   background-image: url(./Images/rebel-side.png);
@@ -637,9 +640,9 @@ a {
   padding: 26px;
   border-radius: 12px;
   margin: 0px 26px;
-  /* height: 520px; */
   background-color: #fff;
 }
+
 .slimScrollBar {
   height: 260px;
   overflow: auto;
@@ -704,7 +707,8 @@ a {
   width: 550px;
 }
 .pop-img {
-  background-image: url(./Images/patterns.jpg);
+  background-image: url(./Images/patterns.png);
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -721,6 +725,8 @@ a {
 .tilt-container {
   perspective: 1000px;
   display: inline-block;
+  position: relative;
+  z-index: 2;
 }
 
 .tilt-image {
