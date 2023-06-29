@@ -1,24 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-        await axios.post('/api/submitForm', formData); // Assuming your backend API endpoint is '/api/submitForm'
-        // Email sent and data saved successfully
-        setFormData({
-            name: '',
-            email: '',
-            phone: '',
-            website: '',
-            services: '',
-        });
-    } catch (error) {
-        // Handle any error that occurs during the submission
-        console.log(error);
-    }
-};
-
 const Form = () => {
     const [formData, setFormData] = useState({
         name: '',
@@ -32,17 +14,22 @@ const Form = () => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        // Send form data to the backend and MongoDB
-        // Reset the form fields
-        setFormData({
-            name: '',
-            email: '',
-            phone: '',
-            website: '',
-            services: '',
-        });
+        try {
+            await axios.post('http://localhost:5000/api/submitForm', formData); // Assuming your backend API endpoint is '/api/submitForm'
+            // Email sent and data saved successfully
+            setFormData({
+                name: '',
+                email: '',
+                phone: '',
+                website: '',
+                services: '',
+            });
+        } catch (error) {
+            // Handle any error that occurs during the submission
+            console.log(error);
+        }
     };
 
     return (

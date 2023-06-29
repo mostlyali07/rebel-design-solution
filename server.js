@@ -18,7 +18,7 @@ const transporter = nodemailer.createTransport({
 
 // Connection URL and database name
 const url = 'mongodb://localhost:27017';
-const dbName = 'your-database-name';
+const dbName = 'rebelDatabase';
 
 // Endpoint to handle form submission
 app.post('/api/submitForm', async (req, res) => {
