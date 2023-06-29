@@ -14,6 +14,7 @@ import ContactUs from "./components/ContactUs";
 import SearchEngineOptimization from "./components/SearchEngineOptimization";
 import Footer from "./components/Footer";
 
+
 const App = () => {
   return (
     <>
@@ -28,7 +29,9 @@ const App = () => {
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/seo-services" element={<SearchEngineOptimization />} />
         </Routes>
+ 
         <Footer />
+
       </BrowserRouter>
     </>
   );

@@ -21,7 +21,7 @@ const Navbar = () => {
         <>
             <header id="header" style={{ transform: `translateY(${scrollPosition > 80 ? '-100%' : '0'})` }}>
                 <nav className="navbar navbar-expand-lg bg-body-tertiary">
-                    <div className="container-fluid">
+                    <div className="container">
                         <Link className="navbar-brand" to="/">
                             <img src={NavLogo} alt="Rebel Design Solutions" className="nav-logo" />
                         </Link>
