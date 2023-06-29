@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import axios from 'axios';
 
-const Form = () => {
+function Form() {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -14,22 +13,25 @@ const Form = () => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
     };
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
-        try {
-            await axios.post('http://localhost:5000/api/submitForm', formData); // Assuming your backend API endpoint is '/api/submitForm'
-            // Email sent and data saved successfully
-            setFormData({
-                name: '',
-                email: '',
-                phone: '',
-                website: '',
-                services: '',
+        // Send form data to backend server
+        fetch('/send-email', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData),
+        })
+            .then((response) => response.json())
+            .then((data) => {
+                console.log('Email sent successfully');
+                // Handle success or display feedback to the user
+            })
+            .catch((error) => {
+                console.error('Error sending email:', error);
+                // Handle error or display feedback to the user
             });
-        } catch (error) {
-            // Handle any error that occurs during the submission
-            console.log(error);
-        }
     };
 
     return (
@@ -68,13 +70,13 @@ const Form = () => {
                 onChange={handleChange}
             >
                 <option value="">Select a service</option>
-                <option value="Service 1">Service 1</option>
-                <option value="Service 2">Service 2</option>
-                <option value="Service 3">Service 3</option>
+                <option value="service1">Service 1</option>
+                <option value="service2">Service 2</option>
+                <option value="service3">Service 3</option>
             </select>
             <button type="submit">Submit</button>
         </form>
     );
-};
+}
 
 export default Form;

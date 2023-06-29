@@ -1,7 +1,7 @@
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faGear, faGlobe, faChartSimple, faRocket } from '@fortawesome/free-solid-svg-icons';
 
-// import VertForm from './Vert-Form';
+import VertForm from './Vert-Form';
 import ContentSec from './ContentSec';
 import Cta from './Cta';
 import Map from './Maps';
@@ -16,7 +16,7 @@ import secImg from "../Images/sec-img.png"
 import thirdImg from "../Images/third-sec.webp"
 import fouImg from "../Images/fourth-sec.png"
 import Popup from './Popup';
-import Form from "./Form"
+// import Form from "./Form"
 
 
 const Home = () => {
@@ -43,12 +43,12 @@ const Home = () => {
                         <div className="col-md-6 d-flex justify-content-center align-items-center">
                             <img className="fix" src={WEB} alt="Rebel" />
                         </div>
-                        {/* <VertForm /> */}
+                        <VertForm />
                     </div>
                 </div>
                 <div className="shape-divider"></div>
             </div>
-            <Form />
+            {/* <Form /> */}
             <ContentSec
                 src={secImg}
                 text={"Rebel Design Solution: Where Design Meets Digital Ingenuity"}

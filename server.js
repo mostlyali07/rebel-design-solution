@@ -1,13 +1,11 @@
 const express = require('express');
+const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
-const { MongoClient } = require('mongodb');
 
 const app = express();
-const port = 5000; // Replace with the desired port number
+app.use(bodyParser.json());
 
-app.use(express.json());
-
-// Create a Nodemailer transporter using your Gmail account credentials
+// Configure Nodemailer
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
@@ -16,57 +14,39 @@ const transporter = nodemailer.createTransport({
     },
 });
 
-// Connection URL and database name
-const url = 'mongodb://localhost:27017';
-const dbName = 'rebelDatabase';
-
-// Endpoint to handle form submission
-app.post('/api/submitForm', async (req, res) => {
+// Handle the POST request to send the email
+app.post('/send-email', (req, res) => {
     const { name, email, phone, website, services } = req.body;
 
-    // Define the email content
+    // Validate the form data (e.g., check for required fields, email format, etc.)
+
+    // Compose the email message
     const mailOptions = {
         from: 'alexander560111@gmail.com',
-        to: 'recipient-email@gmail.com',
+        to: 'alexander560111@gmail.com', // Replace with the recipient's email address
         subject: 'New Form Submission',
-        html: `
-      <h3>New Form Submission</h3>
-      <p>Name: ${name}</p>
-      <p>Email: ${email}</p>
-      <p>Phone: ${phone}</p>
-      <p>Website: ${website}</p>
-      <p>Services: ${services}</p>
+        text: `
+      Name: ${name}
+      Email: ${email}
+      Phone: ${phone}
+      Website: ${website}
+      Services: ${services}
     `,
     };
 
-    try {
-        // Send the email
-        await transporter.sendMail(mailOptions);
-
-        // Connect to the MongoDB server
-        const client = new MongoClient(url);
-        await client.connect();
-
-        // Access the specified database
-        const db = client.db(dbName);
-
-        // Access the collection and insert the form data
-        const collection = db.collection('formSubmissions');
-        await collection.insertOne(req.body);
-
-        // Close the connection
-        await client.close();
-
-        // Send a response to the frontend
-        res.sendStatus(200);
-    } catch (error) {
-        // Handle any error that occurs during email sending or MongoDB operations
-        console.log(error);
-        res.sendStatus(500);
-    }
+    // Send the email
+    transporter.sendMail(mailOptions, (error, info) => {
+        if (error) {
+            console.error('Error sending email:', error);
+            res.status(500).json({ success: false, message: 'Error sending email' });
+        } else {
+            console.log('Email sent:', info.response);
+            res.json({ success: true, message: 'Email sent successfully' });
+        }
+    });
 });
 
 // Start the server
-app.listen(port, () => {
-    console.log(`Server is running on port ${port}`);
+app.listen(3000, () => {
+    console.log('Server is running on port 3000');
 });
