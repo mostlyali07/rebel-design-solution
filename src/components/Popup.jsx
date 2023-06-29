@@ -30,23 +30,23 @@ const Popup = () => {
                         </div>
                         <form className="row g-3 p-5">
                             <div className="col-md-6">
-                                <label for="your-name" className="form-label">Your Name</label>
+                                <label htmlFor="your-name" className="form-label">Your Name</label>
                                 <input type="text" className="form-control" id="your-name" placeholder="John Doe" required />
                             </div>
                             <div className="col-md-6">
-                                <label for="your-email" className="form-label">Your Email</label>
+                                <label htmlFor="your-email" className="form-label">Your Email</label>
                                 <input type="email" className="form-control" id="your-email" placeholder="john45@example.com" required />
                             </div>
                             <div className="col-6">
-                                <label for="phone-number" className="form-label">Phone Number</label>
+                                <label htmlFor="phone-number" className="form-label">Phone Number</label>
                                 <input type="number" className="form-control" id="phone-number" placeholder="+123 4567 890" required />
                             </div>
                             <div className="col-6">
-                                <label for="website-url" className="form-label">Website URL</label>
+                                <label htmlFor="website-url" className="form-label">Website URL</label>
                                 <input type="text" className="form-control" id="website-url" placeholder="www.example.com" />
                             </div>
                             <div className="col-md-12">
-                                <label for="services" className="form-label">Services</label>
+                                <label htmlFor="services" className="form-label">Services</label>
                                 <select id="services" className="form-select" required>
                                     <option disabled value selected>Please Select a Service</option>
                                     <option>Search Engine Optimization (SEO)</option>
