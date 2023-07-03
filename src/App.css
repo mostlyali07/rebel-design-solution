@@ -180,7 +180,13 @@ header {
   display: flex;
   justify-content: space-evenly;
 }
-
+.portfolio-tabs {
+  display: flex;
+  justify-content: flex-end;
+}
+.portfolio-tabs .nav-item {
+  margin-left: 26px;
+}
 .nav-link {
   color: #000 !important;
 }
