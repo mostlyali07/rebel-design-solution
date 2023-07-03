@@ -12,6 +12,9 @@ import Testimonials from "./components/Testimonials";
 import AboutUs from "./components/AboutUs";
 import ContactUs from "./components/ContactUs";
 import SearchEngineOptimization from "./components/SearchEngineOptimization";
+import AppDevelopment from "./components/AppDevelopment";
+import ContentMarketing from "./components/ContentMarketing";
+import GraphicDesign from "./components/GraphicDesign";
 import Footer from "./components/Footer";
 
 
@@ -28,8 +31,11 @@ const App = () => {
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/seo-services" element={<SearchEngineOptimization />} />
+          <Route path="/app-development-services" element={<AppDevelopment />} />
+          <Route path="/content-marketing-services" element={<ContentMarketing />} />
+          <Route path="/graphics-design-services" element={<GraphicDesign />} />
         </Routes>
- 
+
         <Footer />
 
       </BrowserRouter>
