@@ -15,8 +15,9 @@ import SearchEngineOptimization from "./components/SearchEngineOptimization";
 import AppDevelopment from "./components/AppDevelopment";
 import ContentMarketing from "./components/ContentMarketing";
 import GraphicDesign from "./components/GraphicDesign";
+import SocialMediaMarketing from "./components/SocialMediaMarketing";
+import WebsiteContent from "./components/WebsiteContent";
 import Footer from "./components/Footer";
-
 
 const App = () => {
   return (
@@ -34,6 +35,8 @@ const App = () => {
           <Route path="/app-development-services" element={<AppDevelopment />} />
           <Route path="/content-marketing-services" element={<ContentMarketing />} />
           <Route path="/graphics-design-services" element={<GraphicDesign />} />
+          <Route path="/social-media-marketing-services" element={<SocialMediaMarketing />} />
+          <Route path="/website-content-services" element={<WebsiteContent />} />
         </Routes>
 
         <Footer />
