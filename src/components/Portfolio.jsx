@@ -1,25 +1,28 @@
 import React from 'react';
 import { Tabs, Tab, Row, Col } from 'react-bootstrap';
 
-const All = (
-    <div className='row'>
-        <div className="col-md-3">
-            <div class="portfolio-div">
-                <div class="content">
-                </div>
-            </div>
 
-        </div>
-        <div className="col-md-3"></div>
-        <div className="col-md-3"></div>
-        <div className="col-md-3"></div>
-    </div>
-);
 
 const WebsiteDesigns = (
-    <div>
-        <h2>Tab 2 Content</h2>
-        <p>This is the content for Tab 2.</p>
+    <div className='row py-5'>
+        <div className="col-md-4">
+            <div className="portfolio-div Tab-div1">
+                <div className="content">
+                </div>
+            </div>
+        </div>
+        <div className="col-md-4">
+            <div className="portfolio-div Tab-div2">
+                <div className="content">
+                </div>
+            </div>
+        </div>
+        <div className="col-md-4">
+            <div className="portfolio-div Tab-div3">
+                <div className="content">
+                </div>
+            </div>
+        </div>
     </div>
 );
 
@@ -64,7 +67,7 @@ const Portfolio = () => {
                     <Col md={12}>
                         <Tabs defaultActiveKey="tab1" id="gallery-tabs" className="portfolio-tabs">
                             <Tab eventKey="tab1" title="All">
-                                {All}
+                                {WebsiteDesigns}
                             </Tab>
                             <Tab eventKey="tab2" title="Website Designs">
                                 {WebsiteDesigns}
