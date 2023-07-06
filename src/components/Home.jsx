@@ -72,6 +72,7 @@ const Home = () => {
                 desSeven={"Our content marketing services focus on creating valuable and compelling content that tells your brand's story, engages your audience, and drives organic growth, positioning your business as an industry authority."}
                 serEight={"Website Content"}
                 desEight={"Our content service creates captivating, persuasive website copy. We optimize for SEO, driving traffic and boosting conversions. With attention to detail and audience understanding, we enhance your online presence and leave a lasting impression."}
+                
             />
 
             <Cta

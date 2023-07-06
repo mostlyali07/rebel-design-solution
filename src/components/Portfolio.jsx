@@ -33,7 +33,7 @@ const LogoDesigns = (
     </div>
 );
 
-const SeoStats = (
+const Smp = (
     <div>
         <h2>Tab 4 Content</h2>
         <p>This is the content for Tab 4.</p>
@@ -75,8 +75,8 @@ const Portfolio = () => {
                             <Tab eventKey="tab3" title="Logo Designs">
                                 {LogoDesigns}
                             </Tab>
-                            <Tab eventKey="tab4" title="SEO Stats">
-                                {SeoStats}
+                            <Tab eventKey="tab4" title="Social Media Posts">
+                                {Smp}
                             </Tab>
                         </Tabs>
                     </Col>

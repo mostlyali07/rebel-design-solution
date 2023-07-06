@@ -1,5 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlassChart, faSquarePollVertical, faCode, faPenNib, faBullhorn, faThumbsUp, faSignature, faSquarePen } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
+
 const AllServices = ({ mainText, serOne, serTwo, serThree, serFour, serFive, serSix, serSeven, serEight, desOne, desTwo, desThree, desFour, desFive, desSix, desSeven, desEight }) => {
     return (
         <>
@@ -9,23 +11,25 @@ const AllServices = ({ mainText, serOne, serTwo, serThree, serFour, serFive, ser
                         {mainText}
                     </h2>
                     <div className="col-md-3 d-flex justify-content-center">
-                        <div className="flip-box flip-box-orange">
-                            <div className="flip-box-inner">
-                                <div className="flip-box-front d-flex align-items-center justify-content-center">
-                                    <div>
-                                        <FontAwesomeIcon icon={faPenNib} />
-                                        <h4 className='fw-bold'>
-                                            {serOne}
-                                        </h4>
+                        <Link to="graphics-design-services">
+                            <div className="flip-box flip-box-orange">
+                                <div className="flip-box-inner">
+                                    <div className="flip-box-front d-flex align-items-center justify-content-center">
+                                        <div>
+                                            <FontAwesomeIcon icon={faPenNib} />
+                                            <h4 className='fw-bold'>
+                                                {serOne}
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div className="flip-box-back d-flex align-items-center">
+                                        <p>
+                                            {desOne}
+                                        </p>
                                     </div>
                                 </div>
-                                <div className="flip-box-back d-flex align-items-center">
-                                    <p>
-                                        {desOne}
-                                    </p>
-                                </div>
                             </div>
-                        </div>
+                        </Link>
                     </div>
                     <div className="col-md-3 d-flex justify-content-center">
                         <div className="flip-box flip-box-black">
