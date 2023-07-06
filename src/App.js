@@ -17,6 +17,8 @@ import ContentMarketing from "./components/ContentMarketing";
 import GraphicDesign from "./components/GraphicDesign";
 import SocialMediaMarketing from "./components/SocialMediaMarketing";
 import WebsiteContent from "./components/WebsiteContent";
+import GoogleAdsManagement from "./components/GoogleAdsManagement";
+import WebsiteDesignAndDevelopment from "./components/WebsiteDesignAndDevelopment";
 import Footer from "./components/Footer";
 
 const App = () => {
@@ -36,7 +38,9 @@ const App = () => {
           <Route path="/content-marketing-services" element={<ContentMarketing />} />
           <Route path="/graphics-design-services" element={<GraphicDesign />} />
           <Route path="/social-media-marketing-services" element={<SocialMediaMarketing />} />
+          <Route path="/website-design-development-services" element={<WebsiteDesignAndDevelopment />} />
           <Route path="/website-content-services" element={<WebsiteContent />} />
+          <Route path="/google-ads-management-services" element={<GoogleAdsManagement />} />
         </Routes>
 
         <Footer />

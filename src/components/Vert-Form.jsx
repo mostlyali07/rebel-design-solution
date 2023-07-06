@@ -20,10 +20,14 @@ const VertForm = () => {
                         <input type="text" placeholder="YOUR WEBSITE" name="quote[website]" className="input-feilds" required />
                         <select id="services" className="input-feilds" required>
                             <option disabled selected>PLEASE SELECT A SERVICES</option>
+                            <option>Graphics Design</option>
+                            <option>Website Design & Development</option>
+                            <option>App Development</option>
                             <option>Search Engine Optimization (SEO)</option>
                             <option>Google Ads Management</option>
                             <option>Social Media Marketing</option>
-                            <option>Website Design & Development</option>
+                            <option>Content Marketing</option>
+                            <option>Website Content</option>
                         </select>
                         <button className="btns-one">ANALYZE</button>
                     </form>

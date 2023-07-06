@@ -48,11 +48,15 @@ const Popup = () => {
                             <div className="col-md-12">
                                 <label htmlFor="services" className="form-label">Services</label>
                                 <select id="services" className="form-select" required>
-                                    <option disabled value selected>Please Select a Service</option>
+                                    <option disabled selected>PLEASE SELECT A SERVICES</option>
+                                    <option>Graphics Design</option>
+                                    <option>Website Design & Development</option>
+                                    <option>App Development</option>
                                     <option>Search Engine Optimization (SEO)</option>
                                     <option>Google Ads Management</option>
                                     <option>Social Media Marketing</option>
-                                    <option>Website Design & Development</option>
+                                    <option>Content Marketing</option>
+                                    <option>Website Content</option>
                                 </select>
                             </div>
                             <div className="col-12">

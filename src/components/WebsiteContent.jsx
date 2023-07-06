@@ -9,7 +9,7 @@ import Awards from './Awards';
 import Faqs from './Faqs';
 
 
-const GraphicDesign = () => {
+const WebContent = () => {
     return (
         <>
             <div className="service-banner">
@@ -93,4 +93,4 @@ const GraphicDesign = () => {
     )
 }
 
-export default GraphicDesign
+export default WebContent

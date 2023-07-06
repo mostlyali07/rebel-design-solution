@@ -48,8 +48,7 @@ header {
   border: 1px solid #222222;
   border-radius: 26px;
   font-weight: 500;
-  height: 40px;
-  width: 150px;
+  padding: 9px 16px;
 }
 .btns-one:hover {
   transition: 0.6s;
@@ -64,8 +63,7 @@ header {
   font-weight: 500;
   border: 1px solid #fff;
   border-radius: 26px;
-  height: 40px;
-  width: 150px;
+  padding: 8px 16px;
 }
 .btns-two:hover {
   transition: 0.6s;
@@ -141,6 +139,9 @@ header {
   cursor: pointer;
   font-size: 12px;
   margin-right: 4px;
+}
+.input-feilds option {
+  text-transform: uppercase;
 }
 .right-side h2 {
   font-size: 28px;

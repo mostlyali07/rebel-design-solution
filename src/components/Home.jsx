@@ -16,6 +16,7 @@ import secImg from "../Images/sec-img.png"
 import thirdImg from "../Images/third-sec.webp"
 import fouImg from "../Images/fourth-sec.png"
 import Popup from './Popup';
+import { Link } from 'react-router-dom';
 // import Form from "./Form"
 
 
@@ -36,8 +37,8 @@ const Home = () => {
                                     At Rebel Design Solution, we specialize in creating memorable brands through our exceptional design and marketing services. Our talented designers and marketing experts collaborate to develop unique and captivating brand identities that leave a lasting impact. By combining innovative design concepts with strategic marketing techniques, we ensure that your brand stands out from the competition and resonates with your target audience.
                                     Trust us to bring your brand vision to life and create a meaningful connection with your customers through our unparalleled design and marketing expertise.
                                 </p>
-                                <button className="btns-two" type="submit">Explore Site</button> &nbsp;&nbsp;
-                                <button className="btns-one" type="submit">Analyze My Site</button>
+                                <Link className="btns-two" to="contact-us">Explore Site</Link> &nbsp;&nbsp;
+                                <Link className="btns-one" to="contact-us">Analyze My Site</Link>
                             </div>
                         </div>
                         <div className="col-md-6 d-flex justify-content-center align-items-center">
@@ -72,7 +73,7 @@ const Home = () => {
                 desSeven={"Our content marketing services focus on creating valuable and compelling content that tells your brand's story, engages your audience, and drives organic growth, positioning your business as an industry authority."}
                 serEight={"Website Content"}
                 desEight={"Our content service creates captivating, persuasive website copy. We optimize for SEO, driving traffic and boosting conversions. With attention to detail and audience understanding, we enhance your online presence and leave a lasting impression."}
-                
+
             />
 
             <Cta
