@@ -24,7 +24,7 @@ const Cta = ({ ctAtext, ctAdescrp }) => {
                                     A QUOTE</Link>
                             </div>
                             <div className="numChat">
-                                <Link to="mailto:info@rebeldesignsolution.com"><i className="fa-solid fa-phone-volume"></i>&nbsp;Email Us: info@rebeldesignsolution.com</Link>
+                                <Link to="mailto:info@rebeldesignsolution.com"><i className="fa-solid fa-phone-volume"></i>Email Us: info@rebeldesignsolution.com</Link>
                                 {/* &nbsp;&nbsp;&nbsp;
                                 <a href="#"><i className="fa-sharp fa-solid fa-comments"></i>&nbsp;Start Live Chat</a> */}
                             </div>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 const Ourprocess = ({ prcsMain, prcsPara, prcsOne, prcsTwo, prcsThree, prcsFour, prcsFive }) => {
     return (
@@ -31,7 +32,7 @@ const Ourprocess = ({ prcsMain, prcsPara, prcsOne, prcsTwo, prcsThree, prcsFour,
                                 </h6>
                                 <h5>
                                     {prcsTwo}
-                                   
+
                                 </h5>
                             </div>
                             <div className="one text-center">
@@ -40,7 +41,7 @@ const Ourprocess = ({ prcsMain, prcsPara, prcsOne, prcsTwo, prcsThree, prcsFour,
                                 </h6>
                                 <h5>
                                     {prcsThree}
-                                    
+
                                 </h5>
                             </div>
                             <div className="one text-center">
@@ -49,7 +50,7 @@ const Ourprocess = ({ prcsMain, prcsPara, prcsOne, prcsTwo, prcsThree, prcsFour,
                                 </h6>
                                 <h5>
                                     {prcsFour}
-                                  
+
                                 </h5>
                             </div>
                             <div className="one text-center">
@@ -58,7 +59,7 @@ const Ourprocess = ({ prcsMain, prcsPara, prcsOne, prcsTwo, prcsThree, prcsFour,
                                 </h6>
                                 <h5>
                                     {prcsFive}
-                                    
+
                                 </h5>
                             </div>
                         </div>
@@ -69,8 +70,8 @@ const Ourprocess = ({ prcsMain, prcsPara, prcsOne, prcsTwo, prcsThree, prcsFour,
                 <div className="row">
                     <div className="col-md-12">
                         <div className="d-flex justify-content-center my-5">
-                            <button className="btns-three" type="submit">Analyze My Site</button> &nbsp;&nbsp;
-                            <button className="btns-three" type="submit">Explore Site</button>
+                            <Link className="btns-three" to="contact-us">Analyze My Site</Link> &nbsp;&nbsp;
+                            <Link className="btns-three" to="contact-us">Explore Site</Link>
                         </div>
                     </div>
                 </div>

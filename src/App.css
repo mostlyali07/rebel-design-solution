@@ -15,6 +15,7 @@ header {
   width: 100%;
   background-color: #f75515;
   transition: all 0.3s ease-in-out;
+  z-index: 999;
 }
 .navbar-nav .nav-link {
   color: #fff !important;
@@ -410,6 +411,10 @@ a {
   position: absolute;
   left: 450px;
   top: 210px;
+}
+.numChat a:hover {
+  color: #fff;
+  text-decoration: underline;
 }
 .hovered {
   position: absolute;

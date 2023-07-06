@@ -8,7 +8,7 @@ const PricingTabs = () => {
     };
     return (
         <>
-            <div className="container py-5 your-animation-class">
+            <div className="container py-5">
                 <div className="row">
                     <div className="col-md-12">
                         <Tabs activeKey={activeTab} onSelect={handleTabSelect} className="custom-tabs">
@@ -708,3 +708,4 @@ const PricingTabs = () => {
 }
 
 export default PricingTabs
+

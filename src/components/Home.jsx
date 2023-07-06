@@ -56,7 +56,8 @@ const Home = () => {
                 descrp="Rebel Design Solution is the perfect fusion of design and digital ingenuity. We are a team of visionaries and innovators passionate about pushing the boundaries of creativity. With our expertise in design and deep understanding of digital technologies, we craft captivating and immersive solutions that captivate audiences and elevate brands to new heights. From stunning visual designs to seamless user experiences, we blend the art of design with the power of digital innovation, ensuring that every interaction leaves a lasting impression. Trust Rebel Design Solution to transform your brand and bring your vision to life in the digital landscape."
             />
 
-            <AllServices mainText={"Design. Develop. Deliver: Experience Our Suite of Services"}
+            <AllServices
+                mainText={"Design. Develop. Deliver: Experience Our Suite of Services"}
                 serOne={"Graphics Design"}
                 desOne={"Our graphic design services bring your brand to life through visually captivating and impactful designs, ensuring your message stands out and resonates with your audience."}
                 serTwo={"Website Design & Development"}
@@ -73,7 +74,14 @@ const Home = () => {
                 desSeven={"Our content marketing services focus on creating valuable and compelling content that tells your brand's story, engages your audience, and drives organic growth, positioning your business as an industry authority."}
                 serEight={"Website Content"}
                 desEight={"Our content service creates captivating, persuasive website copy. We optimize for SEO, driving traffic and boosting conversions. With attention to detail and audience understanding, we enhance your online presence and leave a lasting impression."}
-
+                srcOne={"graphics-design-services"}
+                srcTwo={"website-design-development-services"}
+                srcThree={"app-development-services"}
+                srcFour={"seo-services"}
+                srcFive={"google-ads-management-services"}
+                srcSix={"social-media-marketing-services"}
+                srcSeven={"content-marketing-services"}
+                srcEight={"website-content-writing-services"}
             />
 
             <Cta

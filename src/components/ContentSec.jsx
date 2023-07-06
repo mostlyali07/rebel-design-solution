@@ -1,8 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const ContentSec = ({ text, descrp, src }) => {
     return (
-        <div className='right-side your-animation-class'>
+        <div className='right-side'>
             <div className="container my-5 py-5">
                 <div className="row">
                     <div className="col-md-6 d-flex align-items-center justify-content-center">
@@ -14,7 +15,7 @@ const ContentSec = ({ text, descrp, src }) => {
                         <div>
                             <h2 className='pb-2'>{text}</h2>
                             <p className='pb-3'>{descrp}</p>
-                            <a href="" className="btns-three">START PROJECT</a>
+                            <Link to="contact-us" className="btns-three">START PROJECT</Link>
                         </div>
                     </div>
                 </div>
