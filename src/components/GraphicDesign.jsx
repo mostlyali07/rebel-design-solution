@@ -1,7 +1,10 @@
-import WEB from "../Images/third-sec.webp";
+import GraphImg from "../Images/graphic-1.png";
 import VertForm from './Vert-Form';
 import ContentSec from './ContentSec';
-import secImg from "../Images/sec-img.png"
+import GraphTwo from "../Images/graphic-2.png"
+import GraphThree from "../Images/graphic-3.png"
+import GraphFour from "../Images/graphic-4.png"
+import GraphFive from "../Images/graphic-5.png"
 import Ourprocess from './Ourprocess';
 import PricingTabs from './PricingTabs';
 import Cta from './Cta';
@@ -30,7 +33,7 @@ const GraphicDesign = () => {
                             </div>
                         </div>
                         <div className="col-md-6 d-flex justify-content-center">
-                            <img src={WEB} alt="" width={450} />
+                            <img src={GraphImg} alt="" width={450} />
                         </div>
                         <VertForm />
                     </div>
@@ -38,7 +41,7 @@ const GraphicDesign = () => {
                 <div className="shape-divider"></div>
             </div>
             <ContentSec
-                src={secImg}
+                src={GraphTwo}
                 text={"Make a Bold Statement with Captivating Logo Designs"}
                 descrp={"Your logo is the face of your brand, and at Rebel Design Solution, we understand its importance. Our rebellious graphic designers create captivating logos that leave a lasting impression. We dive deep into your brand's identity to craft a logo that reflects your uniqueness and resonates with your target audience. Trust us to create a visual symbol that becomes the iconic representation of your brand."}
             />
@@ -57,13 +60,13 @@ const GraphicDesign = () => {
             />
 
             <ContentSec
-                src={secImg}
+                src={GraphThree}
                 text={"Turn Heads with Striking Print and Illustration Designs"}
                 descrp={"In the physical world, Rebel Design Solution brings your brand to life with striking print and illustration designs. Whether it's brochures, posters, or packaging, our rebellious designers infuse your brand's personality into every design element. With attention to detail and a rebellious touch, we create visually captivating prints and illustrations that demand attention and leave a lasting impact."}
             />
             <PricingTabs />
             <ContentSec
-                src={secImg}
+                src={GraphFour}
                 text={"Spark Engagement with Dynamic Motion Graphics and Social Media Graphics"}
                 descrp={"In the fast-paced digital world, Rebel Design Solution helps your brand stand out with dynamic motion graphics and social media graphics. Our rebellious designers create visually captivating animations and graphics that breathe life into your brand's online presence. From eye-catching social media posts to attention-grabbing motion graphics, we ensure your brand stays ahead of the curve."}
             />
@@ -72,7 +75,7 @@ const GraphicDesign = () => {
                 ctAdescrp="From logo design to branding, web design, and UI/UX design, our rebellious graphic design services cater to every aspect of your brand's visual identity. Let our creative experts craft custom solutions that elevate your brand and leave a lasting impression on your audience."
             />
             <ContentSec
-                src={secImg}
+                src={GraphFive}
                 text={"Join the Rebellion and Transform Your Brand's Visual Identity"}
                 descrp={"Are you ready to rebel against ordinary design? Trust Rebel Design Solution to transform your brand's visual identity. Our rebellious graphic design services encompass a wide range of creative solutions, from logo design to motion graphics. With our fusion of design and digital ingenuity, we bring your brand's vision to life and ensure every design element leaves a rebellious impression in the digital landscape. Let's embark on this design revolution together."}
             />
