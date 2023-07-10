@@ -1,7 +1,10 @@
-import WEB from "../Images/third-sec.webp";
+import AppOne from "../Images/app-1.png";
+import AppTwo from "../Images/app-2.png";
+import AppThree from "../Images/app-3.png";
+import AppFour from "../Images/app-4.png";
+import AppFive from "../Images/app-5.png";
 import VertForm from './Vert-Form';
 import ContentSec from './ContentSec';
-import secImg from "../Images/sec-img.png"
 import Ourprocess from './Ourprocess';
 import PricingTabs from './PricingTabs';
 import Cta from './Cta';
@@ -30,7 +33,7 @@ const AppDevelopment = () => {
                             </div>
                         </div>
                         <div className="col-md-6 d-flex justify-content-center">
-                            <img src={WEB} alt="" width={450} />
+                            <img src={AppOne} alt="" width={450} />
                         </div>
                         <VertForm />
                     </div>
@@ -38,7 +41,7 @@ const AppDevelopment = () => {
                 <div className="shape-divider"></div>
             </div>
             <ContentSec
-                src={secImg}
+                src={AppTwo}
                 text={"Mobile App Development that Redefines User Experiences"}
                 descrp={"In today's fast-paced world, mobile apps are the key to engaging and connecting with your audience. Our rebellious approach to mobile app development ensures that every interaction with your brand leaves a lasting impression. Whether you need an Android or iOS app, we blend the art of design with the power of digital innovation to create seamless user experiences that captivate audiences. With Rebel Design Solution, your mobile app becomes a true game-changer."}
             />
@@ -57,13 +60,13 @@ const AppDevelopment = () => {
             />
 
             <ContentSec
-                src={secImg}
+                src={AppThree}
                 text={"Innovation Meets Expertise in Android App Development"}
                 descrp={"With the majority of smartphone users on the Android platform, having an outstanding Android app is essential for reaching your target audience. Our rebellious team of Android app developers possesses the expertise and creativity to deliver exceptional solutions that reflect your brand's identity and captivate Android users. Let Rebel Design Solution be your partner in Android app development and witness the power of rebellious innovation."}
             />
             <PricingTabs />
             <ContentSec
-                src={secImg}
+                src={AppFour}
                 text={"Harness the Power of iOS App Development"}
                 descrp={"When it comes to iOS app development, we embrace the rebellious spirit of innovation and attention to detail. Our rebel team is well-versed in the intricacies of the iOS platform, ensuring that your app delivers an exceptional user experience while reflecting the essence of your brand. With Rebel Design Solution, your iOS app will be a powerful tool that engages and inspires users in the Apple ecosystem."}
             />
@@ -72,7 +75,7 @@ const AppDevelopment = () => {
                 ctAdescrp="Let's collaborate and create rebellious solutions that will set your business apart. Get in touch with us now!"
             />
             <ContentSec
-                src={secImg}
+                src={AppFive}
                 text={"Transform Your Brand with Rebel Design Solution"}
                 descrp={"Rebel Design Solution is your ultimate partner in application development. Our rebellious spirit, combined with our deep expertise in design and digital technologies, enables us to craft captivating and immersive solutions that make your brand shine. Trust us with your mobile app development, web application development, or custom software needs, and let us revolutionize your brand's presence in the digital landscape. Join forces with Rebel Design Solution and redefine what's possible for your brand."}
             />

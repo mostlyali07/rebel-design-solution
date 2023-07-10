@@ -1,7 +1,10 @@
-import WEB from "../Images/third-sec.webp";
+import WebOne from "../Images/web-2.png";
+import WebTwo from "../Images/web-1.png";
+import WebThree from "../Images/web-3.png";
+import WebFour from "../Images/web-4.png";
+import WebFive from "../Images/web-5.png";
 import VertForm from './Vert-Form';
 import ContentSec from './ContentSec';
-import secImg from "../Images/sec-img.png"
 import Ourprocess from './Ourprocess';
 import PricingTabs from './PricingTabs';
 import Cta from './Cta';
@@ -30,7 +33,7 @@ const WebsiteDesignAndDevelopment = () => {
                             </div>
                         </div>
                         <div className="col-md-6 d-flex justify-content-center">
-                            <img src={WEB} alt="" width={450} />
+                            <img src={WebOne} alt="" width={450} />
                         </div>
                         <VertForm />
                     </div>
@@ -38,7 +41,7 @@ const WebsiteDesignAndDevelopment = () => {
                 <div className="shape-divider"></div>
             </div>
             <ContentSec
-                src={secImg}
+                src={WebTwo}
                 text={"Unleash Your Digital Identity: Custom Web Design Services"}
                 descrp={"Our rebellious custom web design services are tailored to reflect your brand's unique identity and values. We combine stunning visual elements, intuitive user interfaces, and strategic storytelling to create websites that stand out from the crowd. Our rebellious approach ensures that your website captivates audiences, drives engagement, and leaves a memorable impression, ultimately leading to higher conversions and business growth."}
             />
@@ -57,13 +60,13 @@ const WebsiteDesignAndDevelopment = () => {
             />
 
             <ContentSec
-                src={secImg}
+                src={WebThree}
                 text={"Captivate Anywhere, Anytime: Responsive Web Design"}
                 descrp={"In today's mobile-driven world, a responsive website is essential. Our rebellious approach to responsive design ensures that your website adapts seamlessly to different screen sizes and devices, providing an optimal user experience. Whether your audience is browsing on a desktop, tablet, or smartphone, we ensure that your website looks stunning, loads quickly, and delivers a seamless experience."}
             />
             <PricingTabs />
             <ContentSec
-                src={secImg}
+                src={WebFour}
                 text={"Take Control of Your Content: Seamless CMS Integration"}
                 descrp={"Managing and updating your website shouldn't be a hassle. That's why our rebellious team integrates powerful content management systems (CMS) that give you full control over your website's content. We work with industry-leading CMS platforms, ensuring a seamless integration that allows you to easily update text, images, and multimedia content, keeping your website fresh and engaging."}
             />
@@ -72,7 +75,7 @@ const WebsiteDesignAndDevelopment = () => {
                 ctAdescrp="Elevate your brand with our professional website design and development services. Discover the perfect fusion of design and technology to showcase your unique story."
             />
             <ContentSec
-                src={secImg}
+                src={WebFive}
                 text={"Join the Rebellion: Transform Your Digital Landscape Today"}
                 descrp={"Ready to make your mark in the digital world? Join the rebellion and let us transform your brand's digital landscape. Our rebellious team is here to listen to your vision, understand your goals, and create a tailor-made solution that sets you apart from the competition. Contact us today and embark on a journey of digital transformation with Rebel Design Solution."}
             />
