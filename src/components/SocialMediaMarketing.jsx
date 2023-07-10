@@ -30,7 +30,7 @@ const SocialMediaMarketing = () => {
                             </div>
                         </div>
                         <div className="col-md-6 d-flex justify-content-center">
-                            <img src={WEB} alt="" width={450} />
+                            <img src={WEB} className="cust-front" />
                         </div>
                         <VertForm />
                     </div>

@@ -33,7 +33,7 @@ const GraphicDesign = () => {
                             </div>
                         </div>
                         <div className="col-md-6 d-flex justify-content-center">
-                            <img src={GraphImg} alt="" width={450} />
+                            <img src={GraphImg} className="cust-front" />
                         </div>
                         <VertForm />
                     </div>

@@ -33,7 +33,7 @@ const WebsiteDesignAndDevelopment = () => {
                             </div>
                         </div>
                         <div className="col-md-6 d-flex justify-content-center">
-                            <img src={WebOne} alt="" width={450} />
+                            <img src={WebOne} className="cust-front" />
                         </div>
                         <VertForm />
                     </div>

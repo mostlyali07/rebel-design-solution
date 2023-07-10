@@ -1,7 +1,10 @@
-import WEB from "../Images/third-sec.webp";
+import AdsOne from "../Images/gogle-ads-3.png";
+import AdsTwo from "../Images/gogle-ads-4.png";
+import AdsThree from "../Images/gogle-ads-2.png";
+import AdsFour from "../Images/gogle-ads-1.png";
+import AdsFive from "../Images/gogle-ads-5.png";
 import VertForm from './Vert-Form';
 import ContentSec from './ContentSec';
-import secImg from "../Images/sec-img.png"
 import Ourprocess from './Ourprocess';
 import PricingTabs from './PricingTabs';
 import Cta from './Cta';
@@ -30,7 +33,7 @@ const GoogleAdsManagement = () => {
                             </div>
                         </div>
                         <div className="col-md-6 d-flex justify-content-center">
-                            <img src={WEB} alt="" width={450} />
+                            <img src={AdsOne} className="cust-front"/>
                         </div>
                         <VertForm />
                     </div>
@@ -38,7 +41,7 @@ const GoogleAdsManagement = () => {
                 <div className="shape-divider"></div>
             </div>
             <ContentSec
-                src={secImg}
+                src={AdsTwo}
                 text={"Strategic Google Ads Campaign Management for Maximum Impact"}
                 descrp={"Our rebellious team starts by understanding your business goals and target audience. With meticulous planning and research, we create customized Google Ads campaigns that effectively reach your audience, generate quality leads, and deliver measurable results. We continuously refine our strategies to keep you ahead of the competition."}
             />
@@ -57,13 +60,13 @@ const GoogleAdsManagement = () => {
             />
 
             <ContentSec
-                src={secImg}
+                src={AdsThree}
                 text={"Reach Your Ideal Audience, Every Time With Our Google Ad Management Services"}
                 descrp={"We know that effective targeting is the key to success. With our rebellious targeting strategies, we ensure your ads reach the right audience at the right time. From demographics to interests, we narrow down your target market and tailor ads that resonate with them. Our remarketing tactics keep your brand in front of potential customers, reinforcing their interest and driving conversions."}
             />
             <PricingTabs />
             <ContentSec
-                src={secImg}
+                src={AdsFour}
                 text={"Unveiling Insights for Informed Decisions"}
                 descrp={"Transparency is at the core of our approach. We provide comprehensive reports and in-depth analytics, giving you complete visibility into the performance of your Google Ads campaigns. Our rebellious reporting helps you make data-driven decisions, identify areas of improvement, and seize new opportunities to further elevate your brand."}
             />
@@ -72,7 +75,7 @@ const GoogleAdsManagement = () => {
                 ctAdescrp="Trust our experienced team to navigate the complex world of Google AdWords and deliver exceptional results for your business."
             />
             <ContentSec
-                src={secImg}
+                src={AdsFive}
                 text={"Your Success is Our Priority"}
                 descrp={"At Rebel Design Solution, we believe in forging strong partnerships with our clients. We work closely with you, understanding your business goals, and providing ongoing support and guidance. Our team is always available to answer your questions, provide strategic insights, and ensure your Google Ads success."}
             />

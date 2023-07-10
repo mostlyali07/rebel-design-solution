@@ -29,7 +29,7 @@ const ContentMarketing = () => {
                             </div>
                         </div>
                         <div className="col-md-6 d-flex justify-content-center">
-                            <img src={WEB} alt="" width={450} />
+                            <img src={WEB} classNames="cust-front" />
                         </div>
                         <VertForm />
                     </div>

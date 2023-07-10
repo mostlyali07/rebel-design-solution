@@ -42,6 +42,9 @@ header {
   font-size: 16px;
   color: #fff;
 }
+.cust-front {
+  width: 450px;
+}
 .btns-one {
   color: #fff;
   font-size: 15px;
@@ -865,5 +868,8 @@ a {
   }
   .review-back img {
     width: 75%;
+  }
+  .cust-front {
+    width: 370px;
   }
 }

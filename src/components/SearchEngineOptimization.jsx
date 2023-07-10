@@ -1,8 +1,10 @@
 
-import WEB from "../Images/third-sec.webp";
+import SeoOne from "../Images/seo-4.png";
+import SeoTwo from "../Images/seo-1.png";
+import SeoThree from "../Images/seo-2.jpeg";
+import SeoFour from "../Images/seo-3.png";
 import VertForm from './Vert-Form';
 import ContentSec from './ContentSec';
-import secImg from "../Images/sec-img.png"
 import Ourprocess from './Ourprocess';
 import PricingTabs from './PricingTabs';
 import Cta from './Cta';
@@ -34,7 +36,7 @@ const SearchEngineOptimization = () => {
                             </div>
                         </div>
                         <div className="col-md-6 d-flex justify-content-center">
-                            <img src={WEB} alt="" width={450} />
+                            <img src={SeoOne} className="cust-front" />
                         </div>
                         <VertForm />
                     </div>
@@ -42,7 +44,7 @@ const SearchEngineOptimization = () => {
                 <div className="shape-divider"></div>
             </div>
             <ContentSec
-                src={secImg}
+                src={SeoThree}
                 text={"Buy SEO Services That Deliver Results"}
                 descrp={"When it comes to SEO, results matter. At Rebel Design Solution, we offer rebellious SEO services that deliver tangible outcomes for your brand. Our team of SEO experts combines technical expertise, data-driven insights, and strategic thinking to create customized solutions tailored to your unique business goals. Whether you're looking to increase website traffic, improve conversions, or enhance your online visibility, our rebellious SEO services are designed to drive meaningful results that exceed your expectations."}
             />
@@ -50,7 +52,6 @@ const SearchEngineOptimization = () => {
                 ctAtext="Elevate Your SEO Game – Experience Advanced SEO Services!"
                 ctAdescrp="Elevate your SEO strategy to new heights with our advanced services and stay ahead in the ever-evolving digital landscape."
             />
-
             <AllServices mainText={"SEO Unleashed: Uncover the Rebellious Arsenal of SEO Services"}
                 serOne={"Local SEO"}
                 desOne={"Boost your brand's visibility in local searches and dominate the local market."}
@@ -81,13 +82,13 @@ const SearchEngineOptimization = () => {
                 ctAdescrp="Harness the immense power of Google with our specialized SEO services tailored to boost your rankings."
             />
             <ContentSec
-                src={secImg}
+                src={SeoTwo}
                 text={"Fully Managed SEO Services for Your Brand's Success"}
                 descrp={"Take the stress out of SEO with our fully managed services. Our rebellious team will handle every aspect of your SEO strategy, from initial analysis to ongoing optimization. We'll conduct in-depth keyword research, optimize your website's on-page elements, create compelling content, build high-quality backlinks, and continuously monitor your performance to ensure maximum impact. With our fully managed SEO services, you can focus on your core business while we take care of your brand's online visibility."}
             />
             <PricingTabs />
             <ContentSec
-                src={secImg}
+                src={SeoFour}
                 text={"Partner with a Rebellious SEO Optimization Service"}
                 descrp={"Partnering with Rebel Design Solution means collaborating with a rebellious SEO optimization service that understands the intricacies of the digital landscape. We go beyond the basics of SEO, employing advanced techniques and staying up-to-date with the latest industry trends. Our rebellious team takes a holistic approach, considering your brand's unique identity, target audience, and business objectives to create a customized SEO strategy that delivers exceptional results. Trust Rebel Design Solution to be your partner in revolutionizing your brand's SEO efforts."}
             />
