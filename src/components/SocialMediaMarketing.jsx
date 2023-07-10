@@ -1,4 +1,8 @@
-import WEB from "../Images/third-sec.webp";
+import SocialOne from "../Images/social-2.png";
+import SocialTwo from "../Images/social-1.png";
+import SocialThree from "../Images/social-3.png";
+import SocialFour from "../Images/social-4.png";
+import SocialFive from "../Images/social-5.png";
 import VertForm from './Vert-Form';
 import ContentSec from './ContentSec';
 import secImg from "../Images/sec-img.png"
@@ -30,7 +34,7 @@ const SocialMediaMarketing = () => {
                             </div>
                         </div>
                         <div className="col-md-6 d-flex justify-content-center">
-                            <img src={WEB} className="cust-front" />
+                            <img src={SocialOne} className="cust-front" />
                         </div>
                         <VertForm />
                     </div>
@@ -38,7 +42,7 @@ const SocialMediaMarketing = () => {
                 <div className="shape-divider"></div>
             </div>
             <ContentSec
-                src={secImg}
+                src={SocialTwo}
                 text={"Unleash the Power of Social Media with Rebel Design Solution"}
                 descrp={"At Rebel Design Solution, we understand the true potential of social media as a catalyst for brand growth. Our rebellious team of experts harnesses the power of social platforms to create captivating campaigns that drive engagement, increase brand awareness, and generate valuable leads. Get ready to harness the full potential of social media with our innovative strategies."}
             />
@@ -57,13 +61,13 @@ const SocialMediaMarketing = () => {
             />
 
             <ContentSec
-                src={secImg}
+                src={SocialThree}
                 text={"Seamlessly Integrate SEO and Social Media Marketing for Maximum Impact"}
                 descrp={"At Rebel Design Solution, we go beyond traditional social media marketing. We seamlessly integrate SEO and social media strategies to maximize your brand's online visibility and impact. Our rebellious approach ensures that your social media efforts align with your overall digital marketing objectives, leading to increased organic reach, website traffic, and conversions."}
             />
             <PricingTabs />
             <ContentSec
-                src={secImg}
+                src={SocialFour}
                 text={"Unleash the Power of Data-Driven Insights for Effective SMM"}
                 descrp={"Harness the power of data-driven insights to supercharge your social media marketing efforts. Our rebellious team utilizes advanced analytics tools to track and analyze key metrics, providing you with valuable insights into your audience's behavior and preferences. With data as our guide, we optimize your social media campaigns for maximum impact and ROI."}
             />
@@ -72,7 +76,7 @@ const SocialMediaMarketing = () => {
                 ctAdescrp="Unlock the full potential of social media marketing to propel your brand forward. Partner with our rebellious team for expert SMM services that deliver results."
             />
             <ContentSec
-                src={secImg}
+                src={SocialFive}
                 text={"Partner with Rebel Design Solution for Social Media Success"}
                 descrp={"Partner with Rebel Design Solution for social media success. As a trusted provider of social media marketing services, we are committed to helping your brand thrive in the digital landscape. Let our rebellious team craft a customized social media strategy that delivers tangible results, strengthens your brand's online presence, and drives meaningful engagement."}
             />

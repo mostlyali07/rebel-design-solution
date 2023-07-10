@@ -46,18 +46,19 @@ const Portfolio = () => {
             <div className="contect-banner">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-4"></div>
-                        <div className="col-md-4">
+                        <div className="col-md-2"></div>
+                        <div className="col-md-8">
                             <div className='text-center pt-5 mt-5'>
-                                <h1 className='fw-bold'>
-                                    Our<span style={{ color: '#222222' }}>  Portfolio </span>
+                                <h1 className='fw-bold fs-3'>
+                                    Elevating Brands to New Heights:
+                                    <span style={{ color: '#222222' }}> A Glimpse into Our Remarkable Portfolio</span>
                                 </h1>
                                 <p>
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi quis, eum sed ipsa adipisci voluptatibus ad id nam in rem est laudantium hic.
+                                    Welcome to Rebel Design Solution's captivating portfolio, where we showcase our extraordinary design and digital solutions that have elevated brands and left a lasting impression. Each entry in our portfolio reflects our passion for crafting captivating solutions that transform brands and bring visions to life in the digital landscape.
                                 </p>
                             </div>
                         </div>
-                        <div className="col-md-4"></div>
+                        <div className="col-md-2"></div>
                     </div>
                 </div>
                 <div className="shape-divider"></div>
