@@ -11,6 +11,7 @@ import Cta from './Cta';
 import Awards from './Awards';
 import Faqs from './Faqs';
 import AllServices from './AllServices';
+import Reviews from "./Reviews";
 
 
 const SearchEngineOptimization = () => {
@@ -87,6 +88,14 @@ const SearchEngineOptimization = () => {
                 descrp={"Take the stress out of SEO with our fully managed services. Our rebellious team will handle every aspect of your SEO strategy, from initial analysis to ongoing optimization. We'll conduct in-depth keyword research, optimize your website's on-page elements, create compelling content, build high-quality backlinks, and continuously monitor your performance to ensure maximum impact. With our fully managed SEO services, you can focus on your core business while we take care of your brand's online visibility."}
             />
             <PricingTabs />
+            <Reviews
+                CustomerNameOne={"Sarah Miller, Owner"}
+                CustomerDescOne={"Rebel Design Solution's SEO services have had a significant impact on my business. Their team's expertise in search engine optimization helped me achieve higher search rankings and increased organic traffic to my website. They conducted in-depth keyword research, optimized my website content, and implemented effective strategies that brought tangible results. Their proactive approach, transparent reporting, and dedication to my success set them apart. I highly recommend Rebel Design Solution for their exceptional SEO services."}
+                CustomerNameTwo={"Emily Thompson, Marketing Manager"}
+                CustomerDescTwo={"Rebel Design Solution's SEO service has made a significant impact on our online presence. Their team's expertise in search engine optimization has helped us rank higher in search results, resulting in increased organic traffic and improved visibility. They conducted thorough keyword research, optimized our website content, and implemented effective strategies that have generated tangible results. We are impressed with their professionalism, transparency, and the measurable growth we have experienced. Rebel Design Solution is our trusted partner for SEO, and we highly recommend their services."}
+                CustomerNameThree={"David Johnson, CEO"}
+                CustomerDescThree={"Rebel Design Solution's SEO service has been a game-changer for our business. Their team took the time to understand our industry and target audience, allowing them to develop a customized SEO strategy tailored to our needs. They optimized our website, improved our site structure, and implemented effective link-building techniques. As a result, we have seen a significant increase in organic traffic, higher search engine rankings, and improved conversion rates. Rebel Design Solution's expertise and dedication to our success have exceeded our expectations, and we highly recommend their SEO service to any business looking to enhance their online presence."}
+            />
             <ContentSec
                 src={SeoFour}
                 text={"Partner with a Rebellious SEO Optimization Service"}

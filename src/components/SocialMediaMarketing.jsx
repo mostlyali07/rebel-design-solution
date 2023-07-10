@@ -1,16 +1,16 @@
 import SocialOne from "../Images/social-2.png";
 import SocialTwo from "../Images/social-1.png";
-import SocialThree from "../Images/social-3.png";
+import SocialThree from "../Images/social-3.jpg";
 import SocialFour from "../Images/social-4.png";
 import SocialFive from "../Images/social-5.png";
 import VertForm from './Vert-Form';
 import ContentSec from './ContentSec';
-import secImg from "../Images/sec-img.png"
 import Ourprocess from './Ourprocess';
 import PricingTabs from './PricingTabs';
 import Cta from './Cta';
 import Awards from './Awards';
 import Faqs from './Faqs';
+import Reviews from "./Reviews";
 
 
 const SocialMediaMarketing = () => {
@@ -79,6 +79,14 @@ const SocialMediaMarketing = () => {
                 src={SocialFive}
                 text={"Partner with Rebel Design Solution for Social Media Success"}
                 descrp={"Partner with Rebel Design Solution for social media success. As a trusted provider of social media marketing services, we are committed to helping your brand thrive in the digital landscape. Let our rebellious team craft a customized social media strategy that delivers tangible results, strengthens your brand's online presence, and drives meaningful engagement."}
+            />
+            <Reviews
+                CustomerNameOne={"Sarah Thompson, Owner"}
+                CustomerDescOne={"Rebel Design Solution's social media marketing services have been a game-changer for our business. They took the time to understand our target audience and industry, creating engaging and highly targeted campaigns that generated remarkable results. Our social media presence has significantly grown, and we've seen a substantial increase in brand visibility and customer engagement. We're grateful for Rebel Design Solution's expertise and their dedication to driving our success."}
+                CustomerNameTwo={"Michael Anderson, Marketing Director"}
+                CustomerDescTwo={"Choosing Rebel Design Solution for our social media marketing was one of the best decisions we made. Their team crafted a cohesive and dynamic social media strategy that effectively showcased our brand and engaged our audience. They consistently delivered captivating content and managed our social media channels with utmost professionalism. The results speak for themselves - increased followers, improved brand reputation, and a boost in conversions. Rebel Design Solution truly knows how to make an impact in the social media landscape."}
+                CustomerNameThree={"Lisa Roberts, Owner"}
+                CustomerDescThree={"Rebel Design Solution's social media marketing services have been instrumental in elevating my brand's online presence. Their team crafted compelling content and developed targeted campaigns that helped me reach a wider audience and increase engagement. Their strategic approach, creativity, and ability to understand my brand's voice have impressed me. With their expertise, I have witnessed significant growth in my social media following and a boost in customer interactions. I highly recommend Rebel Design Solution for their exceptional social media marketing services."}
             />
             <Faqs
                 faqOneQ="Q.1: What is social media marketing and how can it benefit my business?"

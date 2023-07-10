@@ -7,6 +7,7 @@ import PricingTabs from './PricingTabs';
 import Cta from './Cta';
 import Awards from './Awards';
 import Faqs from './Faqs';
+import Reviews from "./Reviews";
 
 
 const WebContent = () => {
@@ -75,6 +76,14 @@ const WebContent = () => {
                 src={secImg}
                 text={"Get Started on Your Website Content Journey"}
                 descrp={"Ready to revolutionize your website content? Take the first step towards a captivating online presence by contacting our team today. Together, we will explore how our rebellious website content services can transform your brand and bring your vision to life in the digital landscape. Contact Rebel Design Solution today to start your project."}
+            />
+            <Reviews
+                CustomerNameOne={"Mark Wilson, Owner"}
+                CustomerDescOne={"Rebel Design Solution's website content writing services have elevated my brand's online presence. Their team of skilled writers crafted compelling and SEO-friendly content that effectively communicates my message to my target audience. They understood my brand's voice and values, creating content that resonates with my audience. Their professionalism, timely delivery, and attention to detail are commendable. I highly recommend Rebel Design Solution for their outstanding website content writing services."}
+                CustomerNameTwo={"Sarah Johnson, Marketing Manager"}
+                CustomerDescTwo={"Rebel Design Solution's website content writing service has truly transformed our online presence. Their team of talented writers understood our brand's voice and created compelling and engaging content that effectively communicated our message to our target audience. They delivered well-researched and SEO-friendly content that not only captivated readers but also improved our search engine rankings. Their attention to detail and ability to craft content that resonates with our audience has significantly contributed to our website's success. We highly recommend Rebel Design Solution for their exceptional website content writing service."}
+                CustomerNameThree={"Michael Thompson, CEO"}
+                CustomerDescThree={"Rebel Design Solution's website content writing service has been a game-changer for our business. Their team took the time to understand our industry and target audience, allowing them to create content that aligns perfectly with our brand's values and goals. Their writers have a knack for crafting persuasive and informative content that has captivated our website visitors. The quality of their work and their attention to detail have been outstanding. We are delighted with the results and highly recommend Rebel Design Solution for their website content writing expertise."}
             />
             <Faqs
                 faqOneQ="Q: What is website content writing?"

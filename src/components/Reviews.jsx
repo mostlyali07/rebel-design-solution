@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 
-const Reviews = () => {
+const Reviews = ({ CustomerNameOne, CustomerDescOne, CustomerNameTwo, CustomerDescTwo, CustomerNameThree, CustomerDescThree }) => {
     const settings = {
         dots: true,
         infinite: true,
@@ -41,7 +41,7 @@ const Reviews = () => {
                                 <div>
                                     <div className="row">
                                         <div className="col-md-8">
-                                            <h4>kate Roger - <span>Graphic Designer</span></h4>
+                                            <h4>{CustomerNameOne}</h4>
                                         </div>
                                         <div className="col-md-4">
                                             <div className="stars text-end">
@@ -56,8 +56,7 @@ const Reviews = () => {
                                     <div className="row">
                                         <div className="col-md-12">
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                                {CustomerDescOne}
                                             </p>
                                         </div>
                                     </div>
@@ -65,7 +64,7 @@ const Reviews = () => {
                                 <div>
                                     <div className="row">
                                         <div className="col-md-8">
-                                            <h4>kate Roger - <span>Graphic Designer</span></h4>
+                                            <h4>{CustomerNameTwo}</h4>
                                         </div>
                                         <div className="col-md-4">
                                             <div className="stars text-end">
@@ -80,8 +79,7 @@ const Reviews = () => {
                                     <div className="row">
                                         <div className="col-md-12">
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                                {CustomerDescTwo}
                                             </p>
                                         </div>
                                     </div>
@@ -89,7 +87,7 @@ const Reviews = () => {
                                 <div>
                                     <div className="row">
                                         <div className="col-md-8">
-                                            <h4>kate Roger - <span>Graphic Designer</span></h4>
+                                            <h4>{CustomerNameThree}</h4>
                                         </div>
                                         <div className="col-md-4">
                                             <div className="stars text-end">
@@ -104,8 +102,7 @@ const Reviews = () => {
                                     <div className="row">
                                         <div className="col-md-12">
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                                {CustomerDescThree}
                                             </p>
                                         </div>
                                     </div>

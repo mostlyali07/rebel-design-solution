@@ -83,7 +83,6 @@ const Home = () => {
                 srcSeven={"content-marketing-services"}
                 srcEight={"website-content-writing-services"}
             />
-
             <Cta
                 ctAtext="Join the Rebellion for Extraordinary Results!"
                 ctAdescrp="Step into a world of limitless possibilities where creativity knows no bounds. Take advantage of this opportunity to join the rebellion and unlock the path to unprecedented success."
@@ -114,8 +113,14 @@ const Home = () => {
                 text={"Writing History, One Brand at a Time: Be a Part of the Rebellion"}
                 descrp="At Rebel Design Solution, we are not just creating brands but writing history, one brand at a time. Join our rebellious movement and be a part of something extraordinary. Together, we challenge the norms, redefine industry standards, and leave an indelible mark on the world. We believe in the power of bold ideas, innovative designs, and rebellious thinking to shape the future. Be a trailblazer, dare to stand out, and let your brand become a timeless symbol of innovation and success. Together, we will create a legacy that transcends generations. Be a part of the rebellion and make history with us."
             />
-            <Reviews />
-
+            <Reviews
+                CustomerNameOne={"John Smith, CEO"}
+                CustomerDescOne={"Rebel Design Solution transformed our outdated website into a captivating digital masterpiece. Their team's expertise in design and digital technologies brought our vision to life, creating a seamless user experience that leaves a lasting impression. We couldn't be happier with the stunning visual designs and the elevated brand presence they delivered."}
+                CustomerNameTwo={"Emily Thompson, Marketing Manager"}
+                CustomerDescTwo={"Rebel Design Solution's SEO service has made a significant impact on our online presence. Their team's expertise in search engine optimization has helped us rank higher in search results, resulting in increased organic traffic and improved visibility. They conducted thorough keyword research, optimized our website content, and implemented effective strategies that have generated tangible results. We are impressed with their professionalism, transparency, and the measurable growth we have experienced. Rebel Design Solution is our trusted partner for SEO, and we highly recommend their services."}
+                CustomerNameThree={"Laura Thompson, Marketing Director"}
+                CustomerDescThree={"Rebel Design Solution's content marketing service has been instrumental in enhancing our brand's online presence. Their team's expertise in creating engaging and informative content has helped us establish thought leadership in our industry. They took the time to understand our target audience and crafted content that resonated with them. From blog posts to social media content, Rebel Design Solution consistently delivered high-quality and compelling content that drove traffic to our website and increased customer engagement. We are extremely pleased with the results and highly recommend their content marketing service."}
+            />
             <Faqs
                 faqOneQ="Q: What differentiates Rebel Design Solution from other design and marketing agencies?"
                 faqOneA="A: At Rebel Design Solution, we embrace a rebellious spirit that fuels our creativity and innovative approach. We go beyond the ordinary, pushing the boundaries of design and marketing to deliver extraordinary results that leave a lasting impression. Our team of visionary designers, digital experts, and content connoisseurs are passionate about challenging the status quo and crafting remarkable brand experiences."

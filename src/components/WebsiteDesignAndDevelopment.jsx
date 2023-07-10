@@ -10,6 +10,7 @@ import PricingTabs from './PricingTabs';
 import Cta from './Cta';
 import Awards from './Awards';
 import Faqs from './Faqs';
+import Reviews from "./Reviews";
 
 
 const WebsiteDesignAndDevelopment = () => {
@@ -78,6 +79,14 @@ const WebsiteDesignAndDevelopment = () => {
                 src={WebFive}
                 text={"Join the Rebellion: Transform Your Digital Landscape Today"}
                 descrp={"Ready to make your mark in the digital world? Join the rebellion and let us transform your brand's digital landscape. Our rebellious team is here to listen to your vision, understand your goals, and create a tailor-made solution that sets you apart from the competition. Contact us today and embark on a journey of digital transformation with Rebel Design Solution."}
+            />
+            <Reviews
+                CustomerNameOne={"David Thompson, CEO"}
+                CustomerDescOne={"Rebel Design Solution is a true gem in the web design and development industry. Their team's expertise in design and technology is evident in the visually stunning and user-friendly website they created for my business. They flawlessly translated my ideas into reality and delivered a website that captures the essence of my brand. Their attention to detail, responsiveness, and ability to meet tight deadlines impressed me. I couldn't be happier with the outcome and highly recommend Rebel Design Solution for anyone seeking top-notch web design and development services."}
+                CustomerNameTwo={"John Smith, CEO"}
+                CustomerDescTwo={"Rebel Design Solution transformed our outdated website into a captivating digital masterpiece. Their team's expertise in design and digital technologies brought our vision to life, creating a seamless user experience that leaves a lasting impression. We couldn't be happier with the stunning visual designs and the elevated brand presence they delivered."}
+                CustomerNameThree={"Emily Johnson, Marketing Manager"}
+                CustomerDescThree={"Working with Rebel Design Solution was an absolute pleasure. Their web design and development services exceeded our expectations. From the initial consultation to the final launch, their team was attentive, responsive, and creative. They understood our brand and crafted a website that perfectly showcased our products and services. We highly recommend Rebel Design Solution for their exceptional website design and development expertise."}
             />
             <Faqs
                 faqOneQ="Q.1: What is web design and development?"

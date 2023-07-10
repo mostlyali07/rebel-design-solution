@@ -7,6 +7,7 @@ import PricingTabs from './PricingTabs';
 import Cta from './Cta';
 import Awards from './Awards';
 import Faqs from './Faqs';
+import Reviews from "./Reviews";
 
 
 const ContentMarketing = () => {
@@ -29,7 +30,7 @@ const ContentMarketing = () => {
                             </div>
                         </div>
                         <div className="col-md-6 d-flex justify-content-center">
-                            <img src={WEB} classNames="cust-front" />
+                            {/* <img src={WEB} classNames="cust-front" /> */}
                         </div>
                         <VertForm />
                     </div>
@@ -61,6 +62,14 @@ const ContentMarketing = () => {
                 descrp={"Elevate your brand's online presence with our rebellious content marketing SEO services. We believe in the power of strategic storytelling and data-driven insights to fuel your brand's growth. Our team of rebellious content creators and SEO experts work hand in hand to craft captivating content that not only resonates with your audience but also improves your website's visibility and organic traffic. Whether it's optimizing your website's on-page elements or creating compelling content for your blog, we're here to take your brand to new heights."}
             />
             <PricingTabs />
+            <Reviews
+                CustomerNameOne={"Laura Thompson, Marketing Director"}
+                CustomerDescOne={"Rebel Design Solution's content marketing service has been instrumental in enhancing our brand's online presence. Their team's expertise in creating engaging and informative content has helped us establish thought leadership in our industry. They took the time to understand our target audience and crafted content that resonated with them. From blog posts to social media content, Rebel Design Solution consistently delivered high-quality and compelling content that drove traffic to our website and increased customer engagement. We are extremely pleased with the results and highly recommend their content marketing service."}
+                CustomerNameTwo={"John Davis, CEO"}
+                CustomerDescTwo={"Rebel Design Solution's content marketing service has truly elevated our brand's storytelling and engagement with our audience. Their team understands the power of compelling content and has consistently delivered content that captures the essence of our brand. From informative articles to visually appealing infographics, their content has resonated with our target audience and helped us build credibility and trust. Rebel Design Solution's commitment to understanding our brand and goals sets them apart, and we are thrilled with the results of their content marketing efforts."}
+                CustomerNameThree={"Samantha Thompson, CEO"}
+                CustomerDescThree={"Rebel Design Solution's content marketing services have truly transformed my brand's online presence. Their team of talented writers created engaging and informative content that resonates with my target audience. They took the time to understand my brand's voice and industry, delivering content that establishes my business as a thought leader. Their attention to detail, commitment to quality, and ability to create content that drives results have been outstanding. I highly recommend Rebel Design Solution for their exceptional content marketing services."}
+            />
             <ContentSec
                 src={secImg}
                 text={"Partner with a Rebellious Content Marketing Agency"}
@@ -82,6 +91,7 @@ const ContentMarketing = () => {
                 faqFiveQ="Q5: What makes Rebel Design Solution's content marketing services unique?"
                 faqFiveA="Ans: Rebel Design Solution stands out in the realm of content marketing by bringing a rebellious approach to every project. Our team of skilled content creators and strategists combines creativity with data-driven insights to craft content that captivates audiences and achieves your business goals. We prioritize storytelling, strategic keyword optimization, and compelling visuals to make your brand stand out in the digital landscape. Our focus is on delivering unique and immersive content experiences that resonate with your target audience and drive exceptional results."
             />
+
             <Awards />
         </>
     )

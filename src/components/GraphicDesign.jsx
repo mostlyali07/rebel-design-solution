@@ -10,6 +10,7 @@ import PricingTabs from './PricingTabs';
 import Cta from './Cta';
 import Awards from './Awards';
 import Faqs from './Faqs';
+import Reviews from "./Reviews";
 
 
 const GraphicDesign = () => {
@@ -78,6 +79,14 @@ const GraphicDesign = () => {
                 src={GraphFive}
                 text={"Join the Rebellion and Transform Your Brand's Visual Identity"}
                 descrp={"Are you ready to rebel against ordinary design? Trust Rebel Design Solution to transform your brand's visual identity. Our rebellious graphic design services encompass a wide range of creative solutions, from logo design to motion graphics. With our fusion of design and digital ingenuity, we bring your brand's vision to life and ensure every design element leaves a rebellious impression in the digital landscape. Let's embark on this design revolution together."}
+            />
+            <Reviews
+                CustomerNameOne={"Samantha Davis, Owner"}
+                CustomerDescOne={"Rebel Design Solution truly captured the essence of our brand through their exceptional logo design service. They understood our vision and delivered a logo that perfectly represents our company's values and personality. Their team's creativity and attention to detail were outstanding, and they were responsive to our feedback throughout the design process. We are thrilled with the final result and highly recommend Rebel Design Solution for their logo design expertise."}
+                CustomerNameTwo={"John Miller, Founder"}
+                CustomerDescTwo={"Working with Rebel Design Solution for our logo design was an absolute delight. Their team brought our brand to life with a logo that is modern, eye-catching, and memorable. They took the time to understand our industry and target audience, resulting in a logo that perfectly reflects our business. The entire process was seamless, and their professionalism and creativity shone through at every step. We are incredibly pleased with the outcome and grateful for Rebel Design Solution's exceptional logo design service."}
+                CustomerNameThree={"Emily Johnson, Owner"}
+                CustomerDescThree={"Rebel Design Solution's graphic design services exceeded my expectations. Their team of creative experts took the time to understand my brand and vision, resulting in stunning designs that perfectly represent my business. From logos to marketing collateral, their attention to detail and artistic flair brought my brand to life. I appreciate their professionalism, timely communication, and dedication to delivering exceptional results. I highly recommend Rebel Design Solution for their outstanding graphic design services."}
             />
             <Faqs
                 faqOneQ="Q: What is graphic design?"

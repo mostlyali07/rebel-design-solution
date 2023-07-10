@@ -10,6 +10,7 @@ import PricingTabs from './PricingTabs';
 import Cta from './Cta';
 import Awards from './Awards';
 import Faqs from './Faqs';
+import Reviews from "./Reviews";
 
 
 const GoogleAdsManagement = () => {
@@ -33,7 +34,7 @@ const GoogleAdsManagement = () => {
                             </div>
                         </div>
                         <div className="col-md-6 d-flex justify-content-center">
-                            <img src={AdsOne} className="cust-front"/>
+                            <img src={AdsOne} className="cust-front" />
                         </div>
                         <VertForm />
                     </div>
@@ -78,6 +79,14 @@ const GoogleAdsManagement = () => {
                 src={AdsFive}
                 text={"Your Success is Our Priority"}
                 descrp={"At Rebel Design Solution, we believe in forging strong partnerships with our clients. We work closely with you, understanding your business goals, and providing ongoing support and guidance. Our team is always available to answer your questions, provide strategic insights, and ensure your Google Ads success."}
+            />
+            <Reviews
+                CustomerNameOne={"John Davis, Founder"}
+                CustomerDescOne={"Rebel Design Solution's Google Ads management services have made a remarkable impact on my business. Their team's expertise in campaign optimization and targeting strategies has resulted in increased website traffic and conversions. They continually monitor and optimize my ads, ensuring they reach the right audience at the right time. Their transparent reporting and commitment to delivering measurable results have been invaluable. I highly recommend Rebel Design Solution for their exceptional Google Ads management services."}
+                CustomerNameTwo={"Lisa Roberts, Marketing Manager"}
+                CustomerDescTwo={"Rebel Design Solution's Google Ads management services have been instrumental in driving qualified traffic and boosting our online visibility. Their team's expertise in campaign optimization and targeting strategies has ensured that our ads are reaching the right audience at the right time. We've experienced a significant increase in website traffic and conversions, and our return on investment has been exceptional. Rebel Design Solution is our go-to partner for Google Ads management, and we highly recommend their services."}
+                CustomerNameThree={"David Thompson, CEO"}
+                CustomerDescThree={"Rebel Design Solution's Google Ads management services have been a game-changer for our business. They took the time to understand our goals and developed a strategic campaign that exceeded our expectations. Their team continually monitored and optimized our ads, resulting in improved click-through rates and conversions. We appreciate their transparency and the regular performance reports they provided. With Rebel Design Solution, our Google Ads campaigns are in capable hands, and we've seen tremendous success."}
             />
             <Faqs
                 faqOneQ="Q: What are Google Ads and how do they work?"

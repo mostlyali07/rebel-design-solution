@@ -10,6 +10,7 @@ import PricingTabs from './PricingTabs';
 import Cta from './Cta';
 import Awards from './Awards';
 import Faqs from './Faqs';
+import Reviews from "./Reviews";
 
 
 const AppDevelopment = () => {
@@ -33,7 +34,7 @@ const AppDevelopment = () => {
                             </div>
                         </div>
                         <div className="col-md-6 d-flex justify-content-center">
-                            <img src={AppOne} className="cust-front"/>
+                            <img src={AppOne} className="cust-front" />
                         </div>
                         <VertForm />
                     </div>
@@ -78,6 +79,14 @@ const AppDevelopment = () => {
                 src={AppFive}
                 text={"Transform Your Brand with Rebel Design Solution"}
                 descrp={"Rebel Design Solution is your ultimate partner in application development. Our rebellious spirit, combined with our deep expertise in design and digital technologies, enables us to craft captivating and immersive solutions that make your brand shine. Trust us with your mobile app development, web application development, or custom software needs, and let us revolutionize your brand's presence in the digital landscape. Join forces with Rebel Design Solution and redefine what's possible for your brand."}
+            />
+            <Reviews
+                CustomerNameOne={"Sarah Wilson, Founder"}
+                CustomerDescOne={"Rebel Design Solution's app development service exceeded our expectations in every way. Their team of skilled developers took our concept and turned it into a polished and user-friendly mobile application. From the initial consultation to the final product launch, their professionalism and attention to detail were remarkable. They consistently communicated with us throughout the development process, ensuring that our requirements were met at every stage. We are extremely satisfied with the end result and grateful for Rebel Design Solution's expertise and dedication to delivering a top-notch app."}
+                CustomerNameTwo={"Mark Roberts, CEO"}
+                CustomerDescTwo={"Rebel Design Solution's app development service transformed our business by providing us with a high-quality and feature-rich mobile application. Their team was responsive, collaborative, and demonstrated a deep understanding of our vision. They not only developed a visually stunning app but also ensured a seamless user experience. Rebel Design Solution's expertise in both design and development was evident throughout the entire process. We highly recommend their app development service to any business looking to create a standout mobile application."}
+                CustomerNameThree={"Michael Anderson, CEO"}
+                CustomerDescThree={"Rebel Design Solution's app development services exceeded my expectations. Their team's technical expertise and creative vision resulted in a user-friendly and visually stunning mobile application for my business. From concept to launch, their attention to detail, efficient communication, and commitment to delivering a high-quality product were remarkable. They listened to my ideas, provided valuable insights, and brought my app to life. I am grateful for Rebel Design Solution's outstanding app development services and highly recommend them."}
             />
             <Faqs
                 faqOneQ="Q1: What are the benefits of mobile app development for businesses?"
