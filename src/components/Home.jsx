@@ -90,11 +90,11 @@ const Home = () => {
             <Ourprocess
                 prcsMain="The Roadmap to Extraordinary: Inside Our Process"
                 prcsPara="With a keen focus on detail and a commitment to excellence, our process ensures we deliver remarkable results beyond expectations."
-                prcsOne="Discovery and Understanding"
-                prcsTwo="Strategic Planning"
-                prcsThree="Creative Conceptualization"
-                prcsFour="Meticulous Execution"
-                prcsFive="Continuous Improvement"
+                prcsOne={["Discovery and", <br />, "Understanding"]}
+                prcsTwo={["Strategic", <br />, "Planning"]}
+                prcsThree={["Creative", <br />, "Conceptualization"]}
+                prcsFour={["Meticulous", <br />, "Execution"]}
+                prcsFive={["Continuous", <br />, "Improvement"]}
             />
             <PricingTabs />
             <ContentSec

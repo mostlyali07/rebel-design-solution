@@ -24,6 +24,9 @@ header {
 .dropdown-menu {
   z-index: 999;
 }
+.dropdown-item:active{
+  background-color: #111;
+}
 .main-banner {
   background-color: #f75515;
   background-image: url(./Images/rebel-side.png);
@@ -628,37 +631,56 @@ a {
   padding: 18px 18px;
   margin-bottom: 26px;
 }
-.one {
+.one-main {
   width: 180px;
   height: 200px;
-  background-image: url(./Images/PNG-1.png);
-  background-size: 70%;
-  background-repeat: no-repeat;
-  background-position: top center;
-  color: #fff;
+  position: relative;
 }
-.one h6 {
+.one-main h6 {
   padding-top: 50px;
   font-size: 29px;
   font-weight: 600;
   margin-bottom: 40px;
+  color: #fff;
 }
-.one h5 {
+.one-main h5 {
   font-size: 18px;
   font-weight: 600;
   color: #000;
 }
-/* .one::before {
+.one-main::before {
   content: "";
-  display: block;
+  width: 130px;
+  height: 130px;
   position: absolute;
-  width: 120px;
-  height: 120px;
-  background-image: url(./Images/PNG-1.png);
   background-size: cover;
-  background-position: center;
+  top: 65px;
+}
+.one::before {
+  background-image: url(./Images/PNG-1.png);
+  animation: circular-motion 8s linear infinite;
+  z-index: -1;
+}
+.two::before {
+  background-image: url(./Images/PNG-1.png);
   animation: circular-motion 10s linear infinite;
-} */
+  z-index: -1;
+}
+.three::before {
+  background-image: url(./Images/PNG-1.png);
+  animation: circular-motion 8s linear infinite;
+  z-index: -1;
+}
+.four::before {
+  background-image: url(./Images/PNG-1.png);
+  animation: circular-motion 10s linear infinite;
+  z-index: -1;
+}
+.five::before {
+  background-image: url(./Images/PNG-1.png);
+  animation: circular-motion 8s linear infinite;
+  z-index: -1;
+}
 @keyframes circular-motion {
   0% {
     transform: translate(-50%, -50%) rotate(0deg);
@@ -807,6 +829,7 @@ a {
   justify-content: center;
   flex-wrap: wrap;
 }
+
 @media only screen and (max-width: 600px) {
   .vert-form {
     width: 330px;

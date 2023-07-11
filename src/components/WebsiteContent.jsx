@@ -50,11 +50,11 @@ const WebContent = () => {
             <Ourprocess
                 prcsMain="Words That Work Wonders: Unveiling Our Website Content Writing Alchemy"
                 prcsPara="Unleash the power of persuasive words and experience the magic of our website content writing alchemy, guaranteed to captivate your audience and drive remarkable results."
-                prcsOne="Discovery and Research"
-                prcsTwo="Content Planning and Strategy"
-                prcsThree="Compelling Copywriting"
-                prcsFour="Iterative Editing and Proofreading"
-                prcsFive="Finalization and Delivery"
+                prcsOne={["Discovery", <br />, "and Research"]}
+                prcsTwo={["Content Planning", <br />, "and Strategy"]}
+                prcsThree={["Compelling", <br />, "Copywriting"]}
+                prcsFour={["Iterative Editing", <br />, "and Proofreading"]}
+                prcsFive={["Finalization", <br />, "and Delivery"]}
             />
 
             <ContentSec

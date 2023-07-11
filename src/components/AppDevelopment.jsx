@@ -53,11 +53,11 @@ const AppDevelopment = () => {
             <Ourprocess
                 prcsMain="Unleashing the Rebel's Way: Our App Development Symphony"
                 prcsPara="Ignite digital revolution with our rebellious approach to app development, creating a symphony of innovation and cutting-edge solutions."
-                prcsOne="Ideation and Strategy"
-                prcsTwo="Design and User Experience"
-                prcsThree="Development and Testing"
-                prcsFour="Deployment and Launch"
-                prcsFive="Support and Maintenance"
+                prcsOne={["Ideation ", <br />, "and Strategy"]}
+                prcsTwo={["Design and", <br />, "User Experience"]}
+                prcsThree={["Development", <br />, "and Testing"]}
+                prcsFour={["Deployment", <br />, "and Launch"]}
+                prcsFive={["Support and", <br />, "Maintenance"]}
             />
 
             <ContentSec

@@ -53,11 +53,11 @@ const WebsiteDesignAndDevelopment = () => {
             <Ourprocess
                 prcsMain="From Vision to Reality: Our Web Design and Development Methodology"
                 prcsPara="Transforming your vision into a digital masterpiece - our strategic web design and development methodology ensures a seamless journey from concept to reality, creating stunning websites that captivate and inspire."
-                prcsOne="Discovery and Analysis"
-                prcsTwo="Wireframing and Design"
-                prcsThree="Development and Coding"
-                prcsFour="Content Integration and Optimization"
-                prcsFive="Testing and Launch"
+                prcsOne={["Discovery", <br />, "and Analysis"]}
+                prcsTwo={["Wireframing", <br />, "and Design"]}
+                prcsThree={["Development", <br />, "and Coding"]}
+                prcsFour={["Content Integration", <br />, "and Optimization"]}
+                prcsFive={["Testing", <br />, "and Launch"]}
             />
 
             <ContentSec

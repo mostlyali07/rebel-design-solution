@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from "react-router-dom"
 
 const Ourprocess = ({ prcsMain, prcsPara, prcsOne, prcsTwo, prcsThree, prcsFour, prcsFive }) => {
@@ -5,61 +6,72 @@ const Ourprocess = ({ prcsMain, prcsPara, prcsOne, prcsTwo, prcsThree, prcsFour,
         <>
             <div className="container pt-5 mt-5">
                 <div className="row">
-                    {/* <h5 className='fs-5 text-center pb-2'>
-                        OUR SEO PROCESS
-                    </h5> */}
                     <h2 className='fw-bold text-center pb-2'>
                         {prcsMain}
-                        {/* The <span style={{ color: '#f75515' }}> Roadmap to Extraordinary</span>: Inside Our Process */}
                     </h2>
                     <p className="text-center pb-4">
                         {prcsPara}
                     </p>
                     <div className="col-md-12">
                         <div className="mid-main">
-                            <div className="one text-center">
+                            <div className="one one-main text-center">
                                 <h6>
                                     1
                                 </h6>
                                 <h5>
-                                    {prcsOne}
-
+                                    {prcsOne.map((item, index) => (
+                                        <React.Fragment key={index}>
+                                            {item}
+                                        </React.Fragment>
+                                    ))}
                                 </h5>
                             </div>
-                            <div className="one text-center">
+                            <div className="two one-main text-center">
                                 <h6>
                                     2
                                 </h6>
                                 <h5>
-                                    {prcsTwo}
-
+                                    {prcsTwo.map((item, index) => (
+                                        <React.Fragment key={index}>
+                                            {item}
+                                        </React.Fragment>
+                                    ))}
                                 </h5>
                             </div>
-                            <div className="one text-center">
+                            <div className="three one-main text-center">
                                 <h6>
                                     3
                                 </h6>
                                 <h5>
-                                    {prcsThree}
-
+                                    {prcsThree.map((item, index) => (
+                                        <React.Fragment key={index}>
+                                            {item}
+                                        </React.Fragment>
+                                    ))}
                                 </h5>
                             </div>
-                            <div className="one text-center">
+                            <div className="four one-main text-center">
                                 <h6>
                                     4
                                 </h6>
                                 <h5>
-                                    {prcsFour}
-
+                                    {prcsFour.map((item, index) => (
+                                        <React.Fragment key={index}>
+                                            {item}
+                                        </React.Fragment>
+                                    ))}
                                 </h5>
                             </div>
-                            <div className="one text-center">
+                            <div className="five one-main text-center">
                                 <h6>
                                     5
                                 </h6>
                                 <h5>
-                                    {prcsFive}
-
+                                    {prcsFive.map((item, index) => (
+                                        <React.Fragment key={index}>
+                                            {item}
+                                        </React.Fragment>
+                                    ))}
                                 </h5>
                             </div>
                         </div>

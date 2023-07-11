@@ -53,11 +53,11 @@ const SocialMediaMarketing = () => {
             <Ourprocess
                 prcsMain="Rebelize Your Social Media Strategy: Unveiling the Path to Digital Domination"
                 prcsPara="Embark on a rebellious journey and dominate the digital realm with our expertly crafted social media strategies that will revolutionize your brand's online presence."
-                prcsOne="Rebel Discovery"
-                prcsTwo="Content Revolution"
-                prcsThree="Strategic Engagement"
-                prcsFour="Influencer Impact"
-                prcsFive="Rebel Analytics"
+                prcsOne={["Rebel", <br />, "Discovery"]}
+                prcsTwo={["Content", <br />, "Revolution"]}
+                prcsThree={["Strategic", <br />, "Engagement"]}
+                prcsFour={["Influencer", <br />, "Impact"]}
+                prcsFive={["Rebel", <br />, "Analytics"]}
             />
 
             <ContentSec

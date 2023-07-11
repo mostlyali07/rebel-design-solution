@@ -53,11 +53,11 @@ const GoogleAdsManagement = () => {
             <Ourprocess
                 prcsMain="The Rebel's Guide to Google Ads Domination: Our Step-by-Step Process"
                 prcsPara="Unleash the Power of Google Ads: Discover Our Proven Step-by-Step Process for Dominating the Digital Advertising Realm."
-                prcsOne="Strategic Planning"
-                prcsTwo="Keyword Research and Selection"
-                prcsThree="Ad Creation and Optimization"
-                prcsFour="Campaign Monitoring and Analysis"
-                prcsFive="Performance Reporting and Insights"
+                prcsOne={["Strategic", <br />, "Planning"]}
+                prcsTwo={["Keyword Research", <br />, "and Selection"]}
+                prcsThree={["Ad Creation", <br />, "and Optimization"]}
+                prcsFour={["Campaign Monitoring", <br />, "and Analysis"]}
+                prcsFive={["Performance Reporting", <br />, "and Insights"]}
             />
 
             <ContentSec

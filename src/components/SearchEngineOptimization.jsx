@@ -72,11 +72,11 @@ const SearchEngineOptimization = () => {
             <Ourprocess
                 prcsMain="Rebelize Your SEO Strategy: Unveiling the Path to Digital Domination"
                 prcsPara="Ignite your SEO strategy and conquer the digital realm with our rebellious approach to achieve unrivaled online dominance."
-                prcsOne="Discovery and Analysis"
-                prcsTwo="Keyword Research and Strategy"
-                prcsThree="On-Page Optimization"
-                prcsFour="Off-Page Optimization and Link Building"
-                prcsFive="Tracking and Reporting"
+                prcsOne={["Discovery and", <br />, "Analysis"]}
+                prcsTwo={["Keyword Research", <br />, "and Strategy"]}
+                prcsThree={["On-Page ", <br />, "Optimization"]}
+                prcsFour={["Off-Page Optimization", <br />, "and Link Building"]}
+                prcsFive={["Tracking and", <br />, "Reporting"]}
             />
             <Cta
                 ctAtext="Rise to the Top of Google – Embrace the Power of Google SEO Services!"

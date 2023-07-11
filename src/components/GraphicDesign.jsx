@@ -53,11 +53,11 @@ const GraphicDesign = () => {
             <Ourprocess
                 prcsMain="Designing the Extraordinary: How We Create Captivating Graphics for Your Brand"
                 prcsPara="Ignite your brand's visual presence with our exceptional graphic design expertise, where we blend creativity and innovation to craft captivating graphics that leave a lasting impression on your audience."
-                prcsOne="Discovery and Consultation"
-                prcsTwo="Conceptualization and Ideation"
-                prcsThree="Design Development"
-                prcsFour="Iterative Feedback and Revisions"
-                prcsFive="Finalization and Delivery"
+                prcsOne={["Discovery and", <br />, "Consultation"]}
+                prcsTwo={["Conceptualization", <br />, "and Ideation"]}
+                prcsThree={["Design", <br />, "Development"]}
+                prcsFour={["Iterative Feedback", <br />, "and Revisions"]}
+                prcsFive={["Finalization", <br />, "and Delivery"]}
             />
 
             <ContentSec

@@ -49,11 +49,11 @@ const ContentMarketing = () => {
             <Ourprocess
                 prcsMain="The Rebel's Roadmap: Unleashing Content Marketing Brilliance for Your Brand"
                 prcsPara="Navigate the rebellious path to content marketing excellence and unlock the brilliance with our content marketing SEO services to transform your brand's digital presence."
-                prcsOne="Strategy and Goal Setting"
-                prcsTwo="Content Creation and Optimization"
-                prcsThree="Distribution and Promotion"
-                prcsFour="Performance Tracking and Analysis"
-                prcsFive="Continuous Optimization and Improvement"
+                prcsOne={["Strategy and", <br />, "Goal Setting"]}
+                prcsTwo={["Content Creation", <br />, "and Optimization"]}
+                prcsThree={["Distribution", <br />, "and Promotion"]}
+                prcsFour={["Performance Tracking", <br />, "and Analysis"]}
+                prcsFive={["Continuous Optimization", <br />, "and Improvement"]}
             />
 
             <ContentSec
