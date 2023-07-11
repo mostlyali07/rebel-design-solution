@@ -4,10 +4,13 @@ import React, { useState } from 'react';
 // import 'firebase/database';
 // import 'firebase/functions';
 // import nodemailer from 'nodemailer';
+
 import Client1 from "../Images/client01.png";
 import Client2 from "../Images/client02.png";
 import Client3 from "../Images/client03.png";
 import Client4 from "../Images/client04.png";
+import swal from 'sweetalert';
+
 
 
 const VertForm = () => {
@@ -24,36 +27,42 @@ const VertForm = () => {
         value = event.target.value;
         setUserData({ ...userData, [name]: value })
     }
-    // // Your web app's Firebase configuration
-    // const firebaseConfig = {
-    //     apiKey: "AIzaSyAX8vihvhf3GIrLFXpnevQn8ZbUu7GJkWA",
-    //     authDomain: "rebel-design-solutions.firebaseapp.com",
-    //     projectId: "rebel-design-solutions",
-    //     storageBucket: "rebel-design-solutions.appspot.com",
-    //     messagingSenderId: "137022820127",
-    //     appId: "1:137022820127:web:e553bbb89c99a5f8b2ea2a"
-    // };
-    // // Initialize Firebase
-    // const app = initializeApp(firebaseConfig);
+    // Connect With Firebase
+    const submitData = async (event) => {
+        event.preventDefault();
+        const { yourName, yourEmail, yourPhone, yourWebite } = userData;
 
-    // const handleSubmit = (event) => {
-    //     event.preventDefault();
+        if (yourName && yourEmail && yourPhone && yourWebite) {
+            const res = fetch("https://rebel-design-solutions-default-rtdb.firebaseio.com/userDataRecords.json",
+                {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify({
+                        yourName,
+                        yourEmail,
+                        yourPhone,
+                        yourWebite
+                    })
+                },
+            )
+            if (res) {
+                setUserData({
+                    yourName: "",
+                    yourEmail: "",
+                    yourPhone: "",
+                    yourWebite: "",
+                })
+                swal('Success!', 'Your form was submitted successfully.', 'success');
+            } else {
+                swal('Something went wrong!', 'Please try again later.', 'error');
+            }
+        } else {
+            swal('Invalid Data!', 'Please enter a valid data.', 'error');
+        }
+    }
 
-    //     const form = event.target;
-    //     const formData = new FormData(form);
-    //     const data = Object.fromEntries(formData.entries());
-
-    //     firebase.database().ref('formResponses').push(data)
-    //         .then(() => {
-    //             console.log('Form data saved successfully');
-    //         })
-    //         .catch((error) => {
-    //             console.error('Error saving form data:', error);
-    //         });
-
-    //     form.reset();
-    // };
-    // onSubmit={handleSubmit}
     return (
         <>
             <div className='heighs d-flex justify-content-center align-items-center mt-3'>
@@ -91,7 +100,13 @@ const VertForm = () => {
                             <option>Content Marketing</option>
                             <option>Website Content</option>
                         </select> */}
-                        <button className="btns-one">ANALYZE</button>
+                        <button
+                            className="btns-one"
+                            type="submit"
+                            onClick={submitData}
+                        >
+                            ANALYZE
+                        </button>
                     </form>
 
                     <div className="mt-3 d-flex justify-content-center flex-wrap">
