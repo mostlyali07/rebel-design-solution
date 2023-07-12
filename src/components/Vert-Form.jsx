@@ -32,7 +32,7 @@ const VertForm = () => {
         event.preventDefault();
         const { yourName, yourEmail, yourPhone, yourWebite, yourServices } = userData;
 
-        if (yourName && yourEmail && yourPhone && yourWebite && yourServices) {
+        if (yourName && yourEmail && yourPhone && yourServices) {
             const res = fetch("https://rebel-design-solutions-default-rtdb.firebaseio.com/userDataRecords.json",
                 {
                     method: "POST",
@@ -54,7 +54,7 @@ const VertForm = () => {
                     yourEmail: "",
                     yourPhone: "",
                     yourWebite: "",
-                    yourServices: "" // Reset the selected option
+                    yourServices: ""
                 })
                 swal('Success!', 'Your form was submitted successfully.', 'success');
             } else {

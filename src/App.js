@@ -20,6 +20,7 @@ import WebsiteContent from "./components/WebsiteContent";
 import GoogleAdsManagement from "./components/GoogleAdsManagement";
 import WebsiteDesignAndDevelopment from "./components/WebsiteDesignAndDevelopment";
 import UserDataList from "./components/UserDataList";
+import LoginPage from "./components/LoginPage";
 import Footer from "./components/Footer";
 
 const App = () => {
@@ -61,6 +62,7 @@ const App = () => {
             element={<GoogleAdsManagement />}
           />
           <Route path="/user-data" element={<UserDataList />} />
+          <Route path="/log-in" element={<LoginPage />} />
         </Routes>
 
         <Footer />

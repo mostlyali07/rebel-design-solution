@@ -45,9 +45,14 @@ const ContactUs = () => {
                                         info@rebeldesignsolution.com
                                     </Link>
                                 </div>
+                            </div>
+                            <div className="row bg-dark text-white rounded p-2 m-2">
+                                <div className="col-md-3">
+                                    <img src={email} alt="REBEL" />
+                                </div>
                                 <div className="col-md-9 d-flex align-items-center">
-                                    <Link to="mailto:info@rebeldesignsolution.com" className="fw-bold">
-                                        info@rebeldesignsolution.com
+                                    <Link to="mailto:marketing@rebeldesignsolution.com" className="fw-bold">
+                                        marketing@rebeldesignsolution.com
                                     </Link>
                                 </div>
                             </div>
