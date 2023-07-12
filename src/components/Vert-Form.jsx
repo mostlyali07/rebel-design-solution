@@ -107,7 +107,7 @@ const VertForm = () => {
                             <option>Website Content</option>
                         </select>
                         <button
-                            className="btns-one"
+                            className="form-btn"
                             type="submit"
                             onClick={submitData}
                         >

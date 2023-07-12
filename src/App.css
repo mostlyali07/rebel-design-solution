@@ -49,6 +49,21 @@ header {
   width: 450px;
   object-fit: cover;
 }
+.form-btn {
+  color: #fff;
+  font-size: 15px;
+  background-color: #222222;
+  border: 1px solid #222222;
+  border-radius: 26px;
+  font-weight: 500;
+  padding: 9px 16px;
+}
+.form-btn:hover {
+  transition: 0.6s;
+  background-color: #f75515;
+  color: #fff;
+  border: 1px solid #0000;
+}
 .btns-one {
   color: #fff;
   font-size: 15px;
@@ -96,6 +111,15 @@ header {
   transition: 0.3s;
   color: #222222;
   border-color: #222222;
+}
+td,
+th,
+tr,
+.btn-success,
+.btn-secondary,
+.btn-primary,
+.btn-danger {
+  font-size: 12px;
 }
 .custom-shape-divider-bottom-1681685793 {
   position: absolute;
