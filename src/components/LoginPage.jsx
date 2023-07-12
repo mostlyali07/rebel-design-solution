@@ -1,66 +1,79 @@
-import React, { useState } from 'react';
-import { auth } from 'firebase';
+import React, { useState } from "react";
+import { signInWithEmailAndPassword, signOut } from "firebase/auth";
+import { auth } from "../firebase";
 
-const LoginPage = () => {
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
-    const [error, setError] = useState('');
+const LoginForm = () => {
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+    const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-    const handleEmailChange = (e) => {
-        setEmail(e.target.value);
-    };
-
-    const handlePasswordChange = (e) => {
-        setPassword(e.target.value);
-    };
-
-    const handleLogin = async (e) => {
+    const signIn = (e) => {
         e.preventDefault();
-        try {
-            const userCredential = await auth.signInWithEmailAndPassword(email, password);
-            const user = userCredential.user;
-            const isAdmin = checkUserAdminStatus(user); // Check if the user is an admin
-
-            if (isAdmin) {
-                window.location.href = '/user-data'; // Redirect to the user data page upon successful login
-            } else {
-                setError('Access denied. You are not an admin.');
-            }
-        } catch (error) {
-            setError('Invalid email or password');
-        }
+        signInWithEmailAndPassword(auth, email, password)
+            .then((userCredential) => {
+                console.log(userCredential);
+                setIsLoggedIn(true);
+                window.location.href = "/user-data"; // Redirect to the user data page
+            })
+            .catch((error) => {
+                console.log(error);
+            });
     };
 
-    const checkUserAdminStatus = (user) => {
-        // Implement your logic to check if the user is an admin
-        // You can use the user's data or make an additional API call if needed
-        // Return true if the user is an admin, false otherwise
-        return user.isAdmin === true; // Replace this with your actual admin check logic
+    const handleSignOut = () => {
+        signOut(auth)
+            .then(() => {
+                setIsLoggedIn(false);
+            })
+            .catch((error) => {
+                console.log(error);
+            });
     };
+
+    if (isLoggedIn) {
+        return (
+            <div>
+                <h2>Welcome, {email}!</h2>
+                <button onClick={handleSignOut}>Sign Out</button>
+            </div>
+        );
+    }
 
     return (
-        <div>
-            <h2>Login Page</h2>
-            {error && <p>{error}</p>}
-            <form onSubmit={handleLogin}>
-                <input
-                    type="email"
-                    placeholder="Email"
-                    value={email}
-                    onChange={handleEmailChange}
-                />
-                <br />
-                <input
-                    type="password"
-                    placeholder="Password"
-                    value={password}
-                    onChange={handlePasswordChange}
-                />
-                <br />
-                <button type="submit">Login</button>
-            </form>
+        <div className="container">
+            <div className="row my-5 py-5">
+                <form onSubmit={signIn}>
+                    <label htmlFor="Email">
+                        <b>Email</b>
+                    </label>
+                    <br />
+                    <input
+                        type="email"
+                        placeholder="Email Address"
+                        style={{ width: 300 }}
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                    />
+                    <br />
+                    <br />
+                    <label htmlFor="Password">
+                        <b>Password</b>
+                    </label>
+                    <br />
+                    <input
+                        type="password"
+                        placeholder="Input Password"
+                        style={{ width: 300 }}
+                        value={password}
+                        onChange={(e) => setPassword(e.target.value)}
+                    />
+                    <br />
+                    <br />
+                    <button type="submit">Login</button>
+                </form>
+            </div>
         </div>
     );
 };
 
-export default LoginPage;
+export default LoginForm;
