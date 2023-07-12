@@ -19,6 +19,7 @@ import SocialMediaMarketing from "./components/SocialMediaMarketing";
 import WebsiteContent from "./components/WebsiteContent";
 import GoogleAdsManagement from "./components/GoogleAdsManagement";
 import WebsiteDesignAndDevelopment from "./components/WebsiteDesignAndDevelopment";
+import UserDataList from "./components/UserDataList";
 import Footer from "./components/Footer";
 
 const App = () => {
@@ -34,17 +35,35 @@ const App = () => {
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/seo-services" element={<SearchEngineOptimization />} />
-          <Route path="/app-development-services" element={<AppDevelopment />} />
-          <Route path="/content-marketing-services" element={<ContentMarketing />} />
+          <Route
+            path="/app-development-services"
+            element={<AppDevelopment />}
+          />
+          <Route
+            path="/content-marketing-services"
+            element={<ContentMarketing />}
+          />
           <Route path="/graphics-design-services" element={<GraphicDesign />} />
-          <Route path="/social-media-marketing-services" element={<SocialMediaMarketing />} />
-          <Route path="/website-design-development-services" element={<WebsiteDesignAndDevelopment />} />
-          <Route path="/website-content-services" element={<WebsiteContent />} />
-          <Route path="/google-ads-management-services" element={<GoogleAdsManagement />} />
+          <Route
+            path="/social-media-marketing-services"
+            element={<SocialMediaMarketing />}
+          />
+          <Route
+            path="/website-design-development-services"
+            element={<WebsiteDesignAndDevelopment />}
+          />
+          <Route
+            path="/website-content-services"
+            element={<WebsiteContent />}
+          />
+          <Route
+            path="/google-ads-management-services"
+            element={<GoogleAdsManagement />}
+          />
+          <Route path="/user-data" element={<UserDataList />} />
         </Routes>
 
         <Footer />
-
       </BrowserRouter>
     </>
   );

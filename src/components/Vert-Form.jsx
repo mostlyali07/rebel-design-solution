@@ -19,7 +19,7 @@ const VertForm = () => {
         yourEmail: "",
         yourPhone: "",
         yourWebite: "",
-        // yourServices: "",
+        yourServices: ""
     })
     let name, value
     const postUserData = (event) => {
@@ -30,9 +30,9 @@ const VertForm = () => {
     // Connect With Firebase
     const submitData = async (event) => {
         event.preventDefault();
-        const { yourName, yourEmail, yourPhone, yourWebite } = userData;
+        const { yourName, yourEmail, yourPhone, yourWebite, yourServices } = userData;
 
-        if (yourName && yourEmail && yourPhone && yourWebite) {
+        if (yourName && yourEmail && yourPhone && yourWebite && yourServices) {
             const res = fetch("https://rebel-design-solutions-default-rtdb.firebaseio.com/userDataRecords.json",
                 {
                     method: "POST",
@@ -43,7 +43,8 @@ const VertForm = () => {
                         yourName,
                         yourEmail,
                         yourPhone,
-                        yourWebite
+                        yourWebite,
+                        yourServices
                     })
                 },
             )
@@ -53,6 +54,7 @@ const VertForm = () => {
                     yourEmail: "",
                     yourPhone: "",
                     yourWebite: "",
+                    yourServices: "" // Reset the selected option
                 })
                 swal('Success!', 'Your form was submitted successfully.', 'success');
             } else {
@@ -69,28 +71,32 @@ const VertForm = () => {
                 <div>
                     <form className="vert-form form-get-quote text-center" >
                         <input type="text" placeholder="YOUR NAME" name="yourName" className="input-feilds"
-                            required
+
                             value={userData.yourName}
                             onChange={postUserData} />
                         <input type="email" placeholder="YOUR EMAIL" name="yourEmail" className="input-feilds"
-                            required
+
                             value={userData.yourEmail}
                             onChange={postUserData} />
                         <input type="tel" placeholder="YOUR PHONE" name="yourPhone" className="input-feilds"
-                            required
+
                             value={userData.yourPhone}
                             onChange={postUserData} />
                         <input type="text" placeholder="YOUR WEBSITE" name="yourWebite" className="input-feilds"
-                            required
+
                             value={userData.yourWebite}
                             onChange={postUserData} />
-                        {/* <select id="services" className="input-feilds"
-                            required
-                            value={ }
+                        <select
+                            id="services"
+                            className="input-feilds"
+
+                            value={userData.yourServices}
                             onChange={postUserData}
+                            name="yourServices" // Add the name attribute for the selected option
                         >
-                            <option disabled selected >
-                                PLEASE SELECT A SERVICES</option>
+                            <option disabled selected>
+                                PLEASE SELECT A SERVICE
+                            </option>
                             <option>Graphics Design</option>
                             <option>Website Design & Development</option>
                             <option>App Development</option>
@@ -99,7 +105,7 @@ const VertForm = () => {
                             <option>Social Media Marketing</option>
                             <option>Content Marketing</option>
                             <option>Website Content</option>
-                        </select> */}
+                        </select>
                         <button
                             className="btns-one"
                             type="submit"

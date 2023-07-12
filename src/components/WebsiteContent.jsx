@@ -1,7 +1,10 @@
-import WEB from "../Images/third-sec.webp";
+import webContentOne from "../Images/content-2.png";
+import webContentTwo from "../Images/content-3.png";
+import webContentThree from "../Images/content-4.png";
+import webContentFour from "../Images/content-5.png";
+import webContentFive from "../Images/content-6.png";
 import VertForm from './Vert-Form';
 import ContentSec from './ContentSec';
-import secImg from "../Images/sec-img.png"
 import Ourprocess from './Ourprocess';
 import PricingTabs from './PricingTabs';
 import Cta from './Cta';
@@ -31,7 +34,7 @@ const WebContent = () => {
                             </div>
                         </div>
                         <div className="col-md-6 d-flex justify-content-center">
-                            <img src={WEB} className="cust-front" />
+                            <img src={webContentOne} className="cust-front" />
                         </div>
                         <VertForm />
                     </div>
@@ -39,7 +42,7 @@ const WebContent = () => {
                 <div className="shape-divider"></div>
             </div>
             <ContentSec
-                src={secImg}
+                src={webContentTwo}
                 text={"Elevate Your Brand with Expert Website Content Services"}
                 descrp={"Our team of skilled content writers are masters of their craft, skilled in transforming your brand's unique story into powerful words. We meticulously research your industry, target audience, and competitors to develop a comprehensive website content strategy that sets you apart and positions your brand for success."}
             />
@@ -58,13 +61,13 @@ const WebContent = () => {
             />
 
             <ContentSec
-                src={secImg}
+                src={webContentThree}
                 text={"Unleash the Power of Persuasion with Well-Crafted Website Content"}
                 descrp={"Words have the power to persuade, and our rebellious wordsmiths know how to wield that power. With our website content services, we create compelling copy that drives conversions, boosts engagement, and compels visitors to take action. From persuasive product descriptions to enticing calls-to-action, we infuse your website with the perfect blend of creativity and strategy."}
             />
             <PricingTabs />
             <ContentSec
-                src={secImg}
+                src={webContentFour}
                 text={"Experience the Difference of Rebel Website Content Services"}
                 descrp={"When you choose Rebel Design Solution for your website content needs, you're choosing a team that goes above and beyond to deliver exceptional results. Our rebellious spirit drives us to push boundaries, challenge conventions, and create content that stands out in the digital landscape. Trust us to transform your website into a captivating storytelling platform that leaves a lasting impression."}
             />
@@ -73,7 +76,7 @@ const WebContent = () => {
                 ctAdescrp="Looking to write website content that truly reflects your brand's personality? Trust our rebellious content writers to infuse your website with a distinctive voice that resonates with your audience."
             />
             <ContentSec
-                src={secImg}
+                src={webContentFive}
                 text={"Get Started on Your Website Content Journey"}
                 descrp={"Ready to revolutionize your website content? Take the first step towards a captivating online presence by contacting our team today. Together, we will explore how our rebellious website content services can transform your brand and bring your vision to life in the digital landscape. Contact Rebel Design Solution today to start your project."}
             />

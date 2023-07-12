@@ -24,7 +24,7 @@ header {
 .dropdown-menu {
   z-index: 999;
 }
-.dropdown-item:active{
+.dropdown-item:active {
   background-color: #111;
 }
 .main-banner {
@@ -47,6 +47,7 @@ header {
 }
 .cust-front {
   width: 450px;
+  object-fit: cover;
 }
 .btns-one {
   color: #fff;
@@ -455,8 +456,7 @@ a {
   background-image: linear-gradient(to right, #f75515 50%, #222222 50%);
 }
 .review-back img {
-  width: 60%;
-  border-radius: 100%;
+  width: 80%;
 }
 .revi-bor {
   border-radius: 36px;
@@ -890,7 +890,7 @@ a {
     background-position: top left, 96% 450px;
   }
   .review-back img {
-    width: 75%;
+    width: 95%;
   }
   .cust-front {
     width: 370px;

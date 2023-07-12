@@ -28,7 +28,7 @@ const Footer = () => {
                         }}
                     />
                     <div className="row mt-5">
-                        <div className="col-md-5">
+                        <div className="col-md-4">
                             <Link className="navbar-brand" to="/">
                                 <img src={NavLogo} alt="Rebel Design Solution" width="240" />
                             </Link>
@@ -53,9 +53,11 @@ const Footer = () => {
                             <li><Link to="/social-media-services">Social Media Marketing</Link></li>
                             <li><Link to="/website-design-development-services">Website Design &amp; Development</Link></li>
                         </div>
-                        <div className="col-md-3 lh-lg">
+                        <div className="col-md-4 lh-lg">
                             <h6 className="fw-bold mb-4">Contact Us</h6>
                             <Link to="mailto:info@rebeldesignsolution.com"><FontAwesomeIcon icon={faEnvelope} /> info@rebeldesignsolution.com</Link>
+                            <br />
+                            <Link to="mailto:marketing@rebeldesignsolution.com"><FontAwesomeIcon icon={faEnvelope} /> marketing@rebeldesignsolution.com</Link>
                         </div>
                     </div>
                     <div className="row">

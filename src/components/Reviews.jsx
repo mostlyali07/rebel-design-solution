@@ -1,4 +1,4 @@
-import Review_img from "../Images/reviews-girl.jfif";
+import Review_img from "../Images/main-reviews.png";
 import Slider from 'react-slick';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
@@ -33,7 +33,7 @@ const Reviews = ({ CustomerNameOne, CustomerDescOne, CustomerNameTwo, CustomerDe
             <div className="review-back">
                 <div className="container py-5">
                     <div className="row py-5 revi-bor">
-                        <div className="col-md-6 text-center">
+                        <div className="col-md-6 d-flex align-items-center justify-content-center">
                             <img src={Review_img} />
                         </div>
                         <div className="col-md-6 rev-slide">

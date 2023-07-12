@@ -1,7 +1,9 @@
-import WEB from "../Images/third-sec.webp";
+import ContentMarOne from "../Images/content-1.png";
+import ContentMarTwo from "../Images/content-7.png";
+import ContentMarThree from "../Images/content-8.jpg";
+import ContentMarFour from "../Images/content-9.jpeg";
 import VertForm from './Vert-Form';
 import ContentSec from './ContentSec';
-import secImg from "../Images/sec-img.png"
 import Ourprocess from './Ourprocess';
 import PricingTabs from './PricingTabs';
 import Cta from './Cta';
@@ -30,7 +32,7 @@ const ContentMarketing = () => {
                             </div>
                         </div>
                         <div className="col-md-6 d-flex justify-content-center">
-                            {/* <img src={WEB} classNames="cust-front" /> */}
+                            <img src={ContentMarOne} className="cust-front" />
                         </div>
                         <VertForm />
                     </div>
@@ -38,7 +40,7 @@ const ContentMarketing = () => {
                 <div className="shape-divider"></div>
             </div>
             <ContentSec
-                src={secImg}
+                src={ContentMarTwo}
                 text={"SEO-Infused Content Marketing to Drive Organic Growth"}
                 descrp={"In today's competitive digital landscape, content marketing and SEO go hand in hand. Our rebellious approach to content marketing involves creating compelling and engaging content that not only captivates audiences but also boosts your website's visibility in search engines. We blend the art of storytelling with strategic keyword optimization and data-driven insights to ensure your content resonates with your target audience while improving your search engine rankings. Let Rebel Design Solution be your partner in harnessing the power of SEO content marketing for organic growth."}
             />
@@ -57,7 +59,7 @@ const ContentMarketing = () => {
             />
 
             <ContentSec
-                src={secImg}
+                src={ContentMarThree}
                 text={"Elevate Your Brand with our Content Marketing SEO Services"}
                 descrp={"Elevate your brand's online presence with our rebellious content marketing SEO services. We believe in the power of strategic storytelling and data-driven insights to fuel your brand's growth. Our team of rebellious content creators and SEO experts work hand in hand to craft captivating content that not only resonates with your audience but also improves your website's visibility and organic traffic. Whether it's optimizing your website's on-page elements or creating compelling content for your blog, we're here to take your brand to new heights."}
             />
@@ -71,7 +73,7 @@ const ContentMarketing = () => {
                 CustomerDescThree={"Rebel Design Solution's content marketing services have truly transformed my brand's online presence. Their team of talented writers created engaging and informative content that resonates with my target audience. They took the time to understand my brand's voice and industry, delivering content that establishes my business as a thought leader. Their attention to detail, commitment to quality, and ability to create content that drives results have been outstanding. I highly recommend Rebel Design Solution for their exceptional content marketing services."}
             />
             <ContentSec
-                src={secImg}
+                src={ContentMarFour}
                 text={"Partner with a Rebellious Content Marketing Agency"}
                 descrp={"Partnering with Rebel Design Solution means collaborating with a rebellious content marketing agency that understands the nuances of the digital landscape. We take a holistic approach, considering your brand's unique identity, target audience, and business objectives to create content that captivates and drives results. Our rebellious team combines creativity, expertise, and data-driven insights to develop content marketing strategies that deliver tangible outcomes. Trust Rebel Design Solution to be your partner in revolutionizing your brand's content marketing efforts."}
             />
