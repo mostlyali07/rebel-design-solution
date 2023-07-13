@@ -19,7 +19,7 @@ import SocialMediaMarketing from "./components/SocialMediaMarketing";
 import WebsiteContent from "./components/WebsiteContent";
 import GoogleAdsManagement from "./components/GoogleAdsManagement";
 import WebsiteDesignAndDevelopment from "./components/WebsiteDesignAndDevelopment";
-import UserDataList from "./components/UserDataList";
+// import UserDataList from "./components/UserDataList";
 import LoginPage from "./components/LoginPage";
 import Footer from "./components/Footer";
 
@@ -61,8 +61,8 @@ const App = () => {
             path="/google-ads-management-services"
             element={<GoogleAdsManagement />}
           />
-          <Route path="/user-data" element={<UserDataList />} />
-          <Route path="/log-in" element={<LoginPage />} />
+          {/* <Route path="/user-data" element={<UserDataList />} /> */}
+          <Route path="/rebel-admin" element={<LoginPage />} />
         </Routes>
 
         <Footer />

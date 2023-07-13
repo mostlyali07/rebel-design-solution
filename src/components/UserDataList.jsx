@@ -81,8 +81,8 @@ const UserDataList = () => {
     );
 
     return (
-        <div className="container mt-5 pt-5">
-            <div className="row mt-5">
+        <div className="container-fliud">
+            <div className="row">
                 <div className="col-md-4"></div>
                 <div className='col-md-4 bg-dark py-4 rounded px-5'>
                     <input

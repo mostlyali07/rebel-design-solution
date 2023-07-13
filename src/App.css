@@ -121,6 +121,24 @@ tr,
 .btn-danger {
   font-size: 12px;
 }
+.back-login {
+  background-color: #f75515;
+  color: #fff;
+}
+.form-login {
+  background-color: #f75515;
+  padding: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-login {
+  background-color: #fff;
+  color: #fff;
+  padding: 50px;
+  border-radius: 6px;
+  background-image: linear-gradient(240deg, #f75515, #222222);
+}
 .custom-shape-divider-bottom-1681685793 {
   position: absolute;
   bottom: 0;

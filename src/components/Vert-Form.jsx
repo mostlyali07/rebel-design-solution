@@ -1,9 +1,4 @@
 import React, { useState } from 'react';
-// import { firebase } from 'firebase/app';
-// import { initializeApp } from "firebase/app";
-// import 'firebase/database';
-// import 'firebase/functions';
-// import nodemailer from 'nodemailer';
 
 import Client1 from "../Images/client01.png";
 import Client2 from "../Images/client02.png";
@@ -92,7 +87,7 @@ const VertForm = () => {
 
                             value={userData.yourServices}
                             onChange={postUserData}
-                            name="yourServices" // Add the name attribute for the selected option
+                            name="yourServices"
                         >
                             <option disabled selected>
                                 PLEASE SELECT A SERVICE
