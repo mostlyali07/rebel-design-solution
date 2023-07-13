@@ -13,6 +13,7 @@ const UserDataList = () => {
                 const data = await response.json();
                 const userList = Object.keys(data).map((key) => ({
                     id: key,
+                    ipAddress: data[key].ipAddress, // Include the ipAddress property
                     ...data[key],
                 }));
                 setUserList(userList);
@@ -38,7 +39,9 @@ const UserDataList = () => {
     const handleEdit = (userId) => {
         setEditingUserId(userId);
         const userToEdit = userList.find((user) => user.id === userId);
-        setEditedUserData(userToEdit);
+        // Exclude IP address from editable fields
+        const { ipAddress, ...userData } = userToEdit;
+        setEditedUserData(userData);
     };
 
     const handleSave = async () => {
@@ -62,7 +65,6 @@ const UserDataList = () => {
             console.error("Error saving user data:", error);
         }
     };
-
 
     const handleCancel = () => {
         setEditingUserId(null);
@@ -106,6 +108,7 @@ const UserDataList = () => {
                                 <th scope="col">Phone</th>
                                 <th scope="col">Website</th>
                                 <th scope="col">Services</th>
+                                <th scope="col">IP Address</th>
                                 <th scope="col">Modify Data</th>
                             </tr>
                         </thead>
@@ -178,6 +181,7 @@ const UserDataList = () => {
                                             user.yourServices
                                         )}
                                     </td>
+                                    <td>{user.ipAddress}</td>
                                     <td>
                                         {editingUserId === user.id ? (
                                             <>
