@@ -1,4 +1,8 @@
 import NavLogo from "../Images/Main-logo.jpg";
+import Trustee from "../Images/Footer-trusted-img.png";
+import Facebook from "../Images/facebook.png";
+import Instagram from "../Images/instagram.png";
+import Pinterest from "../Images/pinterest.png";
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
@@ -36,7 +40,7 @@ const Footer = () => {
                                 We are a team of digital marketers, creative web developers, SEO experts, social media marketers, passionate researchers, and enthusiastic nerds who constantly strive to stay ahead of the curve in the Digital industry.
                             </p>
                             <h6 className="fw-bold">Trusted By:</h6>
-                            <img src="https://webandseoexperts.com/Assets/images/Footer-trusted-img.png" alt="" />
+                            <img src={Trustee} alt="Rebel Design Solution" />
                         </div>
                         <div className="col-md-2 lh-lg">
                             <h6 className="fw-bold mb-4">Quick Links</h6>
@@ -58,6 +62,17 @@ const Footer = () => {
                             <Link to="mailto:info@rebeldesignsolution.com"><FontAwesomeIcon icon={faEnvelope} /> info@rebeldesignsolution.com</Link>
                             <br />
                             <Link to="mailto:marketing@rebeldesignsolution.com"><FontAwesomeIcon icon={faEnvelope} /> marketing@rebeldesignsolution.com</Link>
+                            <br />
+                            <br />
+                            <Link to="https://www.facebook.com/rebeldesignsolution">
+                                <img src={Facebook} alt="Rebel Design Solution" width={26} />&nbsp;&nbsp;
+                            </Link>
+                            <Link to="https://instagram.com/rebeldesignsolution">
+                                <img src={Instagram} alt="Rebel Design Solution" width={26} />&nbsp;&nbsp;
+                            </Link>
+                            <Link to="https://pin.it/3PINrZB">
+                                <img src={Pinterest} alt="Rebel Design Solution" width={26} />&nbsp;&nbsp;
+                            </Link>
                         </div>
                     </div>
                     <div className="row">
