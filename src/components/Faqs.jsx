@@ -14,13 +14,13 @@ const Faqs = ({ faqOneQ, faqTwoQ, faqThreeQ, faqFourQ, faqFiveQ, faqOneA, faqTwo
                     <div className="col-md-6">
                         <div className="accordion" id="accordionExample">
                             <div className="accordion-item">
-                                <h2 className="accordion-header">
+                                <h4 className="accordion-header">
                                     <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                         <strong>
                                             {faqOneQ}
                                         </strong>
                                     </button>
-                                </h2>
+                                </h4>
                                 <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
                                         {faqOneA}
@@ -28,13 +28,13 @@ const Faqs = ({ faqOneQ, faqTwoQ, faqThreeQ, faqFourQ, faqFiveQ, faqOneA, faqTwo
                                 </div>
                             </div>
                             <div className="accordion-item">
-                                <h2 className="accordion-header">
+                                <h4 className="accordion-header">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                         <strong>
                                             {faqTwoQ}
                                         </strong>
                                     </button>
-                                </h2>
+                                </h4>
                                 <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
                                         {faqTwoA}
@@ -42,14 +42,14 @@ const Faqs = ({ faqOneQ, faqTwoQ, faqThreeQ, faqFourQ, faqFiveQ, faqOneA, faqTwo
                                 </div>
                             </div>
                             <div className="accordion-item">
-                                <h2 className="accordion-header">
+                                <h4 className="accordion-header">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                         <strong>
                                             {faqThreeQ}
 
                                         </strong>
                                     </button>
-                                </h2>
+                                </h4>
                                 <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
                                         {faqThreeA}
@@ -57,13 +57,13 @@ const Faqs = ({ faqOneQ, faqTwoQ, faqThreeQ, faqFourQ, faqFiveQ, faqOneA, faqTwo
                                 </div>
                             </div>
                             <div className="accordion-item">
-                                <h2 className="accordion-header">
+                                <h4 className="accordion-header">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                         <strong>
                                             {faqFourQ}
                                         </strong>
                                     </button>
-                                </h2>
+                                </h4>
                                 <div id="collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
                                         {faqFourA}
@@ -71,13 +71,13 @@ const Faqs = ({ faqOneQ, faqTwoQ, faqThreeQ, faqFourQ, faqFiveQ, faqOneA, faqTwo
                                 </div>
                             </div>
                             <div className="accordion-item">
-                                <h2 className="accordion-header">
+                                <h4 className="accordion-header">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                         <strong>
                                             {faqFiveQ}
                                         </strong>
                                     </button>
-                                </h2>
+                                </h4>
                                 <div id="collapseFive" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
                                         {faqFiveA}
