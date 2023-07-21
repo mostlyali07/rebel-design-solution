@@ -1,11 +1,22 @@
-// import phone from "../Images/contact-number.png"
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom"
 import email from "../Images/email-address.png"
 // import address from "../Images/office-address.png"
 
+
+const Contactus = () => {
+    return (
+        <Helmet>
+            <title>Contact Rebel Design Solution | Get in Touch Today!</title>
+            <meta name="description" content="Contact Rebel Design Solution to discuss your design and digital needs. Reach out now for creative solutions and captivating brand transformations." />
+        </Helmet>
+    );
+};
+
 const ContactUs = () => {
     return (
         <>
+            <Contactus />
             <div className="contect-banner">
                 <div className="container">
                     <div className="row">

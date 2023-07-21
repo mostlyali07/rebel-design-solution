@@ -1,8 +1,16 @@
 import React from 'react';
+import { Helmet } from "react-helmet";
 import { Tabs, Tab, Row, Col } from 'react-bootstrap';
 
 
-
+const Portfoliopage = () => {
+    return (
+        <Helmet>
+            <title>Rebel Design Solution Portfolio | Captivating Creations</title>
+            <meta name="description" content="Explore Rebel Design Solution's captivating portfolio showcasing our creative and innovative design solutions. Witness the power of digital ingenuity!" />
+        </Helmet>
+    );
+};
 const WebsiteDesigns = (
     <div className='row py-5'>
         <div className="col-md-4">
@@ -43,6 +51,7 @@ const Smp = (
 const Portfolio = () => {
     return (
         <>
+            <Portfoliopage />
             <div className="contect-banner">
                 <div className="container">
                     <div className="row">

@@ -11,11 +11,22 @@ import Cta from './Cta';
 import Awards from './Awards';
 import Faqs from './Faqs';
 import Reviews from "./Reviews";
+import { Helmet } from "react-helmet";
 
+
+const SocialMediaMarketingpage = () => {
+    return (
+        <Helmet>
+            <title>Expert Social Media Marketing Services | Best SMM Service</title>
+            <meta name="description" content="Rebel Design Solution offers expert social media marketing services. Boost your brand with our best SMM service. Connect with your audience now!" />
+        </Helmet>
+    );
+};
 
 const SocialMediaMarketing = () => {
     return (
         <>
+            <SocialMediaMarketingpage />
             <div className="service-banner">
                 <div className="container">
                     <div className="row">

@@ -11,11 +11,21 @@ import Cta from './Cta';
 import Awards from './Awards';
 import Faqs from './Faqs';
 import Reviews from "./Reviews";
+import { Helmet } from "react-helmet";
 
+const AppDevelopmentPage = () => {
+    return (
+        <Helmet>
+            <title>Custom App Development Services | Mobile & Android App Development</title>
+            <meta name="description" content="Rebel Design Solution offers top-notch custom app development services, including IOS and Android app development. Get your perfect web application now!" />
+        </Helmet>
+    );
+};
 
 const AppDevelopment = () => {
     return (
         <>
+            <AppDevelopmentPage />
             <div className="service-banner">
                 <div className="container">
                     <div className="row">

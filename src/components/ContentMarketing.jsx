@@ -10,11 +10,22 @@ import Cta from './Cta';
 import Awards from './Awards';
 import Faqs from './Faqs';
 import Reviews from "./Reviews";
+import { Helmet } from "react-helmet";
 
+
+const ContentMarketingpage = () => {
+    return (
+        <Helmet>
+            <title>Effective Content Marketing Services | SEO Content Solutions</title>
+            <meta name="description" content="Rebel Design Solution offers effective content marketing services, including SEO content solutions. Partner with our agency for top-notch content marketing!" />
+        </Helmet>
+    );
+};
 
 const ContentMarketing = () => {
     return (
         <>
+            <ContentMarketingpage />
             <div className="service-banner">
                 <div className="container">
                     <div className="row">

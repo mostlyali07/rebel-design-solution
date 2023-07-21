@@ -1,6 +1,6 @@
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faGear, faGlobe, faChartSimple, faRocket } from '@fortawesome/free-solid-svg-icons';
-
+import { Helmet } from "react-helmet";
 import VertForm from './Vert-Form';
 import ContentSec from './ContentSec';
 import Cta from './Cta';
@@ -19,12 +19,20 @@ import Popup from './Popup';
 import { Link } from 'react-router-dom';
 
 // import Form from "./Form"
-
+const Homepage = () => {
+    return (
+        <Helmet>
+            <title>Rebel Design Solution | Design & Marketing Agency</title>
+            <meta name="description" content="Explore our services as a leading design and marketing agency. Rebel Design Solution offers expert solutions as a top-notch digital marketing agency." />
+        </Helmet>
+    );
+};
 
 const Home = () => {
 
     return (
         <>
+            <Homepage />
             <div className="main-banner" >
                 <div className="container">
                     <div className="row">

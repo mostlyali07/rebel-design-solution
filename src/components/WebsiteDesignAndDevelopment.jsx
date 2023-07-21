@@ -11,11 +11,21 @@ import Cta from './Cta';
 import Awards from './Awards';
 import Faqs from './Faqs';
 import Reviews from "./Reviews";
+import { Helmet } from "react-helmet";
 
+const WebsiteDesignAndDevelopmentpage = () => {
+    return (
+        <Helmet>
+            <title>Professional Website Design and Development Services | Rebel Design Solution</title>
+            <meta name="description" content="We offer expert web design services and top-notch website development. Partner with our agency for exceptional website design and development services." />
+        </Helmet>
+    );
+};
 
 const WebsiteDesignAndDevelopment = () => {
     return (
         <>
+            <WebsiteDesignAndDevelopmentpage />
             <div className="service-banner">
                 <div className="container">
                     <div className="row">

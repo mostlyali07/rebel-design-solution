@@ -11,11 +11,22 @@ import Cta from './Cta';
 import Awards from './Awards';
 import Faqs from './Faqs';
 import Reviews from "./Reviews";
+import { Helmet } from "react-helmet";
 
+
+const GraphicDesignpage = () => {
+    return (
+        <Helmet>
+            <title>Creative Graphic Design Services | Logo, Illustration & Social Media Graphics</title>
+            <meta name="description" content="Transform your brand with our graphic design services. Get captivating logos, stunning illustrations, and engaging social media graphics. Explore our designs now!" />
+        </Helmet>
+    );
+};
 
 const GraphicDesign = () => {
     return (
         <>
+            <GraphicDesignpage />
             <div className="service-banner">
                 <div className="container">
                     <div className="row">

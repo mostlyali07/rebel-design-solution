@@ -12,11 +12,21 @@ import Awards from './Awards';
 import Faqs from './Faqs';
 import AllServices from './AllServices';
 import Reviews from "./Reviews";
+import { Helmet } from "react-helmet";
 
+const SearchEngineOptimizationPage = () => {
+    return (
+        <Helmet>
+            <title>Professional SEO Services in USA | Fully Managed SEO Solutions</title>
+            <meta name="description" content="Rebel Design Solution offers top-notch SEO services in USA, including fully managed solutions. Boost your rankings with our Google SEO services today!" />
+        </Helmet>
+    );
+};
 
 const SearchEngineOptimization = () => {
     return (
         <>
+            <SearchEngineOptimizationPage />
             <div className="service-banner">
                 <div className="container">
                     <div className="row">

@@ -1,12 +1,21 @@
+import { Helmet } from "react-helmet";
 import ContentSec from './ContentSec';
 import aboutImg from "../Images/about-us-img.png"
 import apart from "../Images/about-apart.png"
 import vision from "../Images/vision-about.png"
 import Cta from './Cta';
-
+const AboutPage = () => {
+    return (
+        <Helmet>
+            <title>Visionary Design and Digital Ingenuity | Rebel Design Solution</title>
+            <meta name="description" content="Discover Rebel Design Solution, a team of visionaries passionate about pushing the boundaries of creativity, crafting captivating digital solutions for brands." />
+        </Helmet>
+    );
+};
 const AboutUs = () => {
     return (
         <>
+            <AboutPage />
             <div className="contect-banner">
                 <div className="container">
                     <div className="row">

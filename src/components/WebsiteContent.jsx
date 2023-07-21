@@ -11,11 +11,22 @@ import Cta from './Cta';
 import Awards from './Awards';
 import Faqs from './Faqs';
 import Reviews from "./Reviews";
+import { Helmet } from "react-helmet";
 
+
+const WebContentPage = () => {
+    return (
+        <Helmet>
+            <title>Expert Website Content Services | Professional Writers</title>
+            <meta name="description" content="Rebel Design Solution offers expert website content services. Get professional writers for website content writing and top-notch website content services." />
+        </Helmet>
+    );
+};
 
 const WebContent = () => {
     return (
         <>
+            <WebContentPage />
             <div className="service-banner">
                 <div className="container">
                     <div className="row">
