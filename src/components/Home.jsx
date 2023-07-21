@@ -43,7 +43,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="col-md-6 d-flex justify-content-center align-items-center">
-                            <img className="fix" src={WEB} alt="Rebel" />
+                            <img className="fix" src={WEB} alt="Rebel Design Solution" />
                         </div>
                         <VertForm />
                     </div>

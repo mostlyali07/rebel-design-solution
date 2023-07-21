@@ -8,7 +8,7 @@ const Faqs = ({ faqOneQ, faqTwoQ, faqThreeQ, faqFourQ, faqFiveQ, faqOneA, faqTwo
                 <div className="row">
                     <div className="col-md-6 d-flex justify-content-center">
                         <div className="tilt-container">
-                            <img src={FAQs} className="img-faq tilt-image" alt="Rebel" width={450} />
+                            <img src={FAQs} className="img-faq tilt-image" alt="Rebel Design Solution" width={450} />
                         </div>
                     </div>
                     <div className="col-md-6">
