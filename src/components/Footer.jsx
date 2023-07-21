@@ -64,13 +64,13 @@ const Footer = () => {
                             <Link to="mailto:marketing@rebeldesignsolution.com"><FontAwesomeIcon icon={faEnvelope} /> marketing@rebeldesignsolution.com</Link>
                             <br />
                             <br />
-                            <Link to="https://www.facebook.com/rebeldesignsolution">
+                            <Link to="https://www.facebook.com/rebeldesignsolution" target="_blank">
                                 <img src={Facebook} alt="Rebel Design Solution" width={26} />&nbsp;&nbsp;
                             </Link>
-                            <Link to="https://instagram.com/rebeldesignsolution">
+                            <Link to="https://instagram.com/rebeldesignsolution" target="_blank">
                                 <img src={Instagram} alt="Rebel Design Solution" width={26} />&nbsp;&nbsp;
                             </Link>
-                            <Link to="https://pin.it/3PINrZB">
+                            <Link to="https://pin.it/3PINrZB" target="_blank">
                                 <img src={Pinterest} alt="Rebel Design Solution" width={26} />&nbsp;&nbsp;
                             </Link>
                         </div>
