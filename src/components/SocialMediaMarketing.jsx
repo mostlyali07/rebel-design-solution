@@ -19,6 +19,63 @@ const SocialMediaMarketingpage = () => {
         <Helmet>
             <title>Expert Social Media Marketing Services | Best SMM Service</title>
             <meta name="description" content="Rebel Design Solution offers expert social media marketing services. Boost your brand with our best SMM service. Connect with your audience now!" />
+            <meta name="keywords" content="Social Media Marketing, Social Media Marketing Services, Social Media Marketing Agency" />
+
+            <link rel="canonical" href="https://rebeldesignsolution.com/social-media-marketing-services" />
+            <link
+                rel="alternate"
+                href="https://rebeldesignsolution.com/social-media-marketing-services"
+                hreflang="en-us"
+            />
+            <link
+                rel="alternate"
+                href="https://rebeldesignsolution.com/social-media-marketing-services"
+                hreflang="en-ca"
+            />
+            <link
+                rel="alternate"
+                href="https://rebeldesignsolution.com/social-media-marketing-services"
+                hreflang="en-gb"
+            />
+            <link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://rebeldesignsolution.com/social-media-marketing-services"
+            />
+            <meta property="og:type" content="website" />
+            <meta
+                property="og:title"
+                content="Expert Social Media Marketing Services | Best SMM Service"
+            />
+            <meta
+                property="og:description"
+                content="Rebel Design Solution offers expert social media marketing services. Boost your brand with our best SMM service. Connect with your audience now!"
+            />
+            <meta property="og:url" content="https://rebeldesignsolution.com/social-media-marketing-services" />
+            <meta
+                property="og:image"
+                content="https://rebeldesignsolution.com/static/media/Main-logo.7d035ab7a861be0c8196.jpg"
+            />
+            <meta property="og:image:width" content="880" />
+            <meta property="og:image:height" content="660" />
+            <meta property="og:locale" content="en_US" />
+            <meta property="og:site_name" content="REBEL DESIGN SOLUTION" />
+
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:site" content="https://rebeldesignsolution.com/social-media-marketing-services" />
+            <meta name="twitter:creator" content="@rebeldesignsolution" />
+            <meta
+                name="twitter:title"
+                content="Expert Social Media Marketing Services | Best SMM Service"
+            />
+            <meta
+                name="twitter:description"
+                content="Rebel Design Solution offers expert social media marketing services. Boost your brand with our best SMM service. Connect with your audience now!"
+            />
+            <meta
+                name="twitter:image"
+                content=" https://rebeldesignsolution.com/static/media/Main-logo.7d035ab7a861be0c8196.jpg"
+            />
         </Helmet>
     );
 };

@@ -19,6 +19,63 @@ const SearchEngineOptimizationPage = () => {
         <Helmet>
             <title>Professional SEO Services in USA | Fully Managed SEO Solutions</title>
             <meta name="description" content="Rebel Design Solution offers top-notch SEO services in USA, including fully managed solutions. Boost your rankings with our Google SEO services today!" />
+            <meta name="keywords" content="SEO Services, SEO Packages, Professional SEO Services" />
+
+            <link rel="canonical" href="https://rebeldesignsolution.com/seo-services" />
+            <link
+                rel="alternate"
+                href="https://rebeldesignsolution.com/seo-services"
+                hreflang="en-us"
+            />
+            <link
+                rel="alternate"
+                href="https://rebeldesignsolution.com/seo-services"
+                hreflang="en-ca"
+            />
+            <link
+                rel="alternate"
+                href="https://rebeldesignsolution.com/seo-services"
+                hreflang="en-gb"
+            />
+            <link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://rebeldesignsolution.com/seo-services"
+            />
+            <meta property="og:type" content="website" />
+            <meta
+                property="og:title"
+                content="Professional SEO Services in USA | Fully Managed SEO Solutions"
+            />
+            <meta
+                property="og:description"
+                content="Rebel Design Solution offers top-notch SEO services in USA, including fully managed solutions. Boost your rankings with our Google SEO services today!"
+            />
+            <meta property="og:url" content="https://rebeldesignsolution.com/seo-services" />
+            <meta
+                property="og:image"
+                content="https://rebeldesignsolution.com/static/media/Main-logo.7d035ab7a861be0c8196.jpg"
+            />
+            <meta property="og:image:width" content="880" />
+            <meta property="og:image:height" content="660" />
+            <meta property="og:locale" content="en_US" />
+            <meta property="og:site_name" content="REBEL DESIGN SOLUTION" />
+
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:site" content="https://rebeldesignsolution.com/seo-services" />
+            <meta name="twitter:creator" content="@rebeldesignsolution" />
+            <meta
+                name="twitter:title"
+                content="Professional SEO Services in USA | Fully Managed SEO Solutions"
+            />
+            <meta
+                name="twitter:description"
+                content="Rebel Design Solution offers top-notch SEO services in USA, including fully managed solutions. Boost your rankings with our Google SEO services today!"
+            />
+            <meta
+                name="twitter:image"
+                content=" https://rebeldesignsolution.com/static/media/Main-logo.7d035ab7a861be0c8196.jpg"
+            />
         </Helmet>
     );
 };

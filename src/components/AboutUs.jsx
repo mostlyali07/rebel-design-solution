@@ -9,6 +9,63 @@ const AboutPage = () => {
         <Helmet>
             <title>Visionary Design and Digital Ingenuity | Rebel Design Solution</title>
             <meta name="description" content="Discover Rebel Design Solution, a team of visionaries passionate about pushing the boundaries of creativity, crafting captivating digital solutions for brands." />
+            <meta name="keywords" content="Digital Marketing, Rebel Design Solution, Digital Marketing Agency" />
+
+            <link rel="canonical" href="https://rebeldesignsolution.com/about-us" />
+            <link
+                rel="alternate"
+                href="https://rebeldesignsolution.com/about-us"
+                hreflang="en-us"
+            />
+            <link
+                rel="alternate"
+                href="https://rebeldesignsolution.com/about-us"
+                hreflang="en-ca"
+            />
+            <link
+                rel="alternate"
+                href="https://rebeldesignsolution.com/about-us"
+                hreflang="en-gb"
+            />
+            <link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://rebeldesignsolution.com/about-us"
+            />
+            <meta property="og:type" content="website" />
+            <meta
+                property="og:title"
+                content="Visionary Design and Digital Ingenuity | Rebel Design Solution"
+            />
+            <meta
+                property="og:description"
+                content="Discover Rebel Design Solution, a team of visionaries passionate about pushing the boundaries of creativity, crafting captivating digital solutions for brands."
+            />
+            <meta property="og:url" content="https://rebeldesignsolution.com/about-us" />
+            <meta
+                property="og:image"
+                content="https://rebeldesignsolution.com/static/media/Main-logo.7d035ab7a861be0c8196.jpg"
+            />
+            <meta property="og:image:width" content="880" />
+            <meta property="og:image:height" content="660" />
+            <meta property="og:locale" content="en_US" />
+            <meta property="og:site_name" content="REBEL DESIGN SOLUTION" />
+
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:site" content="https://rebeldesignsolution.com/about-us" />
+            <meta name="twitter:creator" content="@rebeldesignsolution" />
+            <meta
+                name="twitter:title"
+                content="Visionary Design and Digital Ingenuity | Rebel Design Solution"
+            />
+            <meta
+                name="twitter:description"
+                content="Discover Rebel Design Solution, a team of visionaries passionate about pushing the boundaries of creativity, crafting captivating digital solutions for brands."
+            />
+            <meta
+                name="twitter:image"
+                content=" https://rebeldesignsolution.com/static/media/Main-logo.7d035ab7a861be0c8196.jpg"
+            />
         </Helmet>
     );
 };

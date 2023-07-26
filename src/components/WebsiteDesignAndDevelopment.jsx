@@ -16,8 +16,65 @@ import { Helmet } from "react-helmet";
 const WebsiteDesignAndDevelopmentpage = () => {
     return (
         <Helmet>
-            <title>Professional Website Design and Development Services | Rebel Design Solution</title>
+            <title>Professional Website Design and Development Services</title>
             <meta name="description" content="We offer expert web design services and top-notch website development. Partner with our agency for exceptional website design and development services." />
+            <meta name="keywords" content="Web Design And Development, Web Design And Development Services, Website Design And Development" />
+
+            <link rel="canonical" href="https://rebeldesignsolution.com/website-design-development-services" />
+            <link
+                rel="alternate"
+                href="https://rebeldesignsolution.com/website-design-development-services"
+                hreflang="en-us"
+            />
+            <link
+                rel="alternate"
+                href="https://rebeldesignsolution.com/website-design-development-services"
+                hreflang="en-ca"
+            />
+            <link
+                rel="alternate"
+                href="https://rebeldesignsolution.com/website-design-development-services"
+                hreflang="en-gb"
+            />
+            <link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://rebeldesignsolution.com/website-design-development-services"
+            />
+            <meta property="og:type" content="website" />
+            <meta
+                property="og:title"
+                content="Professional Website Design and Development Services"
+            />
+            <meta
+                property="og:description"
+                content="We offer expert web design services and top-notch website development. Partner with our agency for exceptional website design and development services."
+            />
+            <meta property="og:url" content="https://rebeldesignsolution.com/website-design-development-services" />
+            <meta
+                property="og:image"
+                content="https://rebeldesignsolution.com/static/media/Main-logo.7d035ab7a861be0c8196.jpg"
+            />
+            <meta property="og:image:width" content="880" />
+            <meta property="og:image:height" content="660" />
+            <meta property="og:locale" content="en_US" />
+            <meta property="og:site_name" content="REBEL DESIGN SOLUTION" />
+
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:site" content="https://rebeldesignsolution.com/website-design-development-services" />
+            <meta name="twitter:creator" content="@rebeldesignsolution" />
+            <meta
+                name="twitter:title"
+                content="Professional Website Design and Development Services"
+            />
+            <meta
+                name="twitter:description"
+                content="We offer expert web design services and top-notch website development. Partner with our agency for exceptional website design and development services."
+            />
+            <meta
+                name="twitter:image"
+                content=" https://rebeldesignsolution.com/static/media/Main-logo.7d035ab7a861be0c8196.jpg"
+            />
         </Helmet>
     );
 };

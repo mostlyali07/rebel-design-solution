@@ -19,6 +19,63 @@ const GraphicDesignpage = () => {
         <Helmet>
             <title>Creative Graphic Design Services | Logo, Illustration & Social Media Graphics</title>
             <meta name="description" content="Transform your brand with our graphic design services. Get captivating logos, stunning illustrations, and engaging social media graphics. Explore our designs now!" />
+            <meta name="keywords" content="Graphic Design, Logo Designs, Illustration Designs" />
+
+            <link rel="canonical" href="https://rebeldesignsolution.com/graphics-design-services" />
+            <link
+                rel="alternate"
+                href="https://rebeldesignsolution.com/graphics-design-services"
+                hreflang="en-us"
+            />
+            <link
+                rel="alternate"
+                href="https://rebeldesignsolution.com/graphics-design-services"
+                hreflang="en-ca"
+            />
+            <link
+                rel="alternate"
+                href="https://rebeldesignsolution.com/graphics-design-services"
+                hreflang="en-gb"
+            />
+            <link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://rebeldesignsolution.com/graphics-design-services"
+            />
+            <meta property="og:type" content="website" />
+            <meta
+                property="og:title"
+                content="Creative Graphic Design Services | Logo, Illustration & Social Media Graphics"
+            />
+            <meta
+                property="og:description"
+                content="Transform your brand with our graphic design services. Get captivating logos, stunning illustrations, and engaging social media graphics. Explore our designs now!"
+            />
+            <meta property="og:url" content="https://rebeldesignsolution.com/graphics-design-services" />
+            <meta
+                property="og:image"
+                content="https://rebeldesignsolution.com/static/media/Main-logo.7d035ab7a861be0c8196.jpg"
+            />
+            <meta property="og:image:width" content="880" />
+            <meta property="og:image:height" content="660" />
+            <meta property="og:locale" content="en_US" />
+            <meta property="og:site_name" content="REBEL DESIGN SOLUTION" />
+
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:site" content="https://rebeldesignsolution.com/graphics-design-services" />
+            <meta name="twitter:creator" content="@rebeldesignsolution" />
+            <meta
+                name="twitter:title"
+                content="Creative Graphic Design Services | Logo, Illustration & Social Media Graphics"
+            />
+            <meta
+                name="twitter:description"
+                content="Transform your brand with our graphic design services. Get captivating logos, stunning illustrations, and engaging social media graphics. Explore our designs now!"
+            />
+            <meta
+                name="twitter:image"
+                content=" https://rebeldesignsolution.com/static/media/Main-logo.7d035ab7a861be0c8196.jpg"
+            />
         </Helmet>
     );
 };

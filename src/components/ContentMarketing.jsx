@@ -18,6 +18,63 @@ const ContentMarketingpage = () => {
         <Helmet>
             <title>Effective Content Marketing Services | SEO Content Solutions</title>
             <meta name="description" content="Rebel Design Solution offers effective content marketing services, including SEO content solutions. Partner with our agency for top-notch content marketing!" />
+            <meta name="keywords" content="Content Marketing, Content Marketing Services, Content Marketing Services Agency" />
+
+            <link rel="canonical" href="https://rebeldesignsolution.com/content-marketing-services" />
+            <link
+                rel="alternate"
+                href="https://rebeldesignsolution.com/content-marketing-services"
+                hreflang="en-us"
+            />
+            <link
+                rel="alternate"
+                href="https://rebeldesignsolution.com/content-marketing-services"
+                hreflang="en-ca"
+            />
+            <link
+                rel="alternate"
+                href="https://rebeldesignsolution.com/content-marketing-services"
+                hreflang="en-gb"
+            />
+            <link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://rebeldesignsolution.com/content-marketing-services"
+            />
+            <meta property="og:type" content="website" />
+            <meta
+                property="og:title"
+                content="Effective Content Marketing Services | SEO Content Solutions"
+            />
+            <meta
+                property="og:description"
+                content="Rebel Design Solution offers effective content marketing services, including SEO content solutions. Partner with our agency for top-notch content marketing!"
+            />
+            <meta property="og:url" content="https://rebeldesignsolution.com/content-marketing-services" />
+            <meta
+                property="og:image"
+                content="https://rebeldesignsolution.com/static/media/Main-logo.7d035ab7a861be0c8196.jpg"
+            />
+            <meta property="og:image:width" content="880" />
+            <meta property="og:image:height" content="660" />
+            <meta property="og:locale" content="en_US" />
+            <meta property="og:site_name" content="REBEL DESIGN SOLUTION" />
+
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:site" content="https://rebeldesignsolution.com/content-marketing-services" />
+            <meta name="twitter:creator" content="@rebeldesignsolution" />
+            <meta
+                name="twitter:title"
+                content="Effective Content Marketing Services | SEO Content Solutions"
+            />
+            <meta
+                name="twitter:description"
+                content="Rebel Design Solution offers effective content marketing services, including SEO content solutions. Partner with our agency for top-notch content marketing!"
+            />
+            <meta
+                name="twitter:image"
+                content=" https://rebeldesignsolution.com/static/media/Main-logo.7d035ab7a861be0c8196.jpg"
+            />
         </Helmet>
     );
 };

@@ -19,6 +19,63 @@ const GoogleAdsManagementpage = () => {
         <Helmet>
             <title>Expert Google Ads Management Agency | AdWords Services</title>
             <meta name="description" content="Rebel Design Solution offers expert Google Ads management services and AdWords solutions. Partner with our agency for effective ad management today!" />
+            <meta name="keywords" content="Google Ads, Google Ads Management, google ads management services" />
+
+            <link rel="canonical" href="https://rebeldesignsolution.com/google-ads-management-services" />
+            <link
+                rel="alternate"
+                href="https://rebeldesignsolution.com/google-ads-management-services"
+                hreflang="en-us"
+            />
+            <link
+                rel="alternate"
+                href="https://rebeldesignsolution.com/google-ads-management-services"
+                hreflang="en-ca"
+            />
+            <link
+                rel="alternate"
+                href="https://rebeldesignsolution.com/google-ads-management-services"
+                hreflang="en-gb"
+            />
+            <link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://rebeldesignsolution.com/google-ads-management-services"
+            />
+            <meta property="og:type" content="website" />
+            <meta
+                property="og:title"
+                content="Expert Google Ads Management Agency | AdWords Services"
+            />
+            <meta
+                property="og:description"
+                content="Rebel Design Solution offers expert Google Ads management services and AdWords solutions. Partner with our agency for effective ad management today!"
+            />
+            <meta property="og:url" content="https://rebeldesignsolution.com/google-ads-management-services" />
+            <meta
+                property="og:image"
+                content="https://rebeldesignsolution.com/static/media/Main-logo.7d035ab7a861be0c8196.jpg"
+            />
+            <meta property="og:image:width" content="880" />
+            <meta property="og:image:height" content="660" />
+            <meta property="og:locale" content="en_US" />
+            <meta property="og:site_name" content="REBEL DESIGN SOLUTION" />
+
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:site" content="https://rebeldesignsolution.com/google-ads-management-services" />
+            <meta name="twitter:creator" content="@rebeldesignsolution" />
+            <meta
+                name="twitter:title"
+                content="Expert Google Ads Management Agency | AdWords Services"
+            />
+            <meta
+                name="twitter:description"
+                content="Rebel Design Solution offers expert Google Ads management services and AdWords solutions. Partner with our agency for effective ad management today!"
+            />
+            <meta
+                name="twitter:image"
+                content=" https://rebeldesignsolution.com/static/media/Main-logo.7d035ab7a861be0c8196.jpg"
+            />
         </Helmet>
     );
 };

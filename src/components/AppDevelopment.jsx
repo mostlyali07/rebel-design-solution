@@ -16,8 +16,65 @@ import { Helmet } from "react-helmet";
 const AppDevelopmentPage = () => {
     return (
         <Helmet>
-            <title>Custom App Development Services | Mobile & Android App Development</title>
+            <title>Custom App Development Services | IOS & Android App Development</title>
             <meta name="description" content="Rebel Design Solution offers top-notch custom app development services, including IOS and Android app development. Get your perfect web application now!" />
+            <meta name="keywords" content="App Development, Mobile App Development, IOS App Development" />
+
+            <link rel="canonical" href="https://rebeldesignsolution.com/app-development-services" />
+            <link
+                rel="alternate"
+                href="https://rebeldesignsolution.com/app-development-services"
+                hreflang="en-us"
+            />
+            <link
+                rel="alternate"
+                href="https://rebeldesignsolution.com/app-development-services"
+                hreflang="en-ca"
+            />
+            <link
+                rel="alternate"
+                href="https://rebeldesignsolution.com/app-development-services"
+                hreflang="en-gb"
+            />
+            <link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://rebeldesignsolution.com/app-development-services"
+            />
+            <meta property="og:type" content="website" />
+            <meta
+                property="og:title"
+                content="Custom App Development Services | IOS & Android App Development"
+            />
+            <meta
+                property="og:description"
+                content="Rebel Design Solution offers top-notch custom app development services, including IOS and Android app development. Get your perfect web application now!"
+            />
+            <meta property="og:url" content="https://rebeldesignsolution.com/app-development-services" />
+            <meta
+                property="og:image"
+                content="https://rebeldesignsolution.com/static/media/Main-logo.7d035ab7a861be0c8196.jpg"
+            />
+            <meta property="og:image:width" content="880" />
+            <meta property="og:image:height" content="660" />
+            <meta property="og:locale" content="en_US" />
+            <meta property="og:site_name" content="REBEL DESIGN SOLUTION" />
+
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:site" content="https://rebeldesignsolution.com/app-development-services" />
+            <meta name="twitter:creator" content="@rebeldesignsolution" />
+            <meta
+                name="twitter:title"
+                content="Custom App Development Services | IOS & Android App Development"
+            />
+            <meta
+                name="twitter:description"
+                content="Rebel Design Solution offers top-notch custom app development services, including IOS and Android app development. Get your perfect web application now!"
+            />
+            <meta
+                name="twitter:image"
+                content=" https://rebeldesignsolution.com/static/media/Main-logo.7d035ab7a861be0c8196.jpg"
+            />
         </Helmet>
     );
 };
