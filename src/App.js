@@ -21,12 +21,15 @@ import GoogleAdsManagement from "./components/GoogleAdsManagement";
 import WebsiteDesignAndDevelopment from "./components/WebsiteDesignAndDevelopment";
 import LoginPage from "./components/LoginPage";
 import Footer from "./components/Footer";
+import CustomCursor from "./components/CustomCursor";
 
 const App = () => {
   return (
     <>
       <BrowserRouter>
         <Navbar />
+        <CustomCursor />
+
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/all-services" element={<AllServices />} />

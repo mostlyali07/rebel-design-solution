@@ -31,7 +31,7 @@ const AllServices = ({
 }) => {
     return (
         <>
-            <div className="container py-5 your-animation-class">
+            <div className="container py-5">
                 <div className="row">
                     <h2 className='fw-bold text-center pb-4'>
                         {mainText}

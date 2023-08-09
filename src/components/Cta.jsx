@@ -17,9 +17,9 @@ const Cta = ({ ctAtext, ctAdescrp }) => {
                         </div>
                         <div className="col-md-6 text-end d-flex align-items-end justify-content-around flex-column">
                             <div className="mobile-cta-btn">
-                                <Link className="btns-seven" to="contact-us" ><FontAwesomeIcon icon={faCube} />&nbsp; SELECT
+                                <Link className="btns-seven" to="https://rebeldesignsolution.com/contact-us" ><FontAwesomeIcon icon={faCube} />&nbsp; SELECT
                                     PACKAGE</Link>&nbsp;&nbsp;
-                                <Link className="btns-eight" to="contact-us"><FontAwesomeIcon icon={faFilePen} />&nbsp;
+                                <Link className="btns-eight" to="https://rebeldesignsolution.com/contact-us"><FontAwesomeIcon icon={faFilePen} />&nbsp;
                                     REQUEST
                                     A QUOTE</Link>
                             </div>
