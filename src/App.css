@@ -415,15 +415,15 @@ a {
 }
 
 .Tab-div1 .content {
-  background-image: url("./Images/web-mockup1.png");
+  background-image: url("./Images/web-m-1.png");
 }
 
 .Tab-div2 .content {
-  background-image: url("./Images/web-mockup2.png");
+  background-image: url("./Images/web-m-2.png");
 }
 
 .Tab-div3 .content {
-  background-image: url("./Images/web-mockup3.png");
+  background-image: url("./Images/web-m-3.png");
 }
 
 .portfolio-div:hover .content {
