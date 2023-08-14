@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Modal } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleXmark } from '@fortawesome/free-solid-svg-icons';
+import ContactUsForm from './ContactUsForm';
 
 const Popup = () => {
     const [showPopup, setShowPopup] = useState(false);
@@ -28,41 +29,9 @@ const Popup = () => {
                                 <FontAwesomeIcon icon={faCircleXmark} />
                             </button>
                         </div>
-                        <form className="row g-3 p-5">
-                            <div className="col-md-6">
-                                <label htmlFor="your-name" className="form-label">Your Name</label>
-                                <input type="text" className="form-control" id="your-name" placeholder="John Doe" required />
-                            </div>
-                            <div className="col-md-6">
-                                <label htmlFor="your-email" className="form-label">Your Email</label>
-                                <input type="email" className="form-control" id="your-email" placeholder="john45@example.com" required />
-                            </div>
-                            <div className="col-6">
-                                <label htmlFor="phone-number" className="form-label">Phone Number</label>
-                                <input type="number" className="form-control" id="phone-number" placeholder="+123 4567 890" required />
-                            </div>
-                            <div className="col-6">
-                                <label htmlFor="website-url" className="form-label">Website URL</label>
-                                <input type="text" className="form-control" id="website-url" placeholder="www.example.com" />
-                            </div>
-                            <div className="col-md-12">
-                                <label htmlFor="services" className="form-label">Services</label>
-                                <select id="services" className="form-select" required>
-                                    <option disabled selected>PLEASE SELECT A SERVICES</option>
-                                    <option>Graphics Design</option>
-                                    <option>Website Design & Development</option>
-                                    <option>App Development</option>
-                                    <option>Search Engine Optimization (SEO)</option>
-                                    <option>Google Ads Management</option>
-                                    <option>Social Media Marketing</option>
-                                    <option>Content Marketing</option>
-                                    <option>Website Content</option>
-                                </select>
-                            </div>
-                            <div className="col-12">
-                                <button type="submit" className="btns-three">SEND MESSAGE</button>
-                            </div>
-                        </form>
+                        <div className='p-3'>
+                            <ContactUsForm />
+                        </div>
                     </div>
                 </div>
             </Modal.Body >

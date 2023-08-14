@@ -108,6 +108,7 @@ const UserDataList = () => {
                                 <th scope="col">Phone</th>
                                 <th scope="col">Website</th>
                                 <th scope="col">Services</th>
+                                <th scope="col">Message</th>
                                 <th scope="col">IP Address</th>
                                 <th scope="col">Modify Data</th>
                             </tr>
@@ -179,6 +180,18 @@ const UserDataList = () => {
                                             />
                                         ) : (
                                             user.yourServices
+                                        )}
+                                    </td>
+                                    <td>
+                                        {editingUserId === user.id ? (
+                                            <input
+                                                className="form-control form-control-sm"
+                                                name="message"
+                                                value={editedUserData.message || ''}
+                                                onChange={handleInputChange}
+                                            />
+                                        ) : (
+                                            user.message
                                         )}
                                     </td>
                                     <td>{user.ipAddress}</td>
