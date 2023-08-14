@@ -22,6 +22,7 @@ import WebsiteDesignAndDevelopment from "./components/WebsiteDesignAndDevelopmen
 import LoginPage from "./components/LoginPage";
 import Footer from "./components/Footer";
 import CustomCursor from "./components/CustomCursor";
+import ErrorPage from "./components/ErrorPage";
 
 const App = () => {
   return (
@@ -38,6 +39,7 @@ const App = () => {
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/seo-services" element={<SearchEngineOptimization />} />
+          <Route path="*" Component={ErrorPage} />
           <Route
             path="/app-development-services"
             element={<AppDevelopment />}

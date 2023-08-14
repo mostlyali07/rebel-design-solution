@@ -26,7 +26,6 @@ const Homepage = () => {
             <meta name="description" content="Explore our services as a leading design and marketing agency. Rebel Design Solution offers expert solutions as a top-notch digital marketing agency." />
             <meta name="keywords" content="Digital Marketing Agency, Design Agency, Marketing Agency" />
 
-
             <link rel="canonical" href="https://rebeldesignsolution.com" />
             <link
                 rel="alternate"

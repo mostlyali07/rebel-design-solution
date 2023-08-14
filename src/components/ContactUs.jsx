@@ -1,7 +1,9 @@
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom"
 import email from "../Images/email-address.png"
-// import address from "../Images/office-address.png"
+import React, { useState, useEffect } from 'react';
+import swal from 'sweetalert';
+import axios from 'axios';
 
 
 const Contactus = () => {
@@ -11,26 +13,26 @@ const Contactus = () => {
             <meta name="description" content="Contact Rebel Design Solution to discuss your design and digital needs. Reach out now for creative solutions and captivating brand transformations." />
             <meta name="keywords" content="Digital Marketing, Rebel Design Solution, SEO Marketing" />
 
-            <link rel="canonical" href="https://rebeldesignsolution.com/about-us" />
+            <link rel="canonical" href="https://rebeldesignsolution.com/contact-us" />
             <link
                 rel="alternate"
-                href="https://rebeldesignsolution.com/about-us"
+                href="https://rebeldesignsolution.com/contact-us"
                 hreflang="en-us"
             />
             <link
                 rel="alternate"
-                href="https://rebeldesignsolution.com/about-us"
+                href="https://rebeldesignsolution.com/contact-us"
                 hreflang="en-ca"
             />
             <link
                 rel="alternate"
-                href="https://rebeldesignsolution.com/about-us"
+                href="https://rebeldesignsolution.com/contact-us"
                 hreflang="en-gb"
             />
             <link
                 rel="alternate"
                 hreflang="x-default"
-                href="https://rebeldesignsolution.com/about-us"
+                href="https://rebeldesignsolution.com/contact-us"
             />
             <meta property="og:type" content="website" />
             <meta
@@ -41,7 +43,7 @@ const Contactus = () => {
                 property="og:description"
                 content="Contact Rebel Design Solution to discuss your design and digital needs. Reach out now for creative solutions and captivating brand transformations."
             />
-            <meta property="og:url" content="https://rebeldesignsolution.com/about-us" />
+            <meta property="og:url" content="https://rebeldesignsolution.com/contact-us" />
             <meta
                 property="og:image"
                 content="https://rebeldesignsolution.com/static/media/Main-logo.7d035ab7a861be0c8196.jpg"
@@ -52,7 +54,7 @@ const Contactus = () => {
             <meta property="og:site_name" content="REBEL DESIGN SOLUTION" />
 
             <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:site" content="https://rebeldesignsolution.com/about-us" />
+            <meta name="twitter:site" content="https://rebeldesignsolution.com/contact-us" />
             <meta name="twitter:creator" content="@rebeldesignsolution" />
             <meta
                 name="twitter:title"
@@ -71,6 +73,67 @@ const Contactus = () => {
 };
 
 const ContactUs = () => {
+    const [userData, setUserData] = useState({
+        yourName: "",
+        yourEmail: "",
+        yourPhone: "",
+        yourWebite: "",
+        yourServices: "",
+        message: ""
+    });
+
+    useEffect(() => {
+        // Fetch the user's IP address
+        axios.get('https://api.ipify.org?format=json')
+            .then(response => {
+                const ipAddress = response.data.ip;
+                setUserData(prevState => ({ ...prevState, ipAddress }));
+            })
+            .catch(error => {
+                console.log(error);
+            });
+    }, []);
+
+    const postUserData = (event) => {
+        const { name, value } = event.target;
+        setUserData({ ...userData, [name]: value });
+    };
+
+    const submitData = (event) => {
+        event.preventDefault();
+        const { yourName, yourEmail, yourPhone, yourWebite, yourServices, message, ipAddress } = userData;
+
+        if (yourName && yourEmail && yourPhone && yourServices) {
+            const data = {
+                yourName,
+                yourEmail,
+                yourPhone,
+                yourWebite,
+                yourServices,
+                message,
+                ipAddress
+            };
+
+            axios.post("https://rebel-design-solutions-default-rtdb.firebaseio.com/userDataRecords.json", data)
+                .then(response => {
+                    setUserData({
+                        yourName: "",
+                        yourEmail: "",
+                        yourPhone: "",
+                        yourWebite: "",
+                        yourServices: "",
+                        message: ""
+                    });
+                    swal('Success!', 'Your form was submitted successfully.', 'success');
+                })
+                .catch(error => {
+                    console.log(error);
+                    swal('Something went wrong!', 'Please try again later.', 'error');
+                });
+        } else {
+            swal('Invalid Data!', 'Please enter valid data.', 'error');
+        }
+    };
     return (
         <>
             <Contactus />
@@ -96,14 +159,6 @@ const ContactUs = () => {
                 <div className="row">
                     <div className="col-md-5">
                         <div>
-                            {/* <div className="row bg-dark text-white rounded p-2 m-2">
-                                <div className="col-md-3">
-                                    <img src={phone} alt="REBEL" />
-                                </div>
-                                <div className="col-md-9 d-flex align-items-center">
-                                    <a href="tel:" className="fw-bold">+123-456-789-0</a>
-                                </div>
-                            </div> */}
                             <div className="row bg-dark text-white rounded p-2 m-2">
                                 <div className="col-md-3">
                                     <img src={email} alt="REBEL" />
@@ -124,39 +179,74 @@ const ContactUs = () => {
                                     </Link>
                                 </div>
                             </div>
-                            {/* <div className="row bg-dark text-white rounded p-2 m-2">
-                                <div className="col-md-3">
-                                    <img src={address} alt="REBEL" />
-                                </div>
-                                <div className="col-md-9 d-flex align-items-center">
-                                    <a href="tel:" className="fw-bold">  17595 Harvard Ave Ste C-641 Irvine, CA 92614 United States
-                                    </a>
-                                </div>
-                            </div> */}
                         </div>
                     </div>
                     <div className="col-md-7">
                         <form className="row g-3">
                             <div className="col-md-6">
-                                <label for="your-name" className="form-label">Your Name</label>
-                                <input type="text" className="form-control" id="your-name" placeholder="John Doe" required />
+                                <label htmlFor="your-name" className="form-label">Your Name</label>
+                                <input
+                                    type="text"
+                                    className="form-control"
+                                    id="your-name"
+                                    placeholder="John Doe"
+                                    name="yourName"
+                                    value={userData.yourName}
+                                    onChange={postUserData}
+                                    required
+                                />
                             </div>
                             <div className="col-md-6">
-                                <label for="your-email" className="form-label">Your Email</label>
-                                <input type="email" className="form-control" id="your-email" placeholder="john45@example.com" required />
+                                <label htmlFor="your-email" className="form-label">Your Email</label>
+                                <input
+                                    type="email"
+                                    className="form-control"
+                                    id="your-email"
+                                    placeholder="john45@example.com"
+                                    name="yourEmail"
+                                    value={userData.yourEmail}
+                                    onChange={postUserData}
+                                    required
+                                />
                             </div>
                             <div className="col-6">
-                                <label for="phone-number" className="form-label">Phone Number</label>
-                                <input type="number" className="form-control" id="phone-number" placeholder="+123 4567 890" required />
+                                <label htmlFor="phone-number" className="form-label">Phone Number</label>
+                                <input
+                                    type="tel"
+                                    className="form-control"
+                                    id="phone-number"
+                                    placeholder="+123 4567 890"
+                                    name="yourPhone"
+                                    value={userData.yourPhone}
+                                    onChange={postUserData}
+                                    required
+                                />
                             </div>
                             <div className="col-6">
-                                <label for="website-url" className="form-label">Website URL</label>
-                                <input type="text" className="form-control" id="website-url" placeholder="www.example.com" />
+                                <label htmlFor="website-url" className="form-label">Website URL</label>
+                                <input
+                                    type="url"
+                                    className="form-control"
+                                    id="website-url"
+                                    placeholder="www.example.com"
+                                    name="yourWebite"
+                                    value={userData.yourWebite}
+                                    onChange={postUserData}
+                                />
                             </div>
                             <div className="col-md-12">
-                                <label for="services" className="form-label">Services</label>
-                                <select id="services" className="form-select" required>
-                                    <option disabled selected>PLEASE SELECT A SERVICES</option>
+                                <label htmlFor="services" className="form-label">Services</label>
+                                <select
+                                    id="services"
+                                    className="form-select"
+                                    name="yourServices"
+                                    value={userData.yourServices}
+                                    onChange={postUserData}
+                                    required
+                                >
+                                    <option disabled value="">
+                                        PLEASE SELECT A SERVICE
+                                    </option>
                                     <option>Graphics Design</option>
                                     <option>Website Design & Development</option>
                                     <option>App Development</option>
@@ -168,11 +258,24 @@ const ContactUs = () => {
                                 </select>
                             </div>
                             <div className="col-md-12">
-                                <label for="message" className="form-label">Message</label>
-                                <textarea className="form-control" id="message" rows="3"></textarea>
+                                <label htmlFor="message" className="form-label">Message</label>
+                                <textarea
+                                    className="form-control"
+                                    id="message"
+                                    rows="3"
+                                    name="message"
+                                    value={userData.message}
+                                    onChange={postUserData}
+                                ></textarea>
                             </div>
                             <div className="col-12">
-                                <button type="submit" className="btns-three">SEND MESSAGE</button>
+                                <button
+                                    type="submit"
+                                    className="btns-three"
+                                    onClick={submitData}
+                                >
+                                    SEND MESSAGE
+                                </button>
                             </div>
                         </form>
                     </div>

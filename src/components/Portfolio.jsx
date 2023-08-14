@@ -93,15 +93,61 @@ const WebsiteDesigns = (
 
 const LogoDesigns = (
     <div>
-        <h2>Tab 3 Content</h2>
-        <p>This is the content for Tab 3.</p>
+        <div className='row py-5'>
+            <div className="col-md-3">
+                <div className="Tab-div4 logo-div">
+                    <div className="contentlogo">
+                    </div>
+                </div>
+            </div>
+            <div className="col-md-3">
+                <div className="Tab-div5 logo-div">
+                    <div className="contentlogo">
+                    </div>
+                </div>
+            </div>
+            <div className="col-md-3">
+                <div className="Tab-div6 logo-div">
+                    <div className="contentlogo">
+                    </div>
+                </div>
+            </div>
+            <div className="col-md-3">
+                <div className="Tab-div7 logo-div">
+                    <div className="contentlogo">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 );
 
 const Smp = (
     <div>
-        <h2>Tab 4 Content</h2>
-        <p>This is the content for Tab 4.</p>
+        <div className='row py-5'>
+            <div className="col-md-12">
+                <div className="Tab-div11">
+                </div>
+            </div>
+            <div className="col-md-4">
+                <div className="social-div Tab-div8">
+                    <div className="content">
+                    </div>
+                </div>
+            </div>
+            <div className="col-md-4">
+                <div className="social-div Tab-div9">
+                    <div className="content">
+                    </div>
+                </div>
+            </div>
+            <div className="col-md-4">
+                <div className="portfolio-div Tab-div10">
+                    <div className="content">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 );
 
@@ -135,6 +181,8 @@ const Portfolio = () => {
                         <Tabs defaultActiveKey="tab1" id="gallery-tabs" className="portfolio-tabs">
                             <Tab eventKey="tab1" title="All">
                                 {WebsiteDesigns}
+                                {LogoDesigns}
+                                {Smp}
                             </Tab>
                             <Tab eventKey="tab2" title="Website Designs">
                                 {WebsiteDesigns}
