@@ -15,7 +15,7 @@ const ContentSec = ({ text, descrp, src }) => {
                         <div>
                             <h2 className='pb-2'>{text}</h2>
                             <p className='pb-3'>{descrp}</p>
-                            <Link to="contact-us" className="btns-three">START PROJECT</Link>
+                            <Link to="https://rebeldesignsolution.com/contact-us" className="btns-three">START PROJECT</Link>
                         </div>
                     </div>
                 </div>

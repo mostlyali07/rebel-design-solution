@@ -5,8 +5,11 @@ import Client3 from "../Images/client03.png";
 import Client4 from "../Images/client04.png";
 import swal from 'sweetalert';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
+
 
 const VertForm = () => {
+    const navigate = useNavigate();
     const [userData, setUserData] = useState({
         yourName: "",
         yourEmail: "",
@@ -58,7 +61,8 @@ const VertForm = () => {
                         yourWebite: "",
                         yourServices: ""
                     });
-                    swal('Success!', 'Your form was submitted successfully.', 'success');
+                    // swal('Success!', 'Your form was submitted successfully.', 'success');
+                    navigate("/thank-you");
                 })
                 .catch(error => {
                     console.log(error);

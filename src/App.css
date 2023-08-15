@@ -503,7 +503,13 @@ a {
   transition: transform 2s ease-in-out;
   cursor: pointer;
 }
-
+.success-img {
+  width: 500px;
+  object-fit: none;
+  /* mix-blend-mode: color-burn; */
+  mix-blend-mode: multiply;
+  filter: hue-rotate(10deg);
+}
 /* Maps CSS */
 
 .parent {

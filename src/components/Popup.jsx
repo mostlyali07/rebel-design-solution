@@ -29,7 +29,7 @@ const Popup = () => {
                                 <FontAwesomeIcon icon={faCircleXmark} />
                             </button>
                         </div>
-                        <div className='p-3'>
+                        <div className="p-3">
                             <ContactUsForm />
                         </div>
                     </div>

@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import swal from 'sweetalert';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 
 const ContactUsForm = () => {
+    const navigate = useNavigate();
+
     const [userData, setUserData] = useState({
         yourName: "",
         yourEmail: "",
@@ -54,7 +57,8 @@ const ContactUsForm = () => {
                         yourServices: "",
                         message: ""
                     });
-                    swal('Success!', 'Your form was submitted successfully.', 'success');
+                    // swal('Success!', 'Your form was submitted successfully.', 'success');
+                    navigate("/thank-you");
                 })
                 .catch(error => {
                     console.log(error);
