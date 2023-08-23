@@ -4,6 +4,7 @@ import Facebook from "../Images/facebook.png";
 import Instagram from "../Images/instagram.png";
 import Pinterest from "../Images/pinterest.png";
 import Twitter from "../Images/twitter.png";
+import Linkedin from "../Images/linkedin.png";
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
@@ -76,6 +77,9 @@ const Footer = () => {
                             </Link>
                             <Link to="https://twitter.com/rebeldesignsol" target="_blank">
                                 <img src={Twitter} alt="Rebel Design Solution" width={26} />&nbsp;&nbsp;
+                            </Link>
+                            <Link to="https://www.linkedin.com/company/rebeldesignsolution" target="_blank">
+                                <img src={Linkedin} alt="Rebel Design Solution" width={26} />&nbsp;&nbsp;
                             </Link>
                         </div>
                     </div>
