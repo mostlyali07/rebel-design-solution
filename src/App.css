@@ -1148,11 +1148,17 @@ a {
 }
 .blog-list {
   background-color: #212529;
-  padding: 10px;
+  padding: 18px;
   border-radius: 6px;
 }
 .blog-list li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 10px;
+}
+.blog-list img {
+  width: 20%;
+  border-radius: 6px;
+  margin-right: 10px;
 }

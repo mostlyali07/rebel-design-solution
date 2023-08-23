@@ -46,6 +46,10 @@ const BlogForm = () => {
     };
 
     const handleSubmit = async () => {
+        if (!title.trim() && !content.trim() && !image) {
+            alert('Please fill in at least one field before submitting.');
+            return;
+        }
         // Upload image to Storage
         const storage = getStorage();
         const storageRef = ref(storage, `blogImages/${image.name}`);
@@ -62,9 +66,10 @@ const BlogForm = () => {
             timestamp: Date.now()
         });
 
-        console.log('Title:', title);
-        console.log('Content:', content);
-        console.log('Image URL:', imageUrl);
+        // Clear fields after successful submission
+        setTitle('');
+        setContent('');
+        setImage(null);
     };
 
     const handleDelete = async (blogId) => {
@@ -82,6 +87,12 @@ const BlogForm = () => {
         }
     };
 
+
+    const convertHtmlToPlainText = (html) => {
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(html, 'text/html');
+        return doc.body.textContent || "";
+    };
     return (
         <div>
             <input
@@ -116,14 +127,15 @@ const BlogForm = () => {
             <button onClick={handleSubmit} className="btn btn-dark">Create Blog</button>
 
             <div className="blog-list mt-3">
-                <h2>Blog List</h2>
+                <h2 className="text-center fw-bold text-uppercase">All Blogs</h2>
                 <ul>
                     {blogs.map(blog => (
                         <li key={blog.id}>
-                            <img src={blog.imageUrl} width={110} />
+                            <img src={blog.imageUrl} />
                             <div>
                                 <h4>{blog.title}</h4>
-                                <p>{blog.content.substring(0, 100)}...</p>
+                                {/* <p>{blog.content.substring(0, 100)}...</p> */}
+                                <p>{convertHtmlToPlainText(blog.content.substring(81, 500))}...</p>
                             </div>
                             <button onClick={() => handleDelete(blog.id)} className="btn btn-danger">Delete</button>
                         </li>
