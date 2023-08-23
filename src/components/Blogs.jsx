@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
-// import React, { useEffect, useState } from 'react';
-// import { getDatabase, ref, onValue } from "firebase/database";
+import React, { useEffect, useState } from 'react';
+import { getDatabase, ref, onValue } from "firebase/database";
 
 const BlogsPage = () => {
     return (
@@ -70,29 +70,34 @@ const BlogsPage = () => {
 };
 const Blogs = () => {
 
-    // const [blogs, setBlogs] = useState([]);
+    const [blogs, setBlogs] = useState([]);
 
-    // useEffect(() => {
-    //     const database = getDatabase();
-    //     const blogsRef = ref(database, 'blogs');
+    useEffect(() => {
+        const database = getDatabase();
+        const blogsRef = ref(database, 'blogs');
 
-    //     // Listen for changes in the Realtime Database and update 'blogs' state
-    //     const unsubscribe = onValue(blogsRef, (snapshot) => {
-    //         const blogsData = [];
-    //         snapshot.forEach((childSnapshot) => {
-    //             const data = childSnapshot.val(); // Get the data from the snapshot
-    //             const id = childSnapshot.key; // Get the key as the ID
+        // Listen for changes in the Realtime Database and update 'blogs' state
+        const unsubscribe = onValue(blogsRef, (snapshot) => {
+            const blogsData = [];
+            snapshot.forEach((childSnapshot) => {
+                const data = childSnapshot.val(); // Get the data from the snapshot
+                const id = childSnapshot.key; // Get the key as the ID
 
-    //             blogsData.push({ id, ...data });
-    //         });
-    //         setBlogs(blogsData);
-    //     });
+                blogsData.push({ id, ...data });
+            });
+            setBlogs(blogsData);
+        });
 
-    //     return () => {
-    //         // Unsubscribe when the component unmounts
-    //         unsubscribe();
-    //     };
-    // }, []);
+        return () => {
+            // Unsubscribe when the component unmounts
+            unsubscribe();
+        };
+    }, []);
+    const convertHtmlToPlainText = (html) => {
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(html, 'text/html');
+        return doc.body.textContent || "";
+    };
 
     return (
         <>
@@ -120,7 +125,7 @@ const Blogs = () => {
             <div className="container">
                 <div className="row my-5">
                     <div className="col-md-4">
-                        <Link to="">
+                        {/* <Link to="">
                             <div class="cardd">
                                 <h3 class="card__title">
                                     Evaluating The ROI Of Amazon Book Marketing Services
@@ -137,9 +142,23 @@ const Blogs = () => {
                                     </svg>
                                 </div>
                             </div>
-                        </Link>
+                        </Link> */}
                     </div>
-                    <div className="col-md-4"></div>
+                    <div className="col-md-4">
+                        {blogs.map(blog => {
+                            let BlogOne = "-NcZODahXq6m73Vb5_C1"
+                            console.log("Current Blog:", blog);
+                            return (
+                                <div key={blog.id}>
+                                    <img src={blog.imageUrl} />
+                                    <div>
+                                        <h4>{blog.title}</h4>
+                                        <p>{convertHtmlToPlainText(blog.content.substring(0, 200))}...</p>
+                                    </div>
+                                </div>
+                            );
+                        })}
+                    </div>
                     <div className="col-md-4"></div>
                 </div>
             </div>
