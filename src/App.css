@@ -1141,3 +1141,18 @@ a {
   height: 150px;
   opacity: 1;
 }
+
+.quill {
+  background-color: #fff;
+  color: #111;
+}
+.blog-list {
+  background-color: #212529;
+  padding: 10px;
+  border-radius: 6px;
+}
+.blog-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

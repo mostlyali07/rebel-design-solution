@@ -82,8 +82,8 @@ const Ourprocess = ({ prcsMain, prcsPara, prcsOne, prcsTwo, prcsThree, prcsFour,
                 <div className="row">
                     <div className="col-md-12">
                         <div className="d-flex justify-content-center my-5">
-                            <Link className="btns-three" to="contact-us">Analyze My Site</Link> &nbsp;&nbsp;
-                            <Link className="btns-three" to="contact-us">Explore Site</Link>
+                            <Link className="btns-three" to="https://rebeldesignsolution.com/contact-us">Analyze My Site</Link> &nbsp;&nbsp;
+                            <Link className="btns-three" to="https://rebeldesignsolution.com/contact-us">Explore Site</Link>
                         </div>
                     </div>
                 </div>

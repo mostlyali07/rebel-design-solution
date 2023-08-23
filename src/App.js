@@ -24,6 +24,7 @@ import Footer from "./components/Footer";
 import CustomCursor from "./components/CustomCursor";
 import ErrorPage from "./components/ErrorPage";
 import ThankYou from "./components/ThankYou";
+import Blogs from "./components/Blogs";
 
 const App = () => {
   return (
@@ -67,6 +68,7 @@ const App = () => {
             path="/google-ads-management-services"
             element={<GoogleAdsManagement />}
           />
+          <Route path="/blogs" element={<Blogs />} />
           <Route path="/rebel-admin" element={<LoginPage />} />
         </Routes>
 

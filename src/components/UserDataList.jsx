@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import BlogForm from './BlogForm';
 
 const UserDataList = () => {
     const [userList, setUserList] = useState([]);
@@ -223,6 +224,13 @@ const UserDataList = () => {
                         </tbody>
                     </table>
                 </div>
+            </div>
+            <div className="row">
+                <div className="col-md-2"> </div>
+                <div className="col-md-8">
+                    <BlogForm />
+                </div>
+                <div className="col-md-2"> </div>
             </div>
         </div>
     );
