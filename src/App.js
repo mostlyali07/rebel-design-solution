@@ -25,6 +25,7 @@ import CustomCursor from "./components/CustomCursor";
 import ErrorPage from "./components/ErrorPage";
 import ThankYou from "./components/ThankYou";
 import Blogs from "./components/Blogs";
+import BlogOne from "./components/Blog/BlogOne";
 
 const App = () => {
   return (
@@ -69,6 +70,10 @@ const App = () => {
             element={<GoogleAdsManagement />}
           />
           <Route path="/blogs" element={<Blogs />} />
+          <Route
+            path="/blog/demystifying-seo-ranking-factors-a-deep-dive-into-the-elements-that-define-your-digital-success"
+            element={<BlogOne />}
+          />
           <Route path="/rebel-admin" element={<LoginPage />} />
         </Routes>
         <Footer />
