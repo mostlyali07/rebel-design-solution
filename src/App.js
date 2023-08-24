@@ -71,7 +71,6 @@ const App = () => {
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/rebel-admin" element={<LoginPage />} />
         </Routes>
-
         <Footer />
       </BrowserRouter>
     </>

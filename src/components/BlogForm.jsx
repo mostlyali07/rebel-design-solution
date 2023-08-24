@@ -135,7 +135,7 @@ const BlogForm = () => {
                             <div>
                                 <h4>{blog.title}</h4>
                                 {/* <p>{blog.content.substring(0, 100)}...</p> */}
-                                <p>{convertHtmlToPlainText(blog.content.substring(81, 500))}...</p>
+                                <p>{convertHtmlToPlainText(blog.content.substring(0, 300))}...</p>
                             </div>
                             <button onClick={() => handleDelete(blog.id)} className="btn btn-danger">Delete</button>
                         </li>

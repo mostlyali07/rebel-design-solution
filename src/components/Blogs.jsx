@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import React, { useEffect, useState } from 'react';
-import { getDatabase, ref, onValue } from "firebase/database";
+
 
 const BlogsPage = () => {
     return (
@@ -70,34 +70,25 @@ const BlogsPage = () => {
 };
 const Blogs = () => {
 
-    const [blogs, setBlogs] = useState([]);
+    const [blogData, setBlogData] = useState(null);
 
     useEffect(() => {
-        const database = getDatabase();
-        const blogsRef = ref(database, 'blogs');
+        const url = 'https://rebel-design-solutions-default-rtdb.firebaseio.com/blogs.json';
 
-        // Listen for changes in the Realtime Database and update 'blogs' state
-        const unsubscribe = onValue(blogsRef, (snapshot) => {
-            const blogsData = [];
-            snapshot.forEach((childSnapshot) => {
-                const data = childSnapshot.val(); // Get the data from the snapshot
-                const id = childSnapshot.key; // Get the key as the ID
-
-                blogsData.push({ id, ...data });
+        fetch(url)
+            .then(response => response.json())
+            .then(data => {
+                if (data && data['-NcZODahXq6m73Vb5_C1']) {
+                    const blogData = data['-NcZODahXq6m73Vb5_C1'];
+                    setBlogData(blogData);
+                } else {
+                    console.log('Blog data with the specified ID not found.');
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
             });
-            setBlogs(blogsData);
-        });
-
-        return () => {
-            // Unsubscribe when the component unmounts
-            unsubscribe();
-        };
     }, []);
-    const convertHtmlToPlainText = (html) => {
-        const parser = new DOMParser();
-        const doc = parser.parseFromString(html, 'text/html');
-        return doc.body.textContent || "";
-    };
 
     return (
         <>
@@ -145,19 +136,12 @@ const Blogs = () => {
                         </Link> */}
                     </div>
                     <div className="col-md-4">
-                        {blogs.map(blog => {
-                            let BlogOne = "-NcZODahXq6m73Vb5_C1"
-                            console.log("Current Blog:", blog);
-                            return (
-                                <div key={blog.id}>
-                                    <img src={blog.imageUrl} />
-                                    <div>
-                                        <h4>{blog.title}</h4>
-                                        <p>{convertHtmlToPlainText(blog.content.substring(0, 200))}...</p>
-                                    </div>
-                                </div>
-                            );
-                        })}
+                        {blogData && (
+                            <>
+                                <img src={blogData.imageUrl} alt="Blog Image" />
+                                <h2>{blogData.title}</h2>
+                            </>
+                        )}
                     </div>
                     <div className="col-md-4"></div>
                 </div>
