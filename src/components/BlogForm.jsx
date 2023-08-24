@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { getStorage, ref, uploadBytes, getDownloadURL } from 'firebase/storage';
 import { getDatabase, ref as rtdbRef, push, remove, set, onValue } from 'firebase/database';
-import 'react-quill/dist/quill.snow.css'; // Import Quill's CSS
-import ReactQuill from 'react-quill'; // Import the React Quill component
-
+import 'react-quill/dist/quill.snow.css';
+import ReactQuill from 'react-quill';
+import swal from 'sweetalert';
 
 const BlogForm = () => {
     const [title, setTitle] = useState('');
@@ -34,20 +34,19 @@ const BlogForm = () => {
         };
     }, []);
 
-
     const handleImageChange = (event) => {
         const selectedImage = event.target.files[0];
         if (selectedImage && selectedImage.size <= 1024 * 1024) {
             setImage(selectedImage);
         } else {
             setImage(null);
-            alert('Please select an image of size up to 1MB.');
+            swal('Error', 'Please select an image of size up to 1MB.', 'error');
         }
     };
 
     const handleSubmit = async () => {
         if (!title.trim() && !content.trim() && !image) {
-            alert('Please fill in at least one field before submitting.');
+            swal('Error', 'Please fill in at least one field before submitting.', 'error');
             return;
         }
         // Upload image to Storage
@@ -86,7 +85,6 @@ const BlogForm = () => {
             console.error('Error deleting blog:', error);
         }
     };
-
 
     const convertHtmlToPlainText = (html) => {
         const parser = new DOMParser();

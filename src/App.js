@@ -26,6 +26,8 @@ import ErrorPage from "./components/ErrorPage";
 import ThankYou from "./components/ThankYou";
 import Blogs from "./components/Blogs";
 import BlogOne from "./components/Blog/BlogOne";
+import PrivacyPolicy from "./components/PrivacyPolicy";
+import TermsConditions from "./components/TermsConditions";
 
 const App = () => {
   return (
@@ -74,6 +76,8 @@ const App = () => {
             path="/blog/demystifying-seo-ranking-factors-a-deep-dive-into-the-elements-that-define-your-digital-success"
             element={<BlogOne />}
           />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms-conditions" element={<TermsConditions />} />
           <Route path="/rebel-admin" element={<LoginPage />} />
         </Routes>
         <Footer />

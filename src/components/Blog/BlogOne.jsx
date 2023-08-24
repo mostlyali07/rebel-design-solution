@@ -112,9 +112,11 @@ const BlogOne = () => {
                     </div>
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-12 my-4 blog-content">
+                            <div className="col-md-2"></div>
+                            <div className="col-md-8 my-4 blog-content">
                                 <div dangerouslySetInnerHTML={{ __html: blogData.content }}></div>
                             </div>
+                            <div className="col-md-2"></div>
                         </div>
                     </div>
                 </>

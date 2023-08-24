@@ -1238,9 +1238,11 @@ a {
 }
 .blog-content h2 {
   font-weight: 600;
+  margin-bottom: 16px;
 }
 .blog-content h3 {
   font-weight: 500;
+  font-size: 22px;
 }
 .blog-content a {
   text-decoration: underline;
