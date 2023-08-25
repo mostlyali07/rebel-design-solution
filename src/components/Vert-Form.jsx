@@ -5,11 +5,12 @@ import Client3 from "../Images/client03.png";
 import Client4 from "../Images/client04.png";
 import swal from 'sweetalert';
 import axios from 'axios';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 
 const VertForm = () => {
     const navigate = useNavigate();
+    const location = useLocation();
     const [userData, setUserData] = useState({
         yourName: "",
         yourEmail: "",
@@ -50,7 +51,8 @@ const VertForm = () => {
                 yourWebite,
                 yourServices,
                 ipAddress,
-                submissionTime: new Date().toLocaleString() // Capture the current date and time
+                submissionTime: new Date().toLocaleString(), // Capture the current date and time
+                submissionUrl: location.pathname // Capture the current page URL
             };
 
             axios.post("https://rebel-design-solutions-default-rtdb.firebaseio.com/userDataRecords.json", data)

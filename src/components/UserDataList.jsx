@@ -112,6 +112,7 @@ const UserDataList = () => {
                                 <th scope="col">Message</th>
                                 <th scope="col">Date/Time</th>
                                 <th scope="col">IP Address</th>
+                                <th scope="col">Target URL</th>
                                 <th scope="col">Modify Data</th>
                             </tr>
                         </thead>
@@ -198,6 +199,7 @@ const UserDataList = () => {
                                     </td>
                                     <td>{user.submissionTime}</td>
                                     <td>{user.ipAddress}</td>
+                                    <td>{user.submissionUrl}</td>
                                     <td>
                                         {editingUserId === user.id ? (
                                             <>
