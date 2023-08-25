@@ -99,7 +99,7 @@ const ThankYou = () => {
                                     <span>Services</span>
                                     <span></span>
                                 </Link>
-                                <Link className="animated-button" to="/">
+                                <Link className="animated-button" to="/blogs">
                                     <span>Blogs</span>
                                     <span></span>
                                 </Link>

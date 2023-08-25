@@ -1,8 +1,75 @@
-import React from 'react'
+import { Helmet } from 'react-helmet';
+
+const PrivacyPolicyPage = () => {
+    return (
+        <Helmet>
+            <title>Privacy Policy | Rebel Design Solution</title>
+            <meta name="description" content="Learn how Rebel Design Solution collects, uses, and protects your personal information. Our privacy policy outlines our commitment to safeguarding your data." />
+            <meta name="keywords" content="Digital Marketing, Rebel Design Solution, SEO Marketing" />
+
+            <link rel="canonical" href="https://rebeldesignsolution.com/privacy-policy" />
+            <link
+                rel="alternate"
+                href="https://rebeldesignsolution.com/privacy-policy"
+                hreflang="en-us"
+            />
+            <link
+                rel="alternate"
+                href="https://rebeldesignsolution.com/privacy-policy"
+                hreflang="en-ca"
+            />
+            <link
+                rel="alternate"
+                href="https://rebeldesignsolution.com/privacy-policy"
+                hreflang="en-gb"
+            />
+            <link
+                rel="alternate"
+                hreflang="x-default"
+                href="https://rebeldesignsolution.com/privacy-policy"
+            />
+            <meta property="og:type" content="website" />
+            <meta
+                property="og:title"
+                content="Privacy Policy | Rebel Design Solution"
+            />
+            <meta
+                property="og:description"
+                content="Learn how Rebel Design Solution collects, uses, and protects your personal information. Our privacy policy outlines our commitment to safeguarding your data."
+            />
+            <meta property="og:url" content="https://rebeldesignsolution.com/privacy-policy" />
+            <meta
+                property="og:image"
+                content="https://rebeldesignsolution.com/static/media/Main-logo.7d035ab7a861be0c8196.jpg"
+            />
+            <meta property="og:image:width" content="880" />
+            <meta property="og:image:height" content="660" />
+            <meta property="og:locale" content="en_US" />
+            <meta property="og:site_name" content="REBEL DESIGN SOLUTION" />
+
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:site" content="https://rebeldesignsolution.com/privacy-policy" />
+            <meta name="twitter:creator" content="@rebeldesignsolution" />
+            <meta
+                name="twitter:title"
+                content="Privacy Policy | Rebel Design Solution"
+            />
+            <meta
+                name="twitter:description"
+                content="Learn how Rebel Design Solution collects, uses, and protects your personal information. Our privacy policy outlines our commitment to safeguarding your data."
+            />
+            <meta
+                name="twitter:image"
+                content=" https://rebeldesignsolution.com/static/media/Main-logo.7d035ab7a861be0c8196.jpg"
+            />
+        </Helmet>
+    );
+};
 
 const PrivacyPolicy = () => {
     return (
         <>
+            <PrivacyPolicyPage />
             <div className="contect-banner">
                 <div className="container">
                     <div className="row">
@@ -32,7 +99,9 @@ const PrivacyPolicy = () => {
                         <p>Our Privacy Policy regulates your visit to www.rebeldesignsolution.com and describes how we collect, protect, and share information resulting from your use of our Service.</p>
                         <p>We use your information to offer and improve our services. You consent to collecting and using information in line with this policy by using the Service. Unless otherwise indicated, the words used in this Privacy Policy have the same meanings as those in our words and Conditions.</p>
                         <p>Our Terms and Conditions ("Terms") govern all usage of our Service and, together with the Privacy Policy, constitute the basis of your agreement with us (the "Agreement").</p>
-                        <h2><strong>Definitions</strong></h2>
+                        <h2>
+                            <strong>Definitions</strong>
+                        </h2>
                         <p>
                             <strong>SERVICE</strong>means the www.rebeldesignsolution.com website operated by the Rebel Design Solution team.</p>
                         <p>
@@ -40,7 +109,8 @@ const PrivacyPolicy = () => {
                         <h3><strong>Types of Data Collected</strong></h3>
                         <p><strong>Personal Data</strong></p>
                         <p>We may ask you to supply us with personally identifying information that may be used to contact or identify you while using our Service ("Personal Data").
-                            Personally identifiable information may include, but is not limited to, the following:</p><p>0.1. First name and last name</p><p>0.2. Email address</p><p>0.3. Phone number</p><p>0.4. Address, Country, State, Province, ZIP/Postal code, City</p><p>0.5. Cookies and Usage Data</p><p>We may use your Personal Data to contact you with newsletters, marketing or promotional materials and other information that may interest you. You may opt out of receiving any or all communications from us by following the unsubscribe link.</p><p><strong>Usage Data</strong></p><p>We may also collect information sent by your browser whenever you visit our Service or access it via any device ("Usage Data").</p><p>Usage Data may include your computer's Internet Protocol address (e.g., IP address), browser type, browser version, the pages of our Service that you view, the time and date of your visit, the time spent on those pages, unique device identifiers, and other diagnostic data.</p><p>When you use a device to access the Service, this Usage Data may contain information such as the kind of device you are using, your device's unique ID, your device's IP address, your device's operating system, the type of Internet browser you are using, unique device identifiers, and other diagnostic data.</p><p><strong>Tracking Cookies Data</strong></p><p>We track the activity on our Service using cookies and similar tracking technologies and save some information.</p><p>Cookies are files with a small amount of data, which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Other tracking technologies such as beacons, tags and scripts are also used to collect and track information and to improve and analyze our Service.</p><p>You may instruct your browser to either refuse all cookies or inform you when one is received. However, if you refuse to accept cookies, you may be unable to utilize certain features of our Service.</p><p>Examples of Cookies we use:</p><p>0.1.<strong>Session Cookies:</strong>Session Cookies are used to operate our Service.</p><p>0.2.<strong>Preference Cookies:</strong>Preference Cookies are used to remember your preferences and other settings.</p><p>0.3.
+                            Personally identifiable information may include, but is not limited to, the following:</p><p>0.1. First name and last name</p><p>0.2. Email address</p><p>0.3. Phone number</p><p>0.4. Address, Country, State, Province, ZIP/Postal code, City</p><p>0.5. Cookies and Usage Data</p><p>We may use your Personal Data to contact you with newsletters, marketing or promotional materials and other information that may interest you. You may opt out of receiving any or all communications from us by following the unsubscribe link.</p>
+                        <p><strong>Usage Data</strong></p><p>We may also collect information sent by your browser whenever you visit our Service or access it via any device ("Usage Data").</p><p>Usage Data may include your computer's Internet Protocol address (e.g., IP address), browser type, browser version, the pages of our Service that you view, the time and date of your visit, the time spent on those pages, unique device identifiers, and other diagnostic data.</p><p>When you use a device to access the Service, this Usage Data may contain information such as the kind of device you are using, your device's unique ID, your device's IP address, your device's operating system, the type of Internet browser you are using, unique device identifiers, and other diagnostic data.</p><p><strong>Tracking Cookies Data</strong></p><p>We track the activity on our Service using cookies and similar tracking technologies and save some information.</p><p>Cookies are files with a small amount of data, which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Other tracking technologies such as beacons, tags and scripts are also used to collect and track information and to improve and analyze our Service.</p><p>You may instruct your browser to either refuse all cookies or inform you when one is received. However, if you refuse to accept cookies, you may be unable to utilize certain features of our Service.</p><p>Examples of Cookies we use:</p><p>0.1.<strong>Session Cookies:</strong>Session Cookies are used to operate our Service.</p><p>0.2.<strong>Preference Cookies:</strong>Preference Cookies are used to remember your preferences and other settings.</p><p>0.3.
                             <strong>Security Cookies:</strong>Security Cookies are used for security considerations.</p><p>0.4.<strong>Advertising Cookies:</strong>
                             Advertising cookies are used to deliver advertising relevant to you and your interests.</p>
                         <p><strong>Other Data</strong></p>

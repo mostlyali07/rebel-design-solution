@@ -77,7 +77,7 @@ const App = () => {
             element={<BlogOne />}
           />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-          <Route path="/terms-conditions" element={<TermsConditions />} />
+          <Route path="/terms-and-conditions" element={<TermsConditions />} />
           <Route path="/rebel-admin" element={<LoginPage />} />
         </Routes>
         <Footer />

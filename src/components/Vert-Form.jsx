@@ -49,7 +49,8 @@ const VertForm = () => {
                 yourPhone,
                 yourWebite,
                 yourServices,
-                ipAddress
+                ipAddress,
+                submissionTime: new Date().toLocaleString() // Capture the current date and time
             };
 
             axios.post("https://rebel-design-solutions-default-rtdb.firebaseio.com/userDataRecords.json", data)
