@@ -1,13 +1,15 @@
 import NavLogo from "../Images/Main-logo.jpg";
 import Trustee from "../Images/Footer-trusted-img.png";
-import Facebook from "../Images/facebook.png";
-import Instagram from "../Images/instagram.png";
-import Pinterest from "../Images/pinterest.png";
-import Twitter from "../Images/twitter.png";
-import Linkedin from "../Images/linkedin.png";
+// import Facebook from "../Images/facebook.png";
+// import Instagram from "../Images/instagram.png";
+// import Pinterest from "../Images/pinterest.png";
+// import Twitter from "../Images/twitter.png";
+// import Linkedin from "../Images/linkedin.png";
+// import xTwitter from "../Images/x-twitter.svg"
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { BsFacebook, BsInstagram, BsLinkedin, BsPinterest } from "react-icons/bs";
 
 const Footer = () => {
     return (
@@ -50,7 +52,7 @@ const Footer = () => {
                             <li><Link to="/about-us">About Us</Link></li>
                             <li><Link to="/pricing"></Link> Pricing</li>
                             <li><Link to="/portfolio">Portfolio</Link></li>
-                            <li><Link to="/contact-us">Contatc Us</Link></li>
+                            <li><Link to="/contact-us">Contact Us</Link></li>
                         </div>
                         <div className="col-md-2 lh-lg">
                             <h6 className="fw-bold mb-4">Services</h6>
@@ -66,21 +68,13 @@ const Footer = () => {
                             <Link to="mailto:marketing@rebeldesignsolution.com"><FontAwesomeIcon icon={faEnvelope} /> marketing@rebeldesignsolution.com</Link>
                             <br />
                             <br />
-                            <Link to="https://www.facebook.com/rebeldesignsolution" target="_blank">
-                                <img src={Facebook} alt="Rebel Design Solution" width={26} />&nbsp;&nbsp;
-                            </Link>
-                            <Link to="https://instagram.com/rebeldesignsolution" target="_blank">
-                                <img src={Instagram} alt="Rebel Design Solution" width={26} />&nbsp;&nbsp;
-                            </Link>
-                            <Link to="https://pin.it/3PINrZB" target="_blank">
-                                <img src={Pinterest} alt="Rebel Design Solution" width={26} />&nbsp;&nbsp;
-                            </Link>
-                            <Link to="https://twitter.com/rebeldesignsol" target="_blank">
-                                <img src={Twitter} alt="Rebel Design Solution" width={26} />&nbsp;&nbsp;
-                            </Link>
-                            <Link to="https://www.linkedin.com/company/rebeldesignsolution" target="_blank">
-                                <img src={Linkedin} alt="Rebel Design Solution" width={26} />&nbsp;&nbsp;
-                            </Link>
+                            <ul className="social3d">
+                                <li><Link to="https://www.facebook.com/rebeldesignsolution" target="_blank"><BsFacebook /></Link></li>
+                                <li><Link to="https://twitter.com/rebeldesignsol" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" /></svg></Link></li>
+                                <li><Link to="https://pin.it/3PINrZB" target="_blank"><BsPinterest /></Link></li>
+                                <li><Link to="https://www.linkedin.com/company/rebeldesignsolution" target="_blank"><BsLinkedin /></Link></li>
+                                <li><Link to="https://instagram.com/rebeldesignsolution" target="_blank"><BsInstagram /></Link></li>
+                            </ul>
                         </div>
                     </div>
                     <div className="row">
