@@ -3,7 +3,6 @@
   padding: 0;
   font-family: "Montserrat", sans-serif;
 }
-
 .nav-logo {
   width: 200px;
 }
@@ -149,14 +148,12 @@ tr,
   line-height: 0;
   transform: rotate(180deg);
 }
-
 .custom-shape-divider-bottom-1681685793 svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
   height: 100px;
 }
-
 .custom-shape-divider-bottom-1681685793 .shape-fill {
   fill: #ffffff;
 }
@@ -209,7 +206,6 @@ tr,
   border-radius: 36px;
   height: 330px;
 }
-
 .four-divs svg {
   font-size: 26px;
   color: #f75515;
@@ -281,28 +277,23 @@ iframe {
   margin-top: 10px;
   line-height: 26px;
 }
-
 .four-divs:hover {
   cursor: pointer;
   transition: 0.4s;
   background-color: #222222;
 }
-
 .four-divs:hover svg {
   color: #fff;
   background-color: #f75515;
 }
-
 .four-divs:hover h5 {
   transition: 0.2s;
   color: #fff;
 }
-
 .four-divs:hover h6 {
   transition: 0.2s;
   color: #fff;
 }
-
 .ctas {
   color: #fff;
   background-image: linear-gradient(90deg, #f75515, #222222);
@@ -402,7 +393,6 @@ a {
   -moz-box-shadow: 0px 0px 52px -35px rgba(0, 0, 0, 1);
   box-shadow: 0px 0px 52px -35px rgba(0, 0, 0, 1);
 }
-
 .portfolio-div .content {
   position: absolute;
   top: 0;
@@ -413,11 +403,9 @@ a {
   background-position: top center;
   transition: transform 2s ease-in-out;
 }
-
 .Tab-div1 .content {
   background-image: url("./Images/web-m-1.png");
 }
-
 .Tab-div2 .content {
   background-image: url("./Images/web-m-2.png");
 }
@@ -429,7 +417,6 @@ a {
   background-image: url("./Images/portfolio-logo-1.jpg");
   background-size: cover;
 }
-
 .Tab-div5 {
   background-image: url("./Images/portfolio-logo-2.jpg");
   background-size: cover;

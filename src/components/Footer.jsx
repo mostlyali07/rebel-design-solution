@@ -9,7 +9,7 @@ import Trustee from "../Images/Footer-trusted-img.png";
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { BsFacebook, BsInstagram, BsLinkedin, BsPinterest } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsLinkedin, BsPinterest, BsFillArrowRightCircleFill } from "react-icons/bs";
 
 const Footer = () => {
     return (
@@ -25,7 +25,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className="col-md-6 d-flex justify-content-end align-items-center">
-                            <Link to="/contact-us" className="btns-ten">Contant Us <i className="fa-solid fa-arrow-right"></i></Link>
+                            <Link to="https://rebeldesignsolution.com/contact-us" className="btns-ten">Contact Us <BsFillArrowRightCircleFill /></Link>
                         </div>
                     </div>
                     <hr
