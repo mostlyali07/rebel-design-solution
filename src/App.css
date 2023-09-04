@@ -1171,7 +1171,7 @@ a {
   --primary-color: #111;
   --secondary-color: #3c3852;
   width: auto;
-  height: auto;
+  height: 420px;
   font-family: "Arial";
   padding: 1rem;
   cursor: pointer;

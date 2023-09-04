@@ -9807,6 +9807,11 @@ strip-final-newline@^2.0.0:
   resolved "https://registry.npmjs.org/strip-final-newline/-/strip-final-newline-2.0.0.tgz"
   integrity sha512-BrpvfNAE3dcvq7ll3xVumzjKjZQ5tI1sEUIKr3Uoks0XUl45St3FlatVqef9prk4jRDzhW6WZg+3bk93y6pLjA==
 
+strip-html-tags@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.npmjs.org/strip-html-tags/-/strip-html-tags-0.0.3.tgz"
+  integrity sha512-609h82SAHSx8GRF0wyhO7QyzEmxJLNz8Owc1xWfwJGvYZ+q0BItoN10kW2X/IKiU20a8tPnk+I2+ktYVyGKPmw==
+
 strip-indent@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/strip-indent/-/strip-indent-3.0.0.tgz"

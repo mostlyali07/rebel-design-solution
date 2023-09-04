@@ -28,6 +28,7 @@ import Blogs from "./components/Blogs";
 import BlogOne from "./components/Blog/BlogOne";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import TermsConditions from "./components/TermsConditions";
+import BlogTwo from "./components/Blog/BlogTwo";
 
 const App = () => {
   return (
@@ -75,6 +76,10 @@ const App = () => {
           <Route
             path="/blog/demystifying-seo-ranking-factors-a-deep-dive-into-the-elements-that-define-your-digital-success"
             element={<BlogOne />}
+          />
+          <Route
+            path="/blog/things-to-note-before-you-develop-a-website"
+            element={<BlogTwo />}
           />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-and-conditions" element={<TermsConditions />} />

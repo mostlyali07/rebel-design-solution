@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import React, { useEffect, useState } from 'react';
-
+import stripHtml from 'strip-html-tags';
 
 const BlogsPage = () => {
     return (
@@ -70,7 +70,8 @@ const BlogsPage = () => {
 };
 const Blogs = () => {
 
-    const [blogData, setBlogData] = useState(null);
+    const [blogOneData, setBlogOneData] = useState(null);
+    const [blogTwoData, setBlogTwoData] = useState(null);
 
     useEffect(() => {
         const url = 'https://rebel-design-solutions-default-rtdb.firebaseio.com/blogs.json';
@@ -79,8 +80,26 @@ const Blogs = () => {
             .then(response => response.json())
             .then(data => {
                 if (data && data['-NcZODahXq6m73Vb5_C1']) {
-                    const blogData = data['-NcZODahXq6m73Vb5_C1'];
-                    setBlogData(blogData);
+                    const blogOneData = data['-NcZODahXq6m73Vb5_C1'];
+                    setBlogOneData(blogOneData);
+                } else {
+                    console.log('Blog data with the specified ID not found.');
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
+            });
+    }, []);
+
+    useEffect(() => {
+        const url = 'https://rebel-design-solutions-default-rtdb.firebaseio.com/blogs.json';
+
+        fetch(url)
+            .then(response => response.json())
+            .then(data => {
+                if (data && data['-NdUxSI0Yto1OBHkYXWo']) {
+                    const blogTwoData = data['-NdUxSI0Yto1OBHkYXWo'];
+                    setBlogTwoData(blogTwoData);
                 } else {
                     console.log('Blog data with the specified ID not found.');
                 }
@@ -116,17 +135,34 @@ const Blogs = () => {
             <div className="container">
                 <div className="row mt-3 mb-5">
                     <div className="col-md-4">
-
-                    </div>
-                    <div className="col-md-4">
                         <Link to="https://rebeldesignsolution.com/blog/demystifying-seo-ranking-factors-a-deep-dive-into-the-elements-that-define-your-digital-success">
                             <div className="cardd">
-                                {blogData && (
+                                {blogOneData && (
                                     <>
-                                        <img src={blogData.imageUrl} alt="Blog Image" />
-                                        <h3 className='card__title'>{blogData.title}</h3>
+                                        <img src={blogOneData.imageUrl} alt="Rebel Blog Image" />
+                                        <h3 className='card__title'>{blogOneData.title}</h3>
                                         <p className="card__content">
-                                            {blogData.title}
+                                            <p>{stripHtml(blogOneData.content).substring(0, 120)}...</p>
+                                        </p>
+                                        <div className="card__arrow">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="15" width="15">
+                                                <path fill="#fff" d="M13.4697 17.9697C13.1768 18.2626 13.1768 18.7374 13.4697 19.0303C13.7626 19.3232 14.2374 19.3232 14.5303 19.0303L20.3232 13.2374C21.0066 12.554 21.0066 11.446 20.3232 10.7626L14.5303 4.96967C14.2374 4.67678 13.7626 4.67678 13.4697 4.96967C13.1768 5.26256 13.1768 5.73744 13.4697 6.03033L18.6893 11.25H4C3.58579 11.25 3.25 11.5858 3.25 12C3.25 12.4142 3.58579 12.75 4 12.75H18.6893L13.4697 17.9697Z"></path>
+                                            </svg>
+                                        </div>
+                                    </>
+                                )}
+                            </div>
+                        </Link>
+                    </div>
+                    <div className="col-md-4">
+                        <Link to="https://rebeldesignsolution.com/blog/things-to-note-before-you-develop-a-website">
+                            <div className="cardd">
+                                {blogTwoData && (
+                                    <>
+                                        <img src={blogTwoData.imageUrl} alt="Rebel Blog Image" />
+                                        <h3 className='card__title'>{blogTwoData.title}</h3>
+                                        <p className="card__content">
+                                            <p>{stripHtml(blogTwoData.content).substring(0, 150)}...</p>
                                         </p>
                                         <div className="card__arrow">
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="15" width="15">
