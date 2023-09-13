@@ -1,11 +1,5 @@
 import NavLogo from "../Images/Main-logo.jpg";
 import Trustee from "../Images/Footer-trusted-img.png";
-// import Facebook from "../Images/facebook.png";
-// import Instagram from "../Images/instagram.png";
-// import Pinterest from "../Images/pinterest.png";
-// import Twitter from "../Images/twitter.png";
-// import Linkedin from "../Images/linkedin.png";
-// import xTwitter from "../Images/x-twitter.svg"
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
@@ -21,7 +15,7 @@ const Footer = () => {
                             <div>
                                 <h2 className="fw-bold">Interested in Collaboration?</h2>
                                 <h6 className="lh-lg">Challenge us. We want to work with you to create <br />
-                                    the realty cool stuff.</h6>
+                                    the really cool stuff.</h6>
                             </div>
                         </div>
                         <div className="col-md-6 d-flex justify-content-end align-items-center">
@@ -79,8 +73,8 @@ const Footer = () => {
                     </div>
                     <div className="row">
                         <div className="col-md-12 text-center mt-5">
-                            <h6 className="lh-lg">Copyright © 2023 rebeldesignsolution.com | All rights reserved |
-                                <Link to="/terms-and-conditions"> Terms And Conditions</Link> |
+                            <h6 className="lh-lg">Copyright © 2023 rebeldesignsolution.com | All rights reserved |&nbsp;
+                                <Link to="/terms-and-conditions">Terms And Conditions</Link> |&nbsp;
                                 <Link to="/privacy-policy">Privacy Policy</Link>
                             </h6>
                         </div>

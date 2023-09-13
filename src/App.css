@@ -986,6 +986,7 @@ a {
     margin-top: 16px;
     display: flex;
     flex-wrap: wrap;
+    font-size: 15px;
     justify-content: center;
   }
   .parent {

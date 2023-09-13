@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import BlogForm from './BlogForm';
+import swal from 'sweetalert';
 
 const UserDataList = () => {
     const [userList, setUserList] = useState([]);
@@ -26,16 +27,36 @@ const UserDataList = () => {
         fetchData();
     }, []);
 
+    // const handleDelete = async (userId) => {
+    //     try {
+    //         await fetch(`https://rebel-design-solutions-default-rtdb.firebaseio.com/userDataRecords/${userId}.json`, {
+    //             method: "DELETE",
+    //         });
+    //         setUserList(userList.filter((user) => user.id !== userId));
+    //     } catch (error) {
+    //         console.error("Error deleting user data:", error);
+    //     }
+    // };
     const handleDelete = async (userId) => {
-        try {
-            await fetch(`https://rebel-design-solutions-default-rtdb.firebaseio.com/userDataRecords/${userId}.json`, {
-                method: "DELETE",
-            });
-            setUserList(userList.filter((user) => user.id !== userId));
-        } catch (error) {
-            console.error("Error deleting user data:", error);
+        const confirmDelete = await swal({
+            title: "Are you sure you want to delete this user's information?",
+            text: "This action cannot be undone.",
+            icon: "warning",
+            buttons: ["Cancel", "Delete"],
+        });
+
+        if (confirmDelete) {
+            try {
+                await fetch(`https://rebel-design-solutions-default-rtdb.firebaseio.com/userDataRecords/${userId}.json`, {
+                    method: "DELETE",
+                });
+                setUserList(userList.filter((user) => user.id !== userId));
+            } catch (error) {
+                console.error("Error deleting user data:", error);
+            }
         }
     };
+
 
     const handleEdit = (userId) => {
         setEditingUserId(userId);
