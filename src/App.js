@@ -30,6 +30,7 @@ import PrivacyPolicy from "./components/PrivacyPolicy";
 import TermsConditions from "./components/TermsConditions";
 import BlogTwo from "./components/Blog/BlogTwo";
 import BlogThree from "./components/Blog/BlogThree";
+import BlogFour from "./components/Blog/BlogFour";
 
 const App = () => {
   return (
@@ -85,6 +86,10 @@ const App = () => {
           <Route
             path="/blog/top-seo-blogs-to-follow-in-2023"
             element={<BlogThree />}
+          />
+          <Route
+            path="/blog/the-future-of-seo-with-ai-a-visionary-perspective"
+            element={<BlogFour />}
           />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-and-conditions" element={<TermsConditions />} />

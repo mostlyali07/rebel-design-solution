@@ -1,44 +1,44 @@
 import { Helmet } from 'react-helmet';
 import React, { useEffect, useState } from 'react';
 
-const BlogsThreePage = () => {
+const BlogsFourPage = () => {
     return (
         <Helmet>
-            <title>Top SEO Blogs 2023 | Stay Informed on Search Engine Optimization</title>
-            <meta name="description" content="Stay up-to-date with the latest in search engine optimization (SEO). Explore the top SEO blogs to follow in 2023 for valuable insights." />
-            <meta name="keywords" content="Digital Marketing, Rebel Design Solution, SEO Marketing, Search Engine Optimization" />
+            <title>Future of SEO with AI</title>
+            <meta name="description" content="Dive into the exciting world where AI meets SEO. Discover how AI tools are shaping the future of SEO with unparalleled insights and efficiency." />
+            <meta name="keywords" content="SEO insights, SEO efficiency, AI meets SEO, Exciting world of AI and SEO, Shaping SEO with AI, Unparalleled SEO insights" />
 
-            <link rel="canonical" href="https://rebeldesignsolution.com/blog/top-seo-blogs-to-follow-in-2023" />
+            <link rel="canonical" href="https://rebeldesignsolution.com/blog/the-future-of-seo-with-ai-a-visionary-perspective" />
             <link
                 rel="alternate"
-                href="https://rebeldesignsolution.com/blog/top-seo-blogs-to-follow-in-2023"
+                href="https://rebeldesignsolution.com/blog/the-future-of-seo-with-ai-a-visionary-perspective"
                 hreflang="en-us"
             />
             <link
                 rel="alternate"
-                href="https://rebeldesignsolution.com/blog/top-seo-blogs-to-follow-in-2023"
+                href="https://rebeldesignsolution.com/blog/the-future-of-seo-with-ai-a-visionary-perspective"
                 hreflang="en-ca"
             />
             <link
                 rel="alternate"
-                href="https://rebeldesignsolution.com/blog/top-seo-blogs-to-follow-in-2023"
+                href="https://rebeldesignsolution.com/blog/the-future-of-seo-with-ai-a-visionary-perspective"
                 hreflang="en-gb"
             />
             <link
                 rel="alternate"
                 hreflang="x-default"
-                href="https://rebeldesignsolution.com/blog/top-seo-blogs-to-follow-in-2023"
+                href="https://rebeldesignsolution.com/blog/the-future-of-seo-with-ai-a-visionary-perspective"
             />
             <meta property="og:type" content="website" />
             <meta
                 property="og:title"
-                content="Top SEO Blogs 2023 | Stay Informed on Search Engine Optimization"
+                content="Future of SEO with AI"
             />
             <meta
                 property="og:description"
-                content="Stay up-to-date with the latest in search engine optimization (SEO). Explore the top SEO blogs to follow in 2023 for valuable insights."
+                content="Dive into the exciting world where AI meets SEO. Discover how AI tools are shaping the future of SEO with unparalleled insights and efficiency."
             />
-            <meta property="og:url" content="https://rebeldesignsolution.com/blog/top-seo-blogs-to-follow-in-2023" />
+            <meta property="og:url" content="https://rebeldesignsolution.com/blog/the-future-of-seo-with-ai-a-visionary-perspective" />
             <meta
                 property="og:image"
                 content="https://rebeldesignsolution.com/static/media/Main-logo.7d035ab7a861be0c8196.jpg"
@@ -49,15 +49,15 @@ const BlogsThreePage = () => {
             <meta property="og:site_name" content="REBEL DESIGN SOLUTION" />
 
             <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:site" content="https://rebeldesignsolution.com/blog/top-seo-blogs-to-follow-in-2023" />
+            <meta name="twitter:site" content="https://rebeldesignsolution.com/blog/the-future-of-seo-with-ai-a-visionary-perspective" />
             <meta name="twitter:creator" content="@rebeldesignsolution" />
             <meta
                 name="twitter:title"
-                content="Top SEO Blogs 2023 | Stay Informed on Search Engine Optimization"
+                content="Future of SEO with AI"
             />
             <meta
                 name="twitter:description"
-                content="Stay up-to-date with the latest in search engine optimization (SEO). Explore the top SEO blogs to follow in 2023 for valuable insights."
+                content="Dive into the exciting world where AI meets SEO. Discover how AI tools are shaping the future of SEO with unparalleled insights and efficiency."
             />
             <meta
                 name="twitter:image"
@@ -68,7 +68,7 @@ const BlogsThreePage = () => {
 };
 
 
-const BlogThree = () => {
+const BlogFour = () => {
     const [blogData, setBlogData] = useState(null);
 
     useEffect(() => {
@@ -77,8 +77,8 @@ const BlogThree = () => {
         fetch(url)
             .then(response => response.json())
             .then(data => {
-                if (data && data['-NeJLhDaU8f09apmyACM']) {
-                    const blogData = data['-NeJLhDaU8f09apmyACM'];
+                if (data && data['-NfCDXmMTzKW8lJUwGGO']) {
+                    const blogData = data['-NfCDXmMTzKW8lJUwGGO'];
                     setBlogData(blogData);
                 } else {
                     console.log('Blog data with the specified ID not found.');
@@ -93,7 +93,7 @@ const BlogThree = () => {
         <>
             {blogData && (
                 <>
-                    <BlogsThreePage />
+                    <BlogsFourPage />
                     <div className="contect-banner">
                         <div className="container">
                             <div className="row">
@@ -125,4 +125,4 @@ const BlogThree = () => {
 
     )
 }
-export default BlogThree
+export default BlogFour
